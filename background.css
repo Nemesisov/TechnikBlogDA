@@ -1,0 +1,82 @@
+/* =========================================================
+   TechBlog – Farben & Hintergrund
+   ---------------------------------------------------------
+   Diese Datei wird in JEDER Seite als ERSTE CSS-Datei eingebunden:
+   <link rel="stylesheet" href="css/background.css">
+
+   Inhalt
+   1. Farben (als Variablen) – hier änderst du die Farben
+      für ALLE Seiten auf einmal
+   2. Hintergrund – funktioniert für jede Seitenlänge
+   ========================================================= */
+
+
+/* ---------- 1. Farben ---------- */
+:root {
+  /* Grundfarben */
+  --bg:       #070b14;                  /* Seiten-Hintergrund (dunkles Nachtblau) */
+  --panel:    #0d1424;                  /* Hintergrund von Karten und Boxen */
+  --line:     rgba(148, 163, 184, .13); /* feine Rahmenlinien */
+  --text:     #e8eefa;                  /* normaler Text */
+  --muted:    #8994ab;                  /* grauer Nebentext */
+  --dim:      #5f6a82;                  /* noch blasser (Datum, Hinweise) */
+
+  /* Neon-Akzentfarben */
+  --cyan:     #22d3ee;
+  --violet:   #8b5cf6;
+  --magenta:  #ec4899;
+  --lime:     #a3e635;
+  --amber:    #fbbf24;
+}
+
+
+/* ---------- 2. Hintergrund ----------
+   Der Hintergrund hat KEINE feste Höhe. Er besteht aus 3 Ebenen:
+   a) Grundfarbe   -> füllt immer die komplette Seite
+   b) Farbverläufe -> stehen fest am Bildschirm (scrollen nicht mit)
+   c) Raster       -> wächst mit der Seite mit und wiederholt sich endlos
+   Dadurch sieht jede Seite gleich aus – egal ob kurz oder sehr lang. */
+
+/* a) Grundfarbe */
+html {
+  background-color: var(--bg);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;    /* auch kurze Seiten füllen den ganzen Bildschirm */
+  position: relative;   /* Bezugspunkt für das Raster (body::after) */
+  isolation: isolate;   /* Hintergrund-Ebenen bleiben hinter dem Inhalt */
+  color: var(--text);
+}
+
+/* b) Farbverläufe (Lila oben links, Cyan oben rechts, Pink unten) */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(900px 560px at 6% -8%,    rgba(139, 92, 246, .24), transparent 60%),
+    radial-gradient(820px 540px at 100% 0%,   rgba(34, 211, 238, .17), transparent 60%),
+    radial-gradient(1000px 600px at 50% 110%, rgba(236, 72, 153, .08), transparent 60%);
+}
+
+/* c) Raster */
+body::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(148, 163, 184, .07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, .07) 1px, transparent 1px);
+  background-size: 56px 56px;
+
+  /* Raster nur oben sichtbar, blendet nach 1100px weich aus.
+     Raster auf der GANZEN Seite? Dann diese zwei Zeilen löschen: */
+  -webkit-mask-image: linear-gradient(to bottom, #000, transparent 1100px);
+          mask-image: linear-gradient(to bottom, #000, transparent 1100px);
+}
