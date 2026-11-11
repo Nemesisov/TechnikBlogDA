@@ -44,3 +44,25 @@ nav a {
     align-items: center;
     gap: 20px;
 }
+
+.section-header {
+    height: 515px;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 160px;
+    background-color: var(--overlay-color-overlayblack);
+}
+
+.section-header-text {
+    color: var(--main-font-white);
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.section-header-text p {
+    color: var(--secondary-font-greywhite);
+}
