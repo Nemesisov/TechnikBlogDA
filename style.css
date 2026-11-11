@@ -10,9 +10,9 @@ html {
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     width: 100%;
-    background: rgba(7, 11, 20, .8);
+    background-color: var(--header-color-black-transparent);
 }
 
 .landing_nav {
@@ -22,17 +22,21 @@ header {
     justify-content: space-between;
     padding: 50px;
     max-width: 100%;
-    width: 1440px;
+    gap: 100px;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
 }
 
 nav a {
     text-decoration: none;
     padding: 10px 15px 10px 15px;
-    color: white;
-    background-color: rgba(102, 102, 102, 0.25);
-    border: 1px solid white;
+    color: var(--main-font-white);
+    background-color: var(--hyperlink-black-transparent);
+    border: 1px solid var(--main-font-white);
     border-radius: 10px;
-    margin: 0px 20px 0px 20px;
 }
 
 .nav_icon {

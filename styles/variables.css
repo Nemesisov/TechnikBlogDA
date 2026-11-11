@@ -3,4 +3,6 @@
     --main-font-white: white;
     --secondary-font-turquoise: turquoise;
     --overlay-color-overlayblack: #0D1424;
+    --header-color-black-transparent: rgba(0, 0, 0, 0.2);
+    --hyperlink-black-transparent:rgba(102, 102, 102, 0.25);
 }
