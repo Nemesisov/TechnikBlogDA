@@ -6,4 +6,5 @@
     --overlay-color-overlayblack: #0D1424;
     --header-color-black-transparent: rgba(0, 0, 0, 0.2);
     --hyperlink-black-transparent:rgba(102, 102, 102, 0.25);
+    --colorwave:rgb(34, 211, 238), rgb(139, 92, 246) 55%, rgb(236, 72, 153);
 }
