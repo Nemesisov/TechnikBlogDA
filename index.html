@@ -78,22 +78,39 @@
                 </div>
             </section>
 
-            <h3>Contact Form</h3>
+       
+            <section class="contact-section">
+                <h2>Contact Form</h2>
+                <p class="contact-intro">
+                    Egestas a enim vestibulum malesuada. Ante in commodo porta scelerisque turpis gravida semper.
+                </p>
 
-            <div class="contact-form">
-                <form action="/action_page.php">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <form class="contact-form" action="/action_page.php">
+                    <div class="form-row">
+                        <div class="field">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
 
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.."
-                        style="height:200px"></textarea>
+                        <div class="field">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                    </div>
 
-                    <input type="submit" value="Submit">
+                    <div class="field">
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                    </div>
+
+                    <label class="privacy">
+                        <input type="checkbox" required>
+                        I've read the <a href="#">privacy policy</a> and agree to the processing of my data.
+                    </label>
+
+                    <input type="submit" value="Send">
                 </form>
-            </div>
+            </section>
         </section>
     </main>
     <footer>
