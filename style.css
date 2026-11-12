@@ -9,7 +9,7 @@ header {
     background-color: var(--header-color-black-transparent);
 }
 
-.landing_nav {
+.landing-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -74,12 +74,12 @@ nav a {
     background-clip: text;
 }
 
-.section-header-logo{
+.section-header-logo {
     background-color: aqua;
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    
+
 }
 
 .main-content {
@@ -88,4 +88,55 @@ nav a {
     gap: 90px;
 
     color: var(--main-font-white);
+}
+
+.section-faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+    width: 100%;
+    font-size: 48px;
+}
+
+.section-faq details {
+    font-size: 24px;
+
+    width: 100%;
+    border: 10px solid var(--overlay-color-overlayblack);
+    border-radius: 10px;
+}
+
+.section-faq summary {
+    background-color: var(--overlay-color-overlayblack);
+}
+
+.section-faq p {
+    background-color: var(--background-color-black);
+}
+
+.section-faq-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+
+
+}
+
+@media screen and (min-width: 1440px) {
+    .landing-nav {
+        padding: 0px max(160px, calc(50% - 720px));
+    }
+
+    .section-header {
+        padding: 120px max(160px, calc(50% - 720px));
+    }
+
+    .main-content {
+        padding: 120px max(160px, calc(50% - 720px));
+
+    }
 }
