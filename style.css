@@ -41,27 +41,33 @@ nav a {
 
 .section-header {
     height: 515px;
-
     display: flex;
     align-items: center;
-
-    padding-left: 160px;
     background-color: var(--overlay-color-overlayblack);
+}
+
+.vector-header {
+    background-color: aquamarine;
+    width: 1000px;
+    height: 100%;
 }
 
 .section-header-text {
     color: var(--main-font-white);
-
+    height: 100%;
+    padding-left: 160px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 32px;
 }
 
 .section-header-text p {
     color: var(--secondary-font-greywhite);
 }
+
 .section-header-h1-colorwave {
-    background-image: linear-gradient(to right, var(--colorwave) );
+    background-image: linear-gradient(to right, var(--colorwave));
     color: transparent;
     background-clip: text;
 }
