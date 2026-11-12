@@ -89,3 +89,32 @@ nav a {
 
     color: var(--main-font-white);
 }
+
+.section-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    max-width: 1242px;
+    margin: 0 auto;
+    padding: 105px 20px 0 20px;
+}
+
+.section-slider-text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+    color: var(--main-font-white);
+}
+
+.section-slider-text h2 {
+    font-size: 64px;
+    line-height: 1.2;
+}
+
+.section-slider-text p {
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--secondary-font-greywhite);
+}
