@@ -41,6 +41,7 @@ nav a {
 
 .section-header {
     height: 515px;
+    width: 810px;
 
     display: flex;
     align-items: center;
