@@ -45,13 +45,6 @@ nav a {
 
     display: flex;
     align-items: center;
-    background-color: var(--overlay-color-overlayblack);
-}
-
-.vector-header {
-    background-color: aquamarine;
-    width: 1000px;
-    height: 100%;
 }
 
 .section-header-text {
@@ -139,4 +132,33 @@ nav a {
         padding: 120px max(160px, calc(50% - 720px));
 
     }
+=======
+.section-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    max-width: 1242px;
+    margin: 0 auto;
+    padding: 105px 20px 0 20px;
+}
+
+.section-slider-text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+    color: var(--main-font-white);
+}
+
+.section-slider-text h2 {
+    font-size: 64px;
+    line-height: 1.2;
+}
+
+.section-slider-text p {
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--secondary-font-greywhite);
+>>>>>>> d2feb54dd91edfe35850f8e940aad3e33fd525b3
 }
