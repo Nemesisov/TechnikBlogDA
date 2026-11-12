@@ -42,16 +42,9 @@ nav a {
 .section-header {
     height: 515px;
     width: 810px;
-
+    background-color: var(--background-color-black);
     display: flex;
     align-items: center;
-    background-color: var(--overlay-color-overlayblack);
-}
-
-.vector-header {
-    background-color: aquamarine;
-    width: 1000px;
-    height: 100%;
 }
 
 .section-header-text {
@@ -74,10 +67,10 @@ nav a {
     background-clip: text;
 }
 
-.section-header-logo{
+.section-header-logo {
     background-color: aqua;
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    
+
 }
