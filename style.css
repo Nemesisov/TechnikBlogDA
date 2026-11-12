@@ -41,6 +41,8 @@ nav a {
 
 .section-header {
     height: 515px;
+    width: 810px;
+
     display: flex;
     align-items: center;
     background-color: var(--overlay-color-overlayblack);
@@ -70,4 +72,13 @@ nav a {
     background-image: linear-gradient(to right, var(--colorwave));
     color: transparent;
     background-clip: text;
+}
+
+.section-header-logo{
+    background-color: aqua;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 397px;
+    margin-left: 574px;
 }
