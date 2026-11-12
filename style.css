@@ -123,45 +123,95 @@ nav a {
 
 }
 
+.contact-section {
+  max-width: 800px;
+  margin: 0 auto;         
+  padding: 60px 20px;
+  text-align: center;       
+}
+
+.contact-section h2{ 
+    font-size: 48px;
+}
+
+.contact-section p{
+    font-size: 24px;
+}
+
+.contact-intro {
+  max-width: 650px;
+  margin: 0 auto 50px;
+}
+
 .contact-form {
+  text-align: left;       
+
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    gap: 60px;
+  }
+
+  .field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
   input[type=text],
   input[type=email],
-  select,
   textarea {
     width: 100%;
-    padding: 12px 0;               
-    border: none;                   
-    border-bottom: 1px solid #000;  
+    padding: 12px 0;
+    border: none;
+    border-bottom: 1px solid white;
     background: transparent;
+    color: white;
     outline: none;
     border-radius: 0;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 16px;
     resize: vertical;
     font: inherit;
   }
 
+  textarea {
+    height: 120px;
+  }
+
   input[type=text]:focus,
   input[type=email]:focus,
-  select:focus,
   textarea:focus {
-    border-bottom: 2px solid #000;  
+    border-bottom: 2px solid white;
+  }
+
+
+  .privacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.85rem;
+    margin-bottom: 30px;
   }
 
   input[type=submit] {
-    background-color: var(--colorwave);
+    display: block;
+    margin: 0 auto;           
+    background: transparent;
     color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
+    padding: 12px 50px;
+    border: 1px solid white;
+    border-radius: 999px;     
     cursor: pointer;
   }
 
   input[type=submit]:hover {
-    filter: brightness(0.9);        
+    background-color: green;
   }
-} 
+}
+
+
 
 @media screen and (min-width: 1440px) {
     .landing-nav {
