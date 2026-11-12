@@ -119,6 +119,46 @@ nav a {
 
 }
 
+.contact-form {
+  input[type=text],
+  input[type=email],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px 0;               
+    border: none;                   
+    border-bottom: 1px solid #000;  
+    background: transparent;
+    outline: none;
+    border-radius: 0;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font: inherit;
+  }
+
+  input[type=text]:focus,
+  input[type=email]:focus,
+  select:focus,
+  textarea:focus {
+    border-bottom: 2px solid #000;  
+  }
+
+  input[type=submit] {
+    background-color: var(--colorwave);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    filter: brightness(0.9);        
+  }
+} 
+
 @media screen and (min-width: 1440px) {
     .landing-nav {
         padding: 0px max(160px, calc(50% - 720px));
