@@ -208,9 +208,7 @@ details:open {
 }
 
 .contact-section {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 60px 20px;
+   
     text-align: center;
 }
 
@@ -291,7 +289,8 @@ details:open {
     }
 
     input[type=submit]:hover {
-        background-color: green;
+        background-color: white;
+        color: black;
     }
 }
 
@@ -330,6 +329,11 @@ details:open {
 .footer-link {
     display: flex;
     gap: 10px;
+}
+
+.footer-link img {
+    width: 32px;
+    height: 32px;
 }
 
 .slider_1 {
