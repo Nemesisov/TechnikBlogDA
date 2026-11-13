@@ -87,6 +87,7 @@ nav a {
     height: 180px;
     border-radius: 50%;
     flex-shrink: 0;
+    margin-left: 300px;
 }
 
 .main-content {
