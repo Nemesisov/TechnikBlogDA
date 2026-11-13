@@ -194,10 +194,15 @@ details:open {
 }
 
 .contact-section {
+<<<<<<< HEAD
     max-width: 800px;
     margin: 0 auto;
     padding: 60px 20px;
     text-align: center;
+=======
+
+  text-align: center;       
+>>>>>>> 144855d78558937b148c1b9b3cb06af00b415a85
 }
 
 .contact-section h2 {
@@ -276,9 +281,16 @@ details:open {
         cursor: pointer;
     }
 
+<<<<<<< HEAD
     input[type=submit]:hover {
         background-color: green;
     }
+=======
+  input[type=submit]:hover {
+    background-color: white;
+    color: black;
+  }
+>>>>>>> 144855d78558937b148c1b9b3cb06af00b415a85
 }
 
 .section-footer {
