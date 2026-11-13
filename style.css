@@ -39,7 +39,7 @@ nav a {
     gap: 20px;
 }
 
-.section-header {
+.main-section-header {
     height: 515px;
     width: 810px;
 
@@ -47,7 +47,7 @@ nav a {
     align-items: center;
 }
 
-.section-header-text {
+.main-section-header-text {
     color: var(--main-font-white);
     height: 100%;
     padding-left: 160px;
