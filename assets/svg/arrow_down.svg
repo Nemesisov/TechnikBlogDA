@@ -1,8 +1,33 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_3008_1017" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-<rect width="24" height="24" fill="#D9D9D9"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#D9D9D9;filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{mask:url(#mask0_3008_1017_00000117643850773900959090000012282915404606652847_);}
+	.st2{fill:url(#SVGID_1_);}
+</style>
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="2.5" y="6.8" width="19" height="10.4">
+		<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="2.5" y="6.8" width="19" height="10.4" id="mask0_3008_1017_00000117643850773900959090000012282915404606652847_">
+	<rect class="st0" width="24" height="24"/>
 </mask>
-<g mask="url(#mask0_3008_1017)">
-<path d="M12 14.4751L19.35 7.12511C19.6 6.87511 19.8958 6.75428 20.2375 6.76261C20.5792 6.77094 20.875 6.90011 21.125 7.15011C21.375 7.40011 21.5 7.69594 21.5 8.03761C21.5 8.37928 21.375 8.67511 21.125 8.92511L13.425 16.6001C13.225 16.8001 13 16.9501 12.75 17.0501C12.5 17.1501 12.25 17.2001 12 17.2001C11.75 17.2001 11.5 17.1501 11.25 17.0501C11 16.9501 10.775 16.8001 10.575 16.6001L2.875 8.90011C2.625 8.65011 2.50417 8.35844 2.5125 8.02511C2.52083 7.69178 2.65 7.40011 2.9 7.15011C3.15 6.90011 3.44583 6.77511 3.7875 6.77511C4.12917 6.77511 4.425 6.90011 4.675 7.15011L12 14.4751Z" fill="#1C1B1F"/>
+<g class="st1">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="2.5121" y1="11.9812" x2="21.5" y2="11.9812">
+		<stop  offset="0" style="stop-color:#5300AA"/>
+		<stop  offset="0.5115" style="stop-color:#28E4FF"/>
+		<stop  offset="0.5585" style="stop-color:#31DBFF"/>
+		<stop  offset="0.6365" style="stop-color:#4BC2FF"/>
+		<stop  offset="0.7357" style="stop-color:#749AFE"/>
+		<stop  offset="0.8523" style="stop-color:#AD62FD"/>
+		<stop  offset="0.9822" style="stop-color:#F51CFC"/>
+		<stop  offset="1" style="stop-color:#FF12FC"/>
+	</linearGradient>
+	<path class="st2" d="M12,14.5l7.4-7.3c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4s0.4,0.5,0.4,0.9s-0.1,0.6-0.4,0.9l-7.7,7.7
+		c-0.2,0.2-0.4,0.4-0.7,0.5s-0.5,0.1-0.8,0.1s-0.5,0-0.8-0.1s-0.5-0.2-0.7-0.5L2.9,8.9C2.6,8.7,2.5,8.4,2.5,8c0-0.3,0.1-0.6,0.4-0.9
+		s0.5-0.4,0.9-0.4s0.6,0.1,0.9,0.4L12,14.5z"/>
 </g>
 </svg>
