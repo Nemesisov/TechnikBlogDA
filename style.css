@@ -104,6 +104,8 @@ nav a {
 
 .section-faq summary {
     background-color: var(--overlay-color-overlayblack);
+
+    list-style-type: "︿" ;
 }
 
 .section-faq p {
