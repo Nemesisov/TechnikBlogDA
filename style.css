@@ -330,6 +330,11 @@ details:open {
     gap: 10px;
 }
 
+.footer-link img {
+    width: 32px;
+    height: 32px;
+}
+
 .slider_1 {
     display: flex;
     justify-content: center;
