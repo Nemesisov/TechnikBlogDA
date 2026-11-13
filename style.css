@@ -46,7 +46,7 @@ nav a {
 
 .main-section-vector-header {
     display: grid;
-    grid-template-columns: minmax(0, 810px);
+    grid-template-columns: minmax(0, 820px);
     position: relative;
 }
 
