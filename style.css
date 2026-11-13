@@ -57,17 +57,17 @@ nav a {
     gap: 32px;
 }
 
-.section-header-text p {
+.main-section-header-text p {
     color: var(--secondary-font-greywhite);
 }
 
-.section-header-h1-colorwave {
+.main-section-header-h1-colorwave {
     background-image: linear-gradient(to right, var(--colorwave));
     color: transparent;
     background-clip: text;
 }
 
-.section-header-logo {
+.main-section-header-logo {
     background-color: aqua;
     width: 180px;
     height: 180px;
