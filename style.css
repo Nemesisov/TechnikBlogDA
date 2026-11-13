@@ -75,7 +75,7 @@ nav a {
 }
 
 .main-section-header-text {
-    padding-left: 160px;
+    padding-left: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,7 +105,7 @@ nav a {
 
 .main-section-header-logo-border {
     height: 190px;
-    padding-left: 100px;
+    padding-left: 175px;
 }
 
 .main-section-header-logo img {
