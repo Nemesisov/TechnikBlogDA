@@ -103,15 +103,22 @@ nav a {
 }
 
 details:open .faq-arrowdown {
-  display: none;
+    display: none;
 }
 
 details:open .faq-arrowup {
     display: block;
+    width: 24px;
+    height: 24px;
 }
 
 details .faq-arrowup {
     display: none;
+}
+
+details .faq-arrowdown {
+    width: 24px;
+    height: 24px;
 }
 
 details:open {
