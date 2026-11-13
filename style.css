@@ -102,10 +102,30 @@ nav a {
     border-radius: 10px;
 }
 
+details:open .faq-arrowdown {
+  display: none;
+}
+
+details:open .faq-arrowup {
+    display: block;
+}
+
+details .faq-arrowup {
+    display: none;
+}
+
+details:open {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: var(--overlay-color-overlayblack);
+}
+
 .section-faq summary {
     background-color: var(--overlay-color-overlayblack);
 
-    list-style-type: "︿" ;
+    display: flex;
+    justify-content: space-between;
 }
 
 .section-faq p {
@@ -113,7 +133,7 @@ nav a {
 
     padding: 4px 10px;
     width: 100%;
-    border-radius: 10px; /* Border Radius Funktioniert nicht! TODO */
+    border-radius: 10px;
 }
 
 .section-faq-questions {
