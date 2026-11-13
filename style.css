@@ -155,8 +155,9 @@ nav a {
     font-size: 24px;
 
     width: 100%;
-    border: 10px solid var(--overlay-color-overlayblack);
     border-radius: 10px;
+    border: 1px solid var(--overlay-color-overlayblack);
+    transition: all 250ms ease-in-out;
 }
 
 details:open .faq-arrowdown {
@@ -181,15 +182,26 @@ details .faq-arrowdown {
 details:open {
     display: flex;
     flex-direction: column;
-    gap: 12px;
     background-color: var(--overlay-color-overlayblack);
+    border: 10px solid var(--overlay-color-overlayblack);
+
+    transition: all 250ms ease-in-out;
+}
+
+details:close{
+    border: none;
+    transition: all 250ms ease-in-out;
 }
 
 .section-faq summary {
     background-color: var(--overlay-color-overlayblack);
+    padding: 10px;
+    border-radius: 10px;
 
     display: flex;
     justify-content: space-between;
+
+    
 }
 
 .section-faq p {
