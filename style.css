@@ -50,6 +50,7 @@ nav a {
     position: relative;
 }
 
+
 .main-section-vector-header::before {
     content: "";
     position: absolute;
