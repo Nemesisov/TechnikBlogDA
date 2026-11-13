@@ -80,20 +80,22 @@ nav a {
     flex-direction: column;
     justify-content: center;
     color: var(--main-font-white);
-    width: 500px;
 }
-.main-section-header-content{
+
+.main-section-header-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    position: relative;
-    height: 600px;
-margin: auto;
+    gap: 32px;
 }
+
 .main-section-header-text p {
     color: var(--secondary-font-greywhite);
-    position: absolute;
-    max-width: 65ch;
+    max-width: 430px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    line-clamp: 6;
+    overflow: hidden;
 }
 
 .--colorwave {
@@ -107,10 +109,10 @@ margin: auto;
     background-color: white;
     width: 180px;
     height: 180px;
-    margin-left: 300px;
     border-radius: 50%;
-    flex-shrink: 0;
     position: absolute;
+    top: 360px;
+    left: 560px;
     z-index: 10;
 }
 
