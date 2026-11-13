@@ -80,14 +80,21 @@ nav a {
     background-clip: text;
     color: transparent;
 }
-
 .main-section-header-logo {
-    background-color: aqua;
+    background-color: white;
     width: 180px;
     height: 180px;
     border-radius: 50%;
     flex-shrink: 0;
     margin-left: 300px;
+}
+.main-section-header-logo img {
+    display: flex;
+    margin: auto;
+    padding-top: 20px ;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
 }
 
 .main-content {
