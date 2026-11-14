@@ -1,10 +1,27 @@
 .section-headline {
     color: var(--main-font-white);
+
+    display: flex;
 }
 
 .headline-info {
     display: flex;
     flex-direction: column;
+    gap: 40px;
+    padding-right: 20px;
+
+    width: 100%;
+}
+
+.headline-info-maintext{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.headline-info-maintext h2 {
+    font-size: 40px;
+    color: var(--secondary-font-greywhite);
 }
 
 .headline-info-quickinfo {
@@ -17,6 +34,7 @@
     align-items: center;
 
     gap: 6px;
+    font-size: 16px;
 }
 
 .headline-info-quickinfo-date img{
@@ -39,14 +57,61 @@
     width: 16px;
 }
 
+.headline-author {
+    width: 270px;
+    height: 350px;
+
+    font-size: 18px;
+
+    background-color: var(--overlay-color-overlayblack);
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 30px;
+}
+
+
+.headline-author img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+
+    align-self: center;
+    margin-top: 16px;
+}
+
+.headline-author-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    align-items: center;
+    width: 100%;
+}
+
+.headline-author-text-headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.headline-author-text p{
+    font-size: 16px;
+    padding: 0px 10px;
+}
+
+.headline-author-text-headline p {
+    font-size: 18px;
+    align-self: center;
+}
+
 
 @media screen and (min-width: 1440px) {
     .landing-nav {
         padding: 0px max(160px, calc(50% - 720px));
-    }
-
-    .section-header {
-        padding: 90px max(160px, calc(50% - 720px));
     }
 
     .section-footer {
