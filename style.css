@@ -136,8 +136,13 @@ nav a {
     display: flex;
     flex-direction: column;
     gap: 90px;
-
     color: var(--main-font-white);
+}
+
+.section-slider-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-faq {
@@ -188,7 +193,7 @@ details:open {
     transition: all 250ms ease-in-out;
 }
 
-details:close{
+details:close {
     border: none;
     transition: all 250ms ease-in-out;
 }
@@ -201,7 +206,7 @@ details:close{
     display: flex;
     justify-content: space-between;
 
-    
+
 }
 
 .section-faq p {
@@ -222,7 +227,7 @@ details:close{
 }
 
 .contact-section {
-   
+
     text-align: center;
 }
 
