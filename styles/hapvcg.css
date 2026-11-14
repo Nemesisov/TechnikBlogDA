@@ -1,0 +1,219 @@
+.section-headline {
+    color: var(--main-font-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.headline-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.quickinfo {
+    display: flex;
+    align-items: center;
+
+    gap: 6px;
+}
+
+.headline-info-quickinfo {
+    .section-headline {
+        color: var(--main-font-white);
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 40px;
+        padding: 90px 0;
+    }
+
+    .headline-info {
+        display: flex;
+        flex-direction: column;
+        max-width: 1000px;
+    }
+
+    .headline-info h2 {
+        font-size: 24px;
+        font-weight: 400;
+        color: var(--secondary-font-greywhite);
+    }
+
+    .headline-info h1 {
+        margin-top: 4px;
+    }
+
+    .headline-info>p {
+        margin-top: 16px;
+    }
+
+    .quickinfo {
+        display: flex;
+        align-items: center;
+
+        gap: 6px;
+    }
+
+    .headline-info-quickinfo {
+        display: flex;
+        gap: 32px;
+        margin-top: 24px;
+    }
+
+    .headline-info-quickinfo p {
+        font-size: 14px;
+        color: var(--secondary-font-greywhite);
+    }
+
+    .headline-info-quickinfo-date img {
+        height: 16px;
+        width: 18px;
+    }
+
+    .headline-info-quickinfo-readingtime img {
+        height: 7px;
+        width: 20px;
+    }
+
+    .headline-info-quickinfo-read img {
+        height: 14px;
+        width: 20px;
+    }
+
+    .headline-info-quickinfo-share img {
+        height: 18px;
+        width: 16px;
+    }
+
+
+    .headline-author {
+        flex-shrink: 0;
+        width: 256px;
+        padding: 24px 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+        text-align: center;
+        background-color: var(--overlay-color-overlayblack);
+        border-radius: 24px;
+    }
+
+    .headline-author img {
+        width: 128px;
+        height: 128px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 12px;
+    }
+
+    .headline-author h3 {
+        font-size: 16px;
+    }
+
+    .headline-author h4 {
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--secondary-font-greywhite);
+    }
+
+    .headline-author p {
+        align-self: stretch;
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 1.4;
+        text-align: left;
+        color: var(--secondary-font-greywhite);
+    }
+
+    @media screen and (min-width: 1440px) {
+        .landing-nav {
+            padding: 0px max(160px, calc(50% - 720px));
+        }
+
+        .section-header {
+            padding: 90px max(160px, calc(50% - 720px));
+        }
+
+        .section-footer {
+            padding: 0px max(160px, calc(50% - 720px));
+        }
+
+        .section-headline {
+            padding: 90px max(160px, calc(50% - 720px));
+        }
+    }
+
+    display: flex;
+    gap: 32px;
+}
+
+.headline-info-quickinfo-date img {
+    height: 16px;
+    width: 18px;
+}
+
+.headline-info-quickinfo-readingtime img {
+    height: 7px;
+    width: 20px;
+}
+
+.headline-info-quickinfo-read img {
+    height: 14px;
+    width: 20px;
+}
+
+.headline-info-quickinfo-share img {
+    height: 18px;
+    width: 16px;
+}
+
+.headline-author {
+    flex-shrink: 0;
+    width: 256px;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-align: center;
+    background-color: var(--overlay-color-overlayblack);
+    border-radius: 24px;
+}
+
+.headline-author img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.headline-author p {
+    align-self: stretch;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    color: var(--secondary-font-greywhite);
+}
+
+@media screen and (min-width: 1440px) {
+    .landing-nav {
+        padding: 0px max(160px, calc(50% - 720px));
+    }
+
+    .section-header {
+        padding: 90px max(160px, calc(50% - 720px));
+    }
+
+    .section-footer {
+        padding: 0px max(160px, calc(50% - 720px));
+    }
+
+    .section-headline {
+        padding: 0px max(160px, calc(50% - 720px));
+    }
+}

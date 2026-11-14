@@ -474,6 +474,14 @@ details:close {
 
     }
 
+    .contact-section {
+        padding: 90px max(160px, calc(50% - 720px));
+    }
+
+    .section-faq {
+        padding: 90px max(160px, calc(50% - 720px));
+    }
+
     .section-footer {
         padding: 0px max(160px, calc(50% - 720px));
     }
