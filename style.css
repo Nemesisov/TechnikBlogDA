@@ -303,10 +303,40 @@ details:close {
 
     overflow: hidden;
 
+    clip-path: inset(0 round 0 100px 0 0);
+
+    background-color: var(--background-color-black);
+
 }
 
 .slider_a input {
     z-index: 2;
+
+    appearance: none;
+    box-sizing: border-box;
+
+    flex: 0 0 auto;
+    width: 28px;
+    min-width: 28px;
+    height: 28px;
+    margin: 0 22px 20px 0;
+
+    border-radius: 14px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.slider_a input:last-of-type{
+    margin-right: 0;
+}
+
+.slider_a input:checked { 
+    width: 40px;
+    min-width: 40px;
+    background-color: white;
 }
 
 .slider_a_wrapper {
@@ -332,22 +362,25 @@ details:close {
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+    border-top-right-radius: 100px;
+   
 }
 
 .element_one {
-    background-color: aquamarine;
+    background-color: var(--background-color-black);
 }
 
 .element_two {
-    background-color: brown;
+    background-color: var(--background-color-black);
 }
 
 .element_three {
-    background-color: goldenrod;
+    background-color: var(--background-color-black);
 }
 
 .element_four {
-    background-color: blue;
+    background-color: var(--background-color-black);
 }
 
 .slider_a input[value="one"]:checked~.slider_a_wrapper {
