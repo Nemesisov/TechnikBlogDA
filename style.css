@@ -290,32 +290,36 @@ details:close {
     max-width: 1200px;
     margin: 0 auto;
     border-top-right-radius: 100px;
-    
+
 }
 
 .mini_slider {
     position: relative;
     overflow: hidden;
     aspect-ratio: 1200 /530;
-   
+
     object-fit: cover;
 
     isolation: isolate;
     transform: translateZ(0);
 
+    --start: 3s;
+    --offset: 0s;
+    --delay: calc(var(--start) + var(--offset));
+
 }
 
 
 .mini_slider:nth-child(2) {
-    --offset: -3s;
+    --offset: 2s;
 }
 
 .mini_slider:nth-child(3) {
-    --offset: -6s;
+    --offset: 4s;
 }
 
 .mini_slider:nth-child(4) {
-    --offset: -9s;
+    --offset: 6s;
 }
 
 .mini_slider_link {
@@ -332,8 +336,9 @@ details:close {
     will-change: transform;
     transition: transform 0.8s ease-in-out;
 
-    animation: mini-slide 12s infinite ease-in-out;
-    animation-delay: var(--offset, 0s);
+    animation: mini-slide 30s infinite ease-in-out;
+    animation-delay: var(--delay);
+    animation-fill-mode: backwards;
 }
 
 
@@ -350,24 +355,23 @@ details:close {
 @keyframes mini-slide {
 
     0%,
-    28% {
+    30% {
         transform: translateX(0);
     }
 
-    33%,
-    61% {
+    33.33%,
+    63.33% {
         transform: translateX(-33.3333%);
     }
 
-    66%,
-    94% {
+    66.67%,
+    96.67% {
         transform: translateX(-66.6667%);
     }
 
     100% {
         transform: translateX(0);
     }
-
 }
 
 
@@ -397,24 +401,25 @@ details:close {
     background-color: white;
     cursor: pointer;
 
-    animation: mini-dot 12s infinite;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: var(--delay);
+    animation-fill-mode: backwards;
 }
 
-
 .mini_slider_controls input:nth-child(1) {
-    animation-delay: calc(var(--offset, 0s) - 0s);
+    animation-name: dot-1;
 }
 
 .mini_slider_controls input:nth-child(2) {
-    animation-delay: calc(var(--offset, 0s) - 8s);
+    animation-name: dot-2;
 }
 
 .mini_slider_controls input:nth-child(3) {
-    animation-delay: calc(var(--offset, 0s) - 4s);
+    animation-name: dot-3;
 }
 
-
-@keyframes mini-dot {
+@keyframes dot-1 {
 
     0%,
     30% {
@@ -422,7 +427,48 @@ details:close {
         background-color: #f0c85a;
     }
 
-    33%,
+    33.33%,
+    100% {
+        width: 16px;
+        background-color: white;
+    }
+}
+
+@keyframes dot-2 {
+
+    0%,
+    30% {
+        width: 16px;
+        background-color: white;
+    }
+
+    33.33%,
+    63.33% {
+        width: 24px;
+        background-color: #f0c85a;
+    }
+
+    66.67%,
+    100% {
+        width: 16px;
+        background-color: white;
+    }
+}
+
+@keyframes dot-3 {
+
+    0%,
+    63.33% {
+        width: 16px;
+        background-color: white;
+    }
+
+    66.67%,
+    96.67% {
+        width: 24px;
+        background-color: #f0c85a;
+    }
+
     100% {
         width: 16px;
         background-color: white;
