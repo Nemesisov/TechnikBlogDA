@@ -361,6 +361,11 @@ details:close {
 .footer-link img {
     width: 32px;
     height: 32px;
+    border-radius: 10px;
+}
+
+.footer-link img:hover {
+    background-color: var(--main-font-white);
 }
 
 .slider_1 {
