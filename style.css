@@ -147,6 +147,12 @@ nav a {
     align-items: center;
 }
 
+.section-slider {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .section-faq {
     display: flex;
     flex-direction: column;
@@ -361,8 +367,6 @@ details:close {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    height: 100dvh;
 }
 
 .slider_a {
