@@ -275,3 +275,19 @@ main p {
         font-size: 18px;
     }
 }
+
+
+@media screen and (min-width: 1440px) {
+    .landing-nav {
+        padding: 0px max(160px, calc(50% - 720px));
+    }
+
+    .section-footer {
+        padding: 0px max(160px, calc(50% - 720px));
+    }
+
+    .section-headline,
+    .section-article {
+        padding: 0px max(160px, calc(50% - 720px));
+    }
+}
