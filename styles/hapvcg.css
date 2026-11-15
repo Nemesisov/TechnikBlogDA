@@ -1,9 +1,14 @@
+h1 {
+    font-size: 64px;
+}
+
 .section-headline {
     color: var(--main-font-white);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 40px;
+    gap: 30px;
+    margin-top: 40px;
 }
 
 .headline-info {
@@ -17,6 +22,14 @@
     align-items: center;
 
     gap: 6px;
+}
+
+.main-content-top-text p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
 }
 
 .headline-info-quickinfo {
