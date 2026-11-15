@@ -1,4 +1,4 @@
-main{
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +21,7 @@ main{
     width: 100%;
 }
 
-.headline-info-maintext{
+.headline-info-maintext {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -48,22 +48,22 @@ main{
     font-size: 16px;
 }
 
-.headline-info-quickinfo-date img{
+.headline-info-quickinfo-date img {
     height: 16px;
     width: 18px;
 }
 
-.headline-info-quickinfo-readingtime img{
+.headline-info-quickinfo-readingtime img {
     height: 7px;
     width: 20px;
-}   
+}
 
-.headline-info-quickinfo-read img{
+.headline-info-quickinfo-read img {
     height: 14px;
     width: 20px;
 }
 
-.headline-info-quickinfo-share img{
+.headline-info-quickinfo-share img {
     height: 18px;
     width: 16px;
 }
@@ -109,7 +109,7 @@ main{
     width: 100%;
 }
 
-.headline-author-text p{
+.headline-author-text p {
     font-size: 16px;
     padding: 0px 10px;
 }
@@ -130,7 +130,7 @@ main{
 
 }
 
-.slider-a-header{
+.slider-a-header {
     height: 400px;
     display: flex;
     flex-direction: row;
@@ -157,18 +157,58 @@ main{
     transition: all 250ms ease-in-out;
 }
 
-.slider-a-element:hover{
+.slider-a-element:hover {
     z-index: 2;
     transform: perspective(250px) rotateY(0deg) translateX(0px) scaleX(1.5) scaleY(1.2);
 
     background-color: var(--secondary-font-turquoise);
 }
 
-.slider-a-element:hover~.slider-a-element{
+.slider-a-element:hover~.slider-a-element {
     background-color: var(--overlay-color-overlayblack);
     transform: perspective(250px) rotateY(-20deg) translateX(20px);
 }
 
+.section-share p{
+    text-align: center;
+}
+
+.section-share-arrow {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    gap: 60px;
+}
+
+.section-share-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    padding: 0px 24px;
+    gap: 8px;
+
+    background-color: var(--overlay-color-overlayblack);
+
+    height: 48px;
+    font-size: 24px;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.section-share-arrow-two {
+    display: flex;
+}
+
+.section-share-button img {
+    width: 32px;
+    height: 32px;
+}
+
+.section-share-arrow>img {
+    display: flex;
+
+}
 
 @media screen and (min-width: 1440px) {
     .landing-nav {
