@@ -28,6 +28,10 @@ nav a {
     background-color: var(--hyperlink-black-transparent);
     border: 1px solid var(--main-font-white);
     border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    width: 150px;
 }
 
 .nav_icon {
