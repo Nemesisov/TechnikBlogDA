@@ -1,10 +1,11 @@
-:root{
+:root {
     --background-color-black: #070B14;
     --main-font-white: white;
     --secondary-font-turquoise: turquoise;
     --secondary-font-greywhite: rgb(150, 150, 150);
     --overlay-color-overlayblack: #0D1424;
     --header-color-black-transparent: rgba(0, 0, 0, 0.2);
-    --hyperlink-black-transparent:rgba(102, 102, 102, 0.25);
-    --colorwave:rgb(34, 211, 238), rgb(139, 92, 246) 55%, rgb(236, 72, 153);
+    --hyperlink-black-transparent: rgba(102, 102, 102, 0.25);
+    --colorwave: rgb(34, 211, 238), rgb(139, 92, 246) 55%, rgb(236, 72, 153);
+    --colorwaveblue: #8711c1 30%, #2472fc;
 }

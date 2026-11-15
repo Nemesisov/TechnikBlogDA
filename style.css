@@ -196,6 +196,17 @@ details:close {
 
 }
 
+.--colorwaveblue {
+    background-image: linear-gradient(to bottom, var(--colorwaveblue));
+    background-clip: text;
+    color: transparent;
+}
+
+.section-faq-questions p {
+    font-size: 16px;
+    padding: 4px 10px;
+}
+
 .contact-section {
 
     text-align: center;
