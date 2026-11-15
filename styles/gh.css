@@ -1,0 +1,278 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+
+    padding: 80px 20px 120px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    color: var(--main-font-white, #fff);
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main p {
+    margin: 0;
+}
+
+main section {
+    width: 100%;
+    max-width: 1200px;
+}
+
+main p {
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+
+.section-headline {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.headline-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    width: 100%;
+    padding-right: 20px;
+}
+
+.headline-info h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--secondary-font-greywhite, #b5b5c3);
+}
+
+.headline-info h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.headline-info > p {
+    font-size: 28px;
+}
+
+/* Quickinfo-Leiste */
+.quickinfo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.headline-info-quickinfo.quickinfo {     /* der Container trägt die Klasse auch, daher hier überschreiben */
+    gap: 32px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+
+.quickinfo p {
+    font-size: 16px;
+}
+
+.headline-info-quickinfo-date img        { height: 16px; width: 18px; }
+.headline-info-quickinfo-readingtime img { height: 7px;  width: 20px; }
+.headline-info-quickinfo-read img        { height: 14px; width: 20px; }
+.headline-info-quickinfo-share img       { height: 18px; width: 16px; }
+
+/* Autoren-Karte */
+.headline-author {
+    flex-shrink: 0;
+    width: 270px;
+    min-height: 350px;
+    box-sizing: border-box;
+    padding: 16px 10px 24px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+
+    background-color: var(--overlay-color-overlayblack, rgba(255, 255, 255, 0.08));
+    border-radius: 30px;
+}
+
+.headline-author img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.headline-author h3,
+.headline-author h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.headline-author h4 {
+    color: var(--secondary-font-greywhite, #b5b5c3);
+}
+
+.headline-author p {
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+/* ========== Video ========== */
+.video-header p {
+    font-size: 20px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.video video {
+    width: 931px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+
+/* ========== Textabschnitte ========== */
+.text-section-two ul {
+    margin: 24px 0 0;
+    padding-left: 40px;
+    list-style: disc;
+}
+
+.text-section-two li {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+/* ========== Pro tips ========== */
+.pro-tips {
+    position: relative;
+    padding-top: 28px;
+}
+
+.pro-tips > div {                         /* das gedrehte Label */
+    position: absolute;
+    top: 0;
+    left: 40px;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 8px 16px;
+    border-radius: 12px;
+    background-color: var(--secondary-font-turquoise, #3fc6d6);
+    color: #0b0f1a;
+    transform: rotate(-8deg);
+}
+
+.pro-tips > div p {
+    font-size: 20px;
+}
+
+.pro-tips > div img {
+    width: 24px;
+    height: 24px;
+}
+
+.pro-tips ol {
+    margin: 0 0 0 40px;
+    padding: 40px 32px 28px 64px;
+    border-radius: 20px;
+    background-color: var(--overlay-color-overlayblack, rgba(255, 255, 255, 0.08));
+}
+
+.pro-tips li {
+    margin-bottom: 8px;
+}
+
+.pro-tips li p {
+    font-size: 20px;
+}
+
+/* ========== Share ========== */
+.section-share {
+    width: auto;
+    margin-top: 40px;
+}
+
+.section-share p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.section-share-arrow {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    gap: 60px;
+}
+
+.section-share-arrow-two {
+    display: flex;
+}
+
+.section-share-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    height: 48px;
+    padding: 0 24px;
+    border-radius: 40px;
+
+    background-color: var(--overlay-color-overlayblack, rgba(255, 255, 255, 0.08));
+    color: var(--main-font-white, #fff);
+    font-size: 24px;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.section-share-button:hover {
+    background-color: var(--hyperlink-black-transparent, rgba(0, 0, 0, 0.4));
+    color: var(--secondary-font-turquoise, #3fc6d6);
+}
+
+.section-share-button img {
+    width: 32px;
+    height: 32px;
+}
+
+/* ========== Tablet / Handy ========== */
+@media (max-width: 900px) {
+    .section-headline {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+
+    .headline-author {
+        width: 100%;
+        min-height: 0;
+    }
+
+    .headline-info h1 {
+        font-size: 40px;
+    }
+
+    .headline-info h2 {
+        font-size: 24px;
+    }
+
+    .headline-info > p,
+    main p,
+    .text-section-two li {
+        font-size: 18px;
+    }
+}
