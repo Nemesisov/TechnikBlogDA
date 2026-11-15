@@ -196,6 +196,11 @@ main {
     z-index: 2;
 }
 
+.section-share-button:hover {
+    background-color: var(--hyperlink-black-transparent);
+    color: var(--secondary-font-turquoise);
+}
+
 .section-share-arrow-two {
     display: flex;
 }
