@@ -62,7 +62,7 @@ main p {
     font-size: 28px;
 }
 
-/* Quickinfo-Leiste */
+
 .quickinfo {
     display: flex;
     align-items: center;
@@ -84,7 +84,7 @@ main p {
 .headline-info-quickinfo-read img        { height: 14px; width: 20px; }
 .headline-info-quickinfo-share img       { height: 18px; width: 16px; }
 
-/* Autoren-Karte */
+
 .headline-author {
     flex-shrink: 0;
     width: 270px;
@@ -124,7 +124,6 @@ main p {
     padding: 0 10px;
 }
 
-/* ========== Video ========== */
 .video-header p {
     font-size: 20px;
 }
@@ -141,7 +140,7 @@ main p {
     border-radius: 40px;
 }
 
-/* ========== Textabschnitte ========== */
+
 .text-section-two ul {
     margin: 24px 0 0;
     padding-left: 40px;
@@ -154,13 +153,13 @@ main p {
     margin-bottom: 8px;
 }
 
-/* ========== Pro tips ========== */
+
 .pro-tips {
     position: relative;
     padding-top: 28px;
 }
 
-.pro-tips > div {                         /* das gedrehte Label */
+.pro-tips > div {                       
     position: absolute;
     top: 0;
     left: 40px;
@@ -201,7 +200,7 @@ main p {
     font-size: 20px;
 }
 
-/* ========== Share ========== */
+
 .section-share {
     width: auto;
     margin-top: 40px;
@@ -250,7 +249,7 @@ main p {
     height: 32px;
 }
 
-/* ========== Tablet / Handy ========== */
+
 @media (max-width: 900px) {
     .section-headline {
         flex-direction: column-reverse;
