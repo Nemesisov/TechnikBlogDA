@@ -163,7 +163,7 @@ main p {
     position: absolute;
     top: 0;
     left: 40px;
-    z-index: 2;
+   
 
     display: flex;
     align-items: center;
