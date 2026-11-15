@@ -169,6 +169,80 @@ main {
     transform: perspective(250px) rotateY(-20deg) translateX(20px);
 }
 
+.section-tips {
+    position: relative;
+    padding-top: 28px;
+}
+
+.section-tips > div {                       
+    position: absolute;
+    top: 0;
+    left: 40px;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 8px 16px;
+    border-radius: 12px;
+    background-color: var(--secondary-font-turquoise, #3fc6d6);
+    color: #0b0f1a;
+    transform: rotate(-13.67deg);
+}
+
+.section-tips > div p {
+    font-size: 20px;
+}
+
+.section-tips > div img {
+    width: 24px;
+    height: 24px;
+}
+
+.section-tips ol {
+    margin: 0 0 0 40px;
+    padding: 40px 32px 28px 64px;
+    border-radius: 20px;
+    background-color: var(--overlay-color-overlayblack, rgba(255, 255, 255, 0.08));
+}
+
+.section-tips li {
+    margin-bottom: 8px;
+}
+
+.section-tips li p {
+    font-size: 20px;
+}
+
+.section-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.section-list > p {
+    display: flex;
+    justify-self: flex-start;
+}
+
+.section-list li {
+    margin-bottom: 8px;
+}
+
+.section-list-ol {
+    margin-left: 20px;
+    display: flex;
+}
+
+.section-additional-text{
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
 .section-share p{
     text-align: center;
 }

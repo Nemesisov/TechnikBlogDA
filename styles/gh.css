@@ -6,7 +6,7 @@ main {
     gap: 56px;
 
     padding: 80px 20px 120px;
-    font-family: 'Space Grotesk', sans-serif;
+
     font-weight: 500;
     color: var(--main-font-white, #fff);
 }
@@ -250,31 +250,6 @@ main p {
 }
 
 
-@media (max-width: 900px) {
-    .section-headline {
-        flex-direction: column-reverse;
-        align-items: stretch;
-    }
-
-    .headline-author {
-        width: 100%;
-        min-height: 0;
-    }
-
-    .headline-info h1 {
-        font-size: 40px;
-    }
-
-    .headline-info h2 {
-        font-size: 24px;
-    }
-
-    .headline-info > p,
-    main p,
-    .text-section-two li {
-        font-size: 18px;
-    }
-}
 
 
 @media screen and (min-width: 1440px) {
