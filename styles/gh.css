@@ -211,6 +211,13 @@ main p {
     font-size: 20px;
 }
 
+.pro-tips p a {
+    text-decoration: none;
+}
+
+.pro-tips p a :hover{
+    color: var(--secondary-font-turquoise);
+}
 
 .section-share {
     width: auto;
