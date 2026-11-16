@@ -225,9 +225,9 @@ main {
 }
 
 .colorwave-gold {
-    background-image: linear-gradient(to bottom, var(--colorwave-gold));
     background-clip: text;
     color: transparent;
+    background-image: linear-gradient(135deg, var(--colorwave-gold));
 }
 
 .section-list>p {
