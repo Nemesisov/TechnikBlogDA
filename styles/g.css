@@ -110,9 +110,8 @@ main section {
     margin-bottom: 16px;
 }
 
-.genre-intro p,
-.genre-what p,
-.genre-mix p {
+.genre-mix p,
+.genre-outro p {
     max-width: 900px;
     line-height: 1.4;
 }
@@ -182,6 +181,82 @@ main section {
 
 .genre-facts li p {
     font-size: 20px;
+}
+
+.quiz-question {
+    margin-bottom: 32px;
+    padding: 32px;
+    border-radius: 20px;
+    background-color: var(--overlay-color-overlayblack);
+}
+
+.quiz-question label {
+    display: block;
+    margin-top: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.quiz-question label:hover,
+.quiz-question label:has(input:checked) {
+    color: var(--secondary-font-turquoise);
+}
+
+.quiz-result {
+    display: none;
+}
+
+.quiz-question label:has(input:checked) .quiz-result {
+    display: inline;
+}
+
+.section-share {
+    margin-top: 40px;
+}
+
+main > .section-share {
+    width: auto;
+}
+
+.section-share p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.section-share-arrow {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    gap: 60px;
+}
+
+.section-share-arrow-two {
+    display: flex;
+}
+
+.section-share-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 48px;
+    padding: 0 24px;
+    border-radius: 40px;
+    background-color: var(--overlay-color-overlayblack);
+    color: var(--main-font-white);
+    font-size: 24px;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.section-share-button:hover {
+    background-color: var(--hyperlink-black-transparent);
+    color: var(--secondary-font-turquoise);
+}
+
+.section-share-button img {
+    width: 32px;
+    height: 32px;
 }
 
 .--colorwave {
