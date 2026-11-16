@@ -174,7 +174,7 @@ main {
     padding-top: 28px;
 }
 
-.section-tips > div {                       
+.section-tips>div {
     position: absolute;
     top: 0;
     left: 40px;
@@ -191,11 +191,11 @@ main {
     transform: rotate(-13.67deg);
 }
 
-.section-tips > div p {
+.section-tips>div p {
     font-size: 20px;
 }
 
-.section-tips > div img {
+.section-tips>div img {
     width: 24px;
     height: 24px;
 }
@@ -218,11 +218,19 @@ main {
 .section-list {
     display: flex;
     flex-direction: column;
+    gap: 15px;
+
     width: 100%;
     max-width: 1200px;
 }
 
-.section-list > p {
+.colorwave-gold {
+    background-image: linear-gradient(to bottom, var(--colorwave-gold));
+    background-clip: text;
+    color: transparent;
+}
+
+.section-list>p {
     display: flex;
     justify-self: flex-start;
 }
@@ -236,14 +244,14 @@ main {
     display: flex;
 }
 
-.section-additional-text{
+.section-additional-text {
     display: flex;
     flex-direction: column;
 
     gap: 15px;
 }
 
-.section-share p{
+.section-share p {
     text-align: center;
 }
 
