@@ -13,6 +13,10 @@ main {
 
 }
 
+.colorwave-grey {
+    color: var(--secondary-font-greywhite);
+}
+
 .section-tips a {
     text-decoration: none;
 }
