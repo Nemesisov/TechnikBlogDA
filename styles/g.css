@@ -93,3 +93,46 @@ main section {
 .headline-info-quickinfo-readingtime img {
     height: 8px;
 }
+
+.--colorwaveblue {
+    background-image: linear-gradient(to bottom, var(--colorwaveblue));
+    background-clip: text;
+    color: transparent;
+}
+
+.genre-what h2,
+.genre-cards h2,
+.genre-mix h2,
+.genre-picks h2,
+.genre-quiz h2,
+.genre-outro h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.genre-intro p,
+.genre-what p {
+    max-width: 900px;
+    line-height: 1.4;
+}
+
+.--colorwave {
+    background-image: linear-gradient(to right, var(--colorwave));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@media screen and (min-width: 1440px) {
+    .landing-nav {
+        padding: 0px max(160px, calc(50% - 720px));
+    }
+
+    .section-footer {
+        padding: 0px max(160px, calc(50% - 720px));
+    }
+
+    main {
+        padding: 80px max(160px, calc(50% - 720px)) 120px;
+    }
+}
