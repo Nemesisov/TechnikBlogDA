@@ -1,3 +1,9 @@
+.--colorwave {
+    background-image: linear-gradient(to right, var(--colorwave));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
 
 main {
     display: flex;
@@ -254,6 +260,15 @@ main p {
     height: 32px;
 }
 
+.video-header h2,
+.text-section-one h2,
+.text-section-two h2,
+.text-section-three h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
 
 
 
