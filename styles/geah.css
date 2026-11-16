@@ -6,6 +6,21 @@ main {
     gap: 140px;
 }
 
+.colorwave-standart {
+    background-image: linear-gradient(to bottom, var(--colorwave));
+    background-clip: text;
+    color: transparent;
+
+}
+
+.section-tips a {
+    text-decoration: none;
+}
+
+.colorwave-standart:hover {
+    color: var(--secondary-font-turquoise);
+}
+
 .section-headline {
     color: var(--main-font-white);
 
