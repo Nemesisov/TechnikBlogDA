@@ -1,0 +1,95 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    padding: 80px 40px 120px;
+}
+
+main section {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.section-headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.headline-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.headline-info h2 {
+    font-size: 24px;
+    color: var(--secondary-font-greywhite);
+}
+
+.headline-info h1 {
+    font-size: 64px;
+}
+
+.headline-text {
+    font-size: 26px;
+    line-height: 1.4;
+}
+
+.headline-info-quickinfo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 16px;
+}
+
+.quickinfo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.quickinfo img {
+    height: 16px;
+}
+
+.quickinfo p {
+    font-size: 15px;
+    color: var(--secondary-font-greywhite);
+}
+
+.headline-author {
+    flex-shrink: 0;
+    width: 260px;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    background-color: var(--overlay-color-overlayblack);
+    border-radius: 24px;
+}
+
+.headline-author img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.headline-author h3 {
+    font-size: 18px;
+}
+
+.author-role,
+.author-bio {
+    font-size: 15px;
+    color: var(--secondary-font-greywhite);
+}
+
+.headline-info-quickinfo-readingtime img {
+    height: 8px;
+}
