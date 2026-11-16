@@ -35,6 +35,8 @@ main p {
     align-items: flex-start;
     gap: 20px;
     margin-bottom: 40px;
+    width: 100%;
+    max-width: 1200%;
 }
 
 .headline-info {
@@ -44,6 +46,8 @@ main p {
 
     width: 100%;
     padding-right: 20px;
+    flex: 1;
+    min-width: 0;
 }
 
 .headline-info h2 {
@@ -77,6 +81,7 @@ main p {
 
 .quickinfo p {
     font-size: 16px;
+    white-space: nowrap;
 }
 
 .headline-info-quickinfo-date img        { height: 16px; width: 18px; }
