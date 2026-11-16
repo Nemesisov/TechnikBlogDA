@@ -8,4 +8,5 @@
     --hyperlink-black-transparent: rgba(102, 102, 102, 0.25);
     --colorwave: rgb(34, 211, 238), rgb(139, 92, 246) 55%, rgb(236, 72, 153);
     --colorwaveblue: #8711c1 30%, #2472fc;
+    --colorwave-gold: rgb( #715b19 0%, #f8da8d 33%, #c99519 67%, #fbd284 100%);
 }
