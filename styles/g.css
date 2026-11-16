@@ -111,9 +111,77 @@ main section {
 }
 
 .genre-intro p,
-.genre-what p {
+.genre-what p,
+.genre-mix p {
     max-width: 900px;
     line-height: 1.4;
+}
+
+.genre-mix ul {
+    margin-top: 16px;
+    padding-left: 40px;
+}
+
+.genre-mix li {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.genre-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.genre-card {
+    padding: 32px;
+    border-radius: 20px;
+    background-color: var(--overlay-color-overlayblack);
+}
+
+.genre-card h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: var(--secondary-font-turquoise);
+}
+
+.genre-facts {
+    position: relative;
+    padding-top: 28px;
+}
+
+.genre-facts > div {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 12px;
+    background-color: var(--secondary-font-turquoise);
+    transform: rotate(-13.67deg);
+}
+
+.genre-facts > div img {
+    width: 24px;
+    height: 24px;
+}
+
+.genre-facts ol {
+    margin: 0 0 0 40px;
+    padding: 40px 32px 28px 64px;
+    border-radius: 20px;
+    background-color: var(--overlay-color-overlayblack);
+}
+
+.genre-facts li {
+    margin-bottom: 8px;
+}
+
+.genre-facts li p {
+    font-size: 20px;
 }
 
 .--colorwave {
