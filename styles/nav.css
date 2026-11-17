@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: start;
     width: 100%;
-    background-color: var(--header-color-black-transparent);
+    background-color: var(--overlay-color-overlayblack);
 }
 
 .landing-nav {
