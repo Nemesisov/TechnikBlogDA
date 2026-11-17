@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="tbda-help" x1="6" y1="6" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.55" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+  <path d="M13 7 H35 a5 5 0 0 1 5 5 V30 a5 5 0 0 1 -5 5 H28.5 L24 40.5 L19.5 35 H13 a5 5 0 0 1 -5 -5 V12 a5 5 0 0 1 5 -5 Z" fill="url(#tbda-help)" fill-opacity="0.15" stroke="url(#tbda-help)" stroke-width="3.2" stroke-linejoin="round"/>
+  <path d="M19.6 16.8 a4.6 4.6 0 1 1 6.4 4.2 c-1.2 0.55 -2 1.5 -2 2.8 V25" stroke="url(#tbda-help)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24" cy="29.6" r="2" fill="url(#tbda-help)"/>
+</svg>
