@@ -11,6 +11,19 @@ main section {
     max-width: 1200px;
 }
 
+.section-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.section-image img {
+    width: 931px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+
 .section-headline {
     display: flex;
     justify-content: space-between;
@@ -94,11 +107,6 @@ main section {
     height: 8px;
 }
 
-.--colorwaveblue {
-    background-image: linear-gradient(to bottom, var(--colorwaveblue));
-    background-clip: text;
-    color: transparent;
-}
 
 .genre-what h2,
 .genre-cards h2,
@@ -142,6 +150,17 @@ main section {
     font-size: 24px;
     margin-bottom: 16px;
     color: var(--secondary-font-turquoise);
+}
+
+.genre-card p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.genre-card .genre-examples {
+    margin-top: 16px;
+    font-size: 15px;
+    color: var(--secondary-font-greywhite);
 }
 
 .genre-facts {
@@ -212,11 +231,10 @@ main section {
 
 .section-share {
     margin-top: 40px;
-}
-
-main > .section-share {
     width: auto;
 }
+
+
 
 .section-share p {
     font-size: 22px;
@@ -277,5 +295,36 @@ main > .section-share {
 
     main {
         padding: 80px max(160px, calc(50% - 720px)) 120px;
+    }
+}
+
+@media (max-width: 900px) {
+    main { padding: 48px 20px 80px;}
+
+    .section-headline { 
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+    .headline-author {
+            width: 100%;
+    }
+    .headline-info h1 {
+        font-size: 40px;
+    }
+    .headline-info-quickinfo {
+        gap: 16px;
+        width: 100%;
+    }
+
+    .genre-what h2, .genre-cards h2, .genre-mix h2,
+    .genre-picks h2, .genre-quiz h2, .genre-outro h2 {
+        font-size: 28px;
+    }
+
+    main p, .headline-text, .genre-mix li {
+        font-size: 18px;
+    }
+    .genre-grid {
+        grid-template-columns: 1fr;
     }
 }
