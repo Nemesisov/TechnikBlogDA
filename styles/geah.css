@@ -17,6 +17,10 @@ main {
     color: var(--secondary-font-greywhite);
 }
 
+strong {
+    color: var(--secondary-font-alabaster);
+}
+
 .section-tips a {
     text-decoration: none;
 }
