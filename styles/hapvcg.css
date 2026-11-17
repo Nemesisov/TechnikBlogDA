@@ -7,22 +7,60 @@ main {
     color: var(--main-font-white);
 }
 
-main > section {
+main>section {
     width: 100%;
 }
 
 main p {
-    line-height: 1.4;
+    line-height: 1.6;
 }
 
 main a {
     color: var(--secondary-font-turquoise);
 }
+
 .--colorwaveblue {
     background-image: linear-gradient(to bottom, var(--colorwaveblue));
     background-clip: text;
     color: transparent;
 }
+
+.--secondary-font-turquoise {
+    background-image: linear-gradient(to bottom, var(--secondary-font-turquoise));
+    background-clip: text;
+    color: transparent;
+}
+
+.--playstationcolor {
+    background-image: linear-gradient(to right, var(--playstationcolor));
+    background-clip: text;
+    color: transparent;
+}
+
+.--xboxcolor {
+    background-image: linear-gradient(to right, var(--xboxcolor));
+    background-clip: text;
+    color: transparent;
+}
+
+.--amdcolor {
+    background-image: linear-gradient(to right, var(--amdcolor));
+    background-clip: text;
+    color: transparent;
+}
+
+.--nintendocolor {
+    background-image: linear-gradient(to right, var(--nintendocolor));
+    background-clip: text;
+    color: transparent;
+}
+
+.--nvidiacolor {
+    background-image: linear-gradient(to right, var(--nvidiacolor));
+    background-clip: text;
+    color: transparent;
+}
+
 .section-headline {
     display: flex;
     justify-content: space-between;
@@ -133,7 +171,7 @@ main a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .article-section ul {
@@ -144,6 +182,13 @@ main a {
 .article-section li {
     font-size: 24px;
     margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.middletext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-image {
@@ -182,7 +227,7 @@ main a {
 
 .compare-table tbody tr {
     border-top: 1px solid var(--hyperlink-black-transparent);
-    
+
 }
 
 .compare-table td:first-child {
@@ -209,11 +254,12 @@ main a {
 
 .fit-card ul {
     margin: 0;
-    padding-left: 24px;
+    padding-left: 24px
 }
 
 .fit-card li {
     font-size: 20px;
+    line-height: 1.6;
 }
 
 .pro-tips {
@@ -221,7 +267,7 @@ main a {
     padding-top: 28px;
 }
 
-.pro-tips > div {
+.pro-tips>div {
     position: absolute;
     top: 0;
     left: 40px;
@@ -237,7 +283,7 @@ main a {
     transform: rotate(-13.67deg);
 }
 
-.pro-tips > div img {
+.pro-tips>div img {
     width: 24px;
     height: 24px;
 }
@@ -249,6 +295,17 @@ main a {
     background-color: var(--overlay-color-overlayblack);
 }
 
+.pro-tips ol>p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    line-height: 1.4;
+}
+.pro-tips ol>a {
+
+}
 .pro-tips li {
     margin-bottom: 8px;
 }
@@ -261,7 +318,7 @@ main a {
     margin-top: 40px;
 }
 
-main > .section-share {
+main>.section-share {
     width: auto;
 }
 
