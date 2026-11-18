@@ -325,6 +325,16 @@ main p {
     color: transparent;
 }
 
+.--colorwave-picks {
+    background-image: linear-gradient(to right, var(--colorwave-picks));
+    background-clip: text;
+    color: transparent;
+}
+
+.genre-picks .genre-card h3 {
+    color: #fde68a;
+}
+
 @media screen and (min-width: 1440px) {
     .landing-nav {
         padding: 0px max(160px, calc(50% - 720px));
