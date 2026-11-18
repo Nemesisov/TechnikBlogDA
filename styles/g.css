@@ -124,13 +124,21 @@ main p {
 
 .genre-mix ul {
     margin: 16px 0;
-    padding-left: 40px;
+    list-style: none;
 }
 
 .genre-mix li {
-    font-size: 24px;
-    margin-bottom: 8px;
+    font-size: 22px;
+    margin-bottom: 12px;
     line-height: 1.6;
+    padding: 12px 20px;
+    border-left: 4px solid var(--secondary-font-turquoise);
+    border-radius: 12px;
+    background-color: var(--overlay-color-overlayblack);
+}
+
+.genre-mix li strong {
+    color: var(--secondary-font-turquoise);
 }
 
 .genre-grid {
