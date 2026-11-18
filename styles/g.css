@@ -124,13 +124,21 @@ main p {
 
 .genre-mix ul {
     margin: 16px 0;
-    padding-left: 40px;
+    list-style: none;
 }
 
 .genre-mix li {
-    font-size: 24px;
-    margin-bottom: 8px;
+    font-size: 22px;
+    margin-bottom: 12px;
     line-height: 1.6;
+    padding: 12px 20px;
+    border-left: 4px solid var(--secondary-font-turquoise);
+    border-radius: 12px;
+    background-color: var(--overlay-color-overlayblack);
+}
+
+.genre-mix li strong {
+    color: var(--secondary-font-turquoise);
 }
 
 .genre-grid {
@@ -188,17 +196,22 @@ main p {
 
 .genre-facts ol {
     margin: 0 40px;
-    padding: 40px 32px 28px 64px;
+    padding: 48px 32px 32px 64px;
     border-radius: 20px;
     background-color: var(--overlay-color-overlayblack);
 }
 
 .genre-facts li {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.genre-facts li::marker {
+    color: rgb(106, 185, 238);
+    font-weight: bold;
 }
 
 .genre-facts li p {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .quiz-question {
@@ -310,6 +323,17 @@ main p {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+}
+
+.--colorwave-picks {
+    background-image: linear-gradient(to right, var(--colorwave-picks));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.genre-picks .genre-card h3 {
+    color: #fde68a;
 }
 
 @media screen and (min-width: 1440px) {
