@@ -289,7 +289,7 @@ main a {
 }
 
 .pro-tips ol {
-    margin: 0 0 0 40px;
+    margin: 0 40px 0 40px;
     padding: 40px 32px 28px 64px;
     border-radius: 20px;
     background-color: var(--overlay-color-overlayblack);
@@ -379,40 +379,178 @@ main>.section-share {
     }
 }
 
-@media (max-width: 900px) {
+@media screen and (min-width: 1440px) {
+    .landing-nav {
+        padding: 0px max(160px, calc(50% - 720px));
+    }
+
+    .section-footer {
+        padding: 0px max(160px, calc(50% - 720px));
+    }
+
     main {
-        padding: 48px 20px 80px;
+        padding: 80px max(160px, calc(50% - 720px)) 120px;
+    }
+}
+
+@media screen and (min-width:1280px) and (max-width:1439px) {
+    main {
+        padding: 80px 60px 120px;
+    }
+
+    .headline-info h1 {
+        font-size: 56px;
+    }
+
+    .headline-lead {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1279px) {
+    main {
+        gap: 48px;
+        padding: 64px 60px 100px;
+    }
+
+    .section-headline {
+        gap: 24px;
+    }
+
+    .headline-author {
+        width: 220px;
+    }
+
+    .headline-author img {
+        width: 112px;
+        height: 112px;
+    }
+
+    .headline-kicker {
+        font-size: 20px;
+    }
+
+    .headline-info h1 {
+        font-size: 48px;
+    }
+
+    .headline-lead {
+        font-size: 24px;
+    }
+
+    .headline-info-quickinfo {
+        flex-wrap: wrap;
+        gap: 16px 24px;
+    }
+
+    .article-section h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .section-intro p,
+    .article-section p,
+    .article-section li {
+        font-size: 22px;
+    }
+
+    .section-image img {
+        border-radius: 32px;
+    }
+
+    .compare-table {
+        font-size: 18px;
+    }
+
+    .compare-table th,
+    .compare-table td {
+        padding: 14px 20px;
+    }
+
+    .compare-table th {
+        font-size: 22px;
+    }
+
+    .fit-cards {
+        gap: 24px;
+    }
+
+    .fit-card {
+        padding: 24px;
+    }
+
+    .fit-card h3 {
+        font-size: 22px;
+    }
+
+    .fit-card li {
+        font-size: 18px;
+    }
+
+    .pro-tips li p {
+        font-size: 18px;
+    }
+
+    .pro-tips ol>p {
+        gap: 0 6px;
+        font-size: 20px;
+    }
+
+    .section-share p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    main {
+        gap: 40px;
+        padding: 48px 40px 80px;
     }
 
     .section-headline {
         flex-direction: column-reverse;
         align-items: stretch;
+        gap: 24px;
     }
 
     .headline-author {
         width: 100%;
     }
 
+    .headline-kicker {
+        font-size: 20px;
+    }
+
     .headline-info h1 {
         font-size: 40px;
     }
 
+    .headline-lead {
+        font-size: 20px;
+    }
+
     .headline-info-quickinfo {
         flex-wrap: wrap;
-        gap: 16px;
+        gap: 16px 24px;
     }
 
     .article-section h2 {
         font-size: 28px;
+        text-align: center;
     }
 
-    main p,
+    .article-section ul {
+        padding-left: 28px;
+    }
+
+    .section-intro p,
+    .article-section p,
     .article-section li {
-        font-size: 18px;
+        font-size: 20px;
     }
 
-    .fit-cards {
-        grid-template-columns: 1fr;
+    .section-image img {
+        border-radius: 24px;
     }
 
     .compare-table {
@@ -422,5 +560,201 @@ main>.section-share {
     .compare-table th,
     .compare-table td {
         padding: 12px;
+    }
+
+    .compare-table th {
+        font-size: 20px;
+    }
+
+    .fit-cards {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .fit-card {
+        padding: 24px;
+    }
+
+    .fit-card h3 {
+        font-size: 22px;
+    }
+
+    .fit-card li {
+        font-size: 18px;
+    }
+
+    .pro-tips>div {
+        left: 20px;
+    }
+
+    .pro-tips>div p {
+        font-size: 20px;
+    }
+
+    .pro-tips ol {
+        margin: 0;
+        padding: 48px 24px 24px 48px;
+    }
+
+    .pro-tips li p {
+        font-size: 18px;
+    }
+
+    .pro-tips ol>p {
+        flex-wrap: wrap;
+        gap: 0 6px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .section-share p {
+        font-size: 20px;
+    }
+
+    .section-share-arrow {
+        gap: 32px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    main {
+        gap: 32px;
+        padding: 32px 20px 60px;
+    }
+
+    .section-headline {
+        flex-direction: column-reverse;
+        align-items: stretch;
+        gap: 24px;
+    }
+
+    .headline-author {
+        width: 100%;
+        padding: 20px 16px;
+        border-radius: 20px;
+    }
+
+    .headline-author img {
+        width: 96px;
+        height: 96px;
+    }
+
+    .headline-kicker {
+        font-size: 18px;
+    }
+
+    .headline-info h1 {
+        font-size: 32px;
+    }
+
+    .headline-lead {
+        font-size: 18px;
+    }
+
+    .headline-info-quickinfo {
+        flex-wrap: wrap;
+        gap: 12px 20px;
+    }
+
+    .article-section h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .article-section ul {
+        padding-left: 20px;
+    }
+
+    .section-intro p,
+    .article-section p,
+    .article-section li {
+        font-size: 18px;
+    }
+
+    .section-image img {
+        border-radius: 20px;
+    }
+
+    .compare-table {
+        font-size: 14px;
+    }
+
+    .compare-table th,
+    .compare-table td {
+        padding: 10px 8px;
+    }
+
+    .compare-table th {
+        font-size: 16px;
+    }
+
+    .fit-cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .fit-card {
+        padding: 20px;
+    }
+
+    .fit-card h3 {
+        font-size: 20px;
+    }
+
+    .fit-card li {
+        font-size: 16px;
+    }
+
+    .pro-tips>div {
+        left: 12px;
+        padding: 6px 12px;
+    }
+
+    .pro-tips>div p {
+        font-size: 18px;
+    }
+
+    .pro-tips ol {
+        margin: 0;
+        padding: 44px 16px 20px 36px;
+    }
+
+    .pro-tips li p {
+        font-size: 16px;
+    }
+
+    .pro-tips ol>p {
+        flex-wrap: wrap;
+        gap: 0 6px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .section-share {
+        margin-top: 20px;
+    }
+
+    .section-share p {
+        font-size: 18px;
+    }
+
+    .section-share-arrow {
+        gap: 16px;
+    }
+
+    .section-share-arrow-two img {
+        width: 72px;
+    }
+
+    .section-share-button {
+        height: 44px;
+        padding: 0 20px;
+        font-size: 20px;
+    }
+
+    .section-share-button img {
+        width: 24px;
+        height: 24px;
     }
 }
