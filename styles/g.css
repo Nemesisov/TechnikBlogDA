@@ -118,20 +118,19 @@ main section {
     margin-bottom: 16px;
 }
 
-.genre-mix p,
-.genre-outro p {
-    max-width: 900px;
-    line-height: 1.4;
+main p {
+    line-height: 1.6;
 }
 
 .genre-mix ul {
-    margin-top: 16px;
+    margin: 16px 0;
     padding-left: 40px;
 }
 
 .genre-mix li {
     font-size: 24px;
     margin-bottom: 8px;
+    line-height: 1.6;
 }
 
 .genre-grid {
@@ -188,7 +187,7 @@ main section {
 }
 
 .genre-facts ol {
-    margin: 0 0 0 40px;
+    margin: 0 40px;
     padding: 40px 32px 28px 64px;
     border-radius: 20px;
     background-color: var(--overlay-color-overlayblack);
@@ -203,30 +202,59 @@ main section {
 }
 
 .quiz-question {
-    margin-bottom: 32px;
     padding: 32px;
     border-radius: 20px;
     background-color: var(--overlay-color-overlayblack);
 }
 
+.quiz-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.quiz-question p {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: var(--secondary-font-turquoise);
+}
+
 .quiz-question label {
     display: block;
     margin-top: 12px;
-    font-size: 20px;
+    padding: 12px 16px;
+    border: 1px solid var(--hyperlink-black-transparent);
+    border-radius: 12px;
+    font-size: 18px;
     cursor: pointer;
+    transition: border-color 0.3s, background-color 0.3s;
 }
 
 .quiz-question label:hover,
 .quiz-question label:has(input:checked) {
-    color: var(--secondary-font-turquoise);
+    border-color: var(--secondary-font-turquoise);
+    background-color: var(--hyperlink-black-transparent);
+}
+
+.quiz-question input {
+    margin-right: 8px;
+    accent-color: var(--secondary-font-turquoise);
 }
 
 .quiz-result {
     display: none;
+    width: fit-content;
+    margin-top: 8px;
+    padding: 4px 14px;
+    border-radius: 12px;
+    background-image: linear-gradient(to right, var(--colorwave));
+    color: var(--main-font-white);
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .quiz-question label:has(input:checked) .quiz-result {
-    display: inline;
+    display: block;
 }
 
 .section-share {
@@ -324,7 +352,7 @@ main section {
     main p, .headline-text, .genre-mix li {
         font-size: 18px;
     }
-    .genre-grid {
+    .genre-grid, .quiz-grid {
         grid-template-columns: 1fr;
     }
 }
