@@ -831,7 +831,7 @@ details:close {
     }
 
     .contact-section {
-        padding: 80px 0px;
+        padding: 80px 10px;
     }
 
     .section-slider {
@@ -926,12 +926,14 @@ details:close {
         align-items: center;
         position: fixed;
 
-        width: 100%;
+        width: 90%;
         height: 88px;
 
 
-        bottom: 0px;
+        bottom: 15px;
         background-color: var(--overlay-color-overlayblack-two);
+        border-radius: 100px;
+        margin: 5%;
     }
 
     .footer-text p {
@@ -964,7 +966,8 @@ details:close {
     }
 
     .fixed-rail {
-        height: 88px;
+        height: 130px;
+        background-color: var(--overlay-color-overlayblack-two);
     }
 
     .contact-section p,
