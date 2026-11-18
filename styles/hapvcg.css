@@ -379,20 +379,6 @@ main>.section-share {
     }
 }
 
-@media screen and (min-width: 1440px) {
-    .landing-nav {
-        padding: 0px max(160px, calc(50% - 720px));
-    }
-
-    .section-footer {
-        padding: 0px max(160px, calc(50% - 720px));
-    }
-
-    main {
-        padding: 80px max(160px, calc(50% - 720px)) 120px;
-    }
-}
-
 @media screen and (min-width:1280px) and (max-width:1439px) {
     main {
         padding: 80px 60px 120px;
