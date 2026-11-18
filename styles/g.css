@@ -327,6 +327,7 @@ main p {
 
 .--colorwave-picks {
     background-image: linear-gradient(to right, var(--colorwave-picks));
+    -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
