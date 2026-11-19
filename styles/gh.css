@@ -1,9 +1,14 @@
+.GTA {
+  color: var(--gta6-gradient-logo);
+}
+
 .--colorwave {
     background-image: linear-gradient(to right, var(--colorwave));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
+
 
 main {
     display: flex;
@@ -180,6 +185,7 @@ main p {
     margin-bottom: 8px;
 }
 
+
 .era-title {
     color: var(--secondary-font-turquoise);
 }
@@ -232,6 +238,8 @@ main p {
 
 .pro-tips p a {
     text-decoration: none;
+    color: var(--secondary-font-turquoise)
+    
 }
 
 .pro-tips p a:hover {
@@ -296,7 +304,6 @@ main p {
     margin-bottom: 16px;
 }
 
-/* Basis: nur mobil sichtbar (vor den Media Queries stehen lassen) */
 .nav-responsive,
 .logo-responsive-nav {
     display: none;
