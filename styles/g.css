@@ -170,6 +170,19 @@ main p {
     color: var(--secondary-font-greywhite);
 }
 
+.genre-card .pick-description {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--overlay-color-overlayblack-two);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--secondary-font-greywhite);
+}
+
+.genre-picks .genre-examples {
+    color: var(--secondary-font-turquoise);
+}
+
 .genre-facts {
     position: relative;
     padding-top: 28px;
