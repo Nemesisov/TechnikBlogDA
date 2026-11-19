@@ -791,6 +791,24 @@ details:close {
         background-color: blueviolet;
         border-radius: 100%;
     }
+
+    .nav-responsive {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+
+        width: 90%;
+        height: 80px;
+
+
+        bottom: 5px;
+        /* background-color: var(--overlay-color-overlayblack-two); */
+        border-radius: 100px;
+        margin: 5%;
+        background-color: rgba(54, 55, 95, 0);
+        backdrop-filter: blur(10px);
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -1002,5 +1020,23 @@ details:close {
         width: 2px;
         background-color: blueviolet;
         border-radius: 100%;
+    }
+
+    .nav-responsive {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+
+        width: 90%;
+        height: 80px;
+
+
+        bottom: 5px;
+        /* background-color: var(--overlay-color-overlayblack-two); */
+        border-radius: 100px;
+        margin: 5%;
+        background-color: rgba(54, 55, 95, 0);
+        backdrop-filter: blur(10px);
     }
 }
