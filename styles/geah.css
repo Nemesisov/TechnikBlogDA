@@ -552,6 +552,7 @@ strong {
 
         bottom: 0px;
         background-color: var(--overlay-color-overlayblack-two);
+        z-index: 5;
     }
 
     .section-headline {
@@ -589,10 +590,6 @@ strong {
         gap: 0px;
     }
 
-    .slider-a {
-        display: none;
-    }
-
     .section-list {
         padding: 40px 20px;
         align-items: center;
@@ -606,54 +603,72 @@ strong {
         gap: 20px;
     }
 
-    .slider-b {
-        height: 300px;
-        width: calc(400px / 5);
+}
 
+@media screen and  (min-width:525px) and (max-width:768px){
+    .slider-a {
+        display: none;
+    }
+
+    .slider-b {
+        position: relative;
+
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
 
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: flex-end;
+        margin-bottom: 40px;
 
-        margin-bottom: 130px;
+        overflow: hidden;
     }
 
     .slider-b img {
-        width: 200px;
-        height: 300px;
+        width: 100%;
+        height: 70%;
+
+        margin: 0px 5px;
     }
 
     .slider-b input {
         z-index: 2;
         margin-left: 5px;
-        margin-top: 400px;
+        overflow: visible;
+        position: relative;
 
     }
 
     .slider-b-wrapper {
         z-index: 1;
 
-        width: 2000px;
+        width: 500%;
+        height: 100%;
 
 
         position: absolute;
         display: flex;
-        gap: 100px;
 
         transition: all 1s ease-in-out;
     }
 
 
     .slider-b-element {
-        z-index: 1;
-        width: 200px;
-        height: 300px;
-        background-color: rgba(224, 0, 37, 0.7);
+        width: calc(100% / 10);
+        height: 100%;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
         box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.02),
             0px 5px 4px rgba(3, 7, 18, 0.03),
             0px 12px 9px rgba(3, 7, 18, 0.05),
             0px 20px 15px rgba(3, 7, 18, 0.06),
             0px 32px 24px rgba(3, 7, 18, 0.08);
+
+        margin: 0px 10px;
 
         transition: all 250ms ease-in-out;
     }
@@ -663,18 +678,195 @@ strong {
     }
 
     .slider-b input[value="two"]:checked~.slider-b-wrapper {
-        transform: translateX(calc(150%/5));
+        transform: translateX(calc(170%/5));
     }
 
     .slider-b input[value="three"]:checked~.slider-b-wrapper {
-        transform: translateX(calc(75%/5));
+        transform: translateX(calc(115%/5));
     }
 
     .slider-b input[value="four"]:checked~.slider-b-wrapper {
-        transform: translateX(0);
+        transform: translateX(12.5%);
     }
 
     .slider-b input[value="five"]:checked~.slider-b-wrapper {
-        transform: translateX(calc(-75%/5));
+        transform: translateX(calc(8%/5));
+    }
+}
+
+@media screen and (min-width:340px) and (max-width:524px) {
+    .slider-a {
+        display: none;
+    }
+
+    .slider-b {
+        position: relative;
+
+        width: 300px;
+        height: 400px;
+        border-radius: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-bottom: 40px;
+
+        overflow: hidden;
+    }
+
+    .slider-b img {
+        width: 100%;
+        height: 70%;
+
+        margin: 0px 5px;
+    }
+
+    .slider-b input {
+        z-index: 2;
+        margin-left: 5px;
+        overflow: visible;
+        position: relative;
+
+    }
+
+    .slider-b-wrapper {
+        z-index: 1;
+
+        width: 500%;
+        height: 100%;
+
+
+        position: absolute;
+        display: flex;
+
+        transition: all 1s ease-in-out;
+    }
+
+
+    .slider-b-element {
+        width: calc(100% / 10);
+        height: 100%;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.02),
+            0px 5px 4px rgba(3, 7, 18, 0.03),
+            0px 12px 9px rgba(3, 7, 18, 0.05),
+            0px 20px 15px rgba(3, 7, 18, 0.06),
+            0px 32px 24px rgba(3, 7, 18, 0.08);
+
+        margin: 0px 10px;
+
+        transition: all 250ms ease-in-out;
+    }
+
+    .slider-b input[value="one"]:checked~.slider-b-wrapper {
+        transform: translateX(calc(222%/5));
+    }
+
+    .slider-b input[value="two"]:checked~.slider-b-wrapper {
+        transform: translateX(calc(165%/5));
+    }
+
+    .slider-b input[value="three"]:checked~.slider-b-wrapper {
+        transform: translateX(calc(110%/5));
+    }
+
+    .slider-b input[value="four"]:checked~.slider-b-wrapper {
+        transform: translateX(10.5%);
+    }
+
+    .slider-b input[value="five"]:checked~.slider-b-wrapper {
+        transform: translateX(-1%);
+    }
+}
+
+@media screen and (max-width:339px) {
+    .slider-a {
+        display: none;
+    }
+
+    .slider-b {
+        position: relative;
+
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        overflow: hidden;
+    }
+
+    .slider-b img {
+        width: 100%;
+        height: 80%;
+
+        margin: 0px 5px;
+    }
+
+    .slider-b input {
+        z-index: 2;
+        margin-left: 5px;
+        overflow: visible;
+        position: relative;
+
+    }
+
+    .slider-b-wrapper {
+        z-index: 1;
+
+        width: 500%;
+        height: 100%;
+
+
+        position: absolute;
+        display: flex;
+
+        transition: all 1s ease-in-out;
+    }
+
+
+    .slider-b-element {
+        width: calc(100% / 10);
+        height: 100%;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.02),
+            0px 5px 4px rgba(3, 7, 18, 0.03),
+            0px 12px 9px rgba(3, 7, 18, 0.05),
+            0px 20px 15px rgba(3, 7, 18, 0.06),
+            0px 32px 24px rgba(3, 7, 18, 0.08);
+
+        margin: 0px 10px;
+
+        transition: all 250ms ease-in-out;
+    }
+
+    .slider-b input[value="one"]:checked~.slider-b-wrapper {
+        transform: translateX(calc(225%/5));
+    }
+
+    .slider-b input[value="two"]:checked~.slider-b-wrapper {
+        transform: translateX(calc(170%/5));
+    }
+
+    .slider-b input[value="three"]:checked~.slider-b-wrapper {
+        transform: translateX(calc(115%/5));
+    }
+
+    .slider-b input[value="four"]:checked~.slider-b-wrapper {
+        transform: translateX(12.5%);
+    }
+
+    .slider-b input[value="five"]:checked~.slider-b-wrapper {
+        transform: translateX(calc(8%/5));
     }
 }
