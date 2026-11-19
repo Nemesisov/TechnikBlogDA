@@ -1,4 +1,15 @@
-html{
+html {
   background-color: var(--background-color-black);
 }
-    /* // Bitte weiter dran arbeiten */
+
+body {
+  height: 100%;
+  --grid-color: #ffffff10;
+  --grid-size: 50px;
+  background:
+    linear-gradient(to right, var(--grid-color) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-color) 1px, transparent 1px);
+  background-size: var(--grid-size) var(--grid-size);
+  background-position: center;
+  
+}

@@ -628,10 +628,12 @@ main>.section-share {
         height: 80px;
 
 
-        bottom: 12px;
-        background-color: var(--overlay-color-overlayblack-two);
+        bottom: 5px;
+        /* background-color: var(--overlay-color-overlayblack-two); */
         border-radius: 100px;
         margin: 5%;
+        background-color: rgba(54, 55, 95, 0);
+        backdrop-filter: blur(10px);
     }
 
     .fixed-rail {
