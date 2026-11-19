@@ -18,4 +18,7 @@
     --nintendocolor: #FF000A,rgb(224, 45, 45),#FF000A;
     --nvidiacolor: #72B300,rgba(44, 197, 52, 0.747),#72B300;
     --colorwave-picks: #fde68a, #f59e0b, #f97316;
+    --gta6-gradient-logo:   linear-gradient(135deg, var(--gta6-orange), var(--gta6-pink), var(--gta6-hot-pink));
+    --gta6-gradient-sunset: linear-gradient(180deg, var(--gta6-sun-yellow) 0%, var(--gta6-coral) 35%, var(--gta6-hot-pink) 65%, var(--gta6-purple) 100%);
+
 }
