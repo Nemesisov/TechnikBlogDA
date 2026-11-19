@@ -12,7 +12,7 @@ main {
     align-items: center;
     gap: 56px;
 
-    padding: 80px 20px 120px;
+    padding: 80px 40px 120px;
 
     font-weight: 500;
     color: var(--main-font-white, #fff);
@@ -32,10 +32,14 @@ main section {
 }
 
 main p {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.4;
 }
 
+main h2{
+    display: flex;
+    justify-content: center;
+}
 
 .section-headline {
     display: flex;
@@ -201,7 +205,7 @@ main p {
 .pro-tips>div {
     position: absolute;
     top: 0;
-    left: 40px;
+
 
 
     display: flex;
@@ -225,7 +229,7 @@ main p {
 }
 
 .pro-tips ol {
-    margin: 0 0 0 40px;
+
     padding: 40px 32px 28px 64px;
     border-radius: 20px;
     background-color: var(--overlay-color-overlayblack, rgba(255, 255, 255, 0.08));
