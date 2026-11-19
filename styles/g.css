@@ -116,6 +116,7 @@ main section {
     font-size: 40px;
     margin-bottom: 16px;
     padding-bottom: 24px;
+    text-align: center;
 }
 
 main p {
@@ -321,6 +322,38 @@ main p {
 .quiz-submit-button:has(input:checked) {
     border-color: var(--secondary-font-turquoise);
 }
+
+.quiz-percent {
+    display: none;
+}
+
+.genre-quiz:has(.quiz-submit-button input:checked)
+.quiz-percent {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.quiz-bar {
+    flex: 1;
+    height: 8px;
+    border-radius: 4px;
+    background-color: var(--overlay-color-overlayblack-two);
+}
+
+.quiz-bar span {
+    display: block;
+    height: 100%;
+    border-radius: 4px;
+    background-color: var(--secondary-font-turquoise);
+}
+
+.percent-20 { width: 20%;}
+.percent-25 { width: 25%;}
+.percent-30 { width: 30%;}
+.percent-35 { width: 35%;}
+.percent-45 { width: 45%;}
+.percent-50 { width: 50%;}
 
 .section-share {
     margin-top: 40px;
