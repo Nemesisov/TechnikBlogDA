@@ -5,7 +5,7 @@
     --secondary-font-greywhite: rgb(150, 150, 150);
     --secondary-font-alabaster: rgb(237, 234, 222);
     --overlay-color-overlayblack: #0D1424;
-    --overlay-color-overlayblack-two:#192135;
+    --overlay-color-overlayblack-two: #192135;
     --header-color-black-transparent: rgba(0, 0, 0, 0.2);
     --hyperlink-black-transparent: rgba(102, 102, 102, 0.25);
     --colorwave: rgb(34, 211, 238), rgb(139, 92, 246) 55%, rgb(236, 72, 153);
@@ -13,12 +13,17 @@
     --colorwave-gold: rgba(113, 91, 25, 1.0) 0%, rgba(248, 218, 141, 1.0) 33%, rgba(202, 150, 25, 1.0) 67%, rgba(251, 211, 132, 1.0) 100%;
     --colorwave-blossomair: linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 50%, hsla(211, 58%, 79%, 1) 100%);
     --playstationcolor: #094595, rgb(81, 128, 190) 50%, #094595;
-    --xboxcolor: #107C10, rgb(33, 206, 99) 50%,#107C10 ;
+    --xboxcolor: #107C10, rgb(33, 206, 99) 50%, #107C10;
     --amdcolor: #DE0030;
-    --nintendocolor: #FF000A,rgb(224, 45, 45),#FF000A;
-    --nvidiacolor: #72B300,rgba(44, 197, 52, 0.747),#72B300;
+    --nintendocolor: #FF000A, rgb(224, 45, 45), #FF000A;
+    --nvidiacolor: #72B300, rgba(44, 197, 52, 0.747), #72B300;
     --colorwave-picks: #fde68a, #f59e0b, #f97316;
-    --gta6-gradient-logo:   linear-gradient(135deg, var(--gta6-orange), var(--gta6-pink), var(--gta6-hot-pink));
-    --gta6-gradient-sunset: linear-gradient(180deg, var(--gta6-sun-yellow) 0%, var(--gta6-coral) 35%, var(--gta6-hot-pink) 65%, var(--gta6-purple) 100%);
-
+    --gta6-deep-violet: #3b146b;
+    --gta6-purple: #7b208f;
+    --gta6-magenta: #c9349b;
+    --gta6-coral-pink: #f36a78;
+    --gta6-coral: #f87572;
+    --gta6-orange: #ff9b55;
+    --gta6-warm-yellow: #ffb458;
+    --gta6-colorwave: linear-gradient(90deg, #3b146b, #7b208f, #c9349b, #f36a78, #f87572, #ff9b55, #ffb458, #ff9b55, #c9349b, #7b208f, #3b146b);
 }
