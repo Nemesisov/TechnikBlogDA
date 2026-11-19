@@ -3,12 +3,11 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 56px;
-    padding: 80px 40px 120px;
+    padding: 80px 50px 120px;
 }
 
 main section {
     width: 100%;
-    max-width: 1200px;
 }
 
 .section-image {
