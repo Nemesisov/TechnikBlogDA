@@ -1038,5 +1038,6 @@ details:close {
         margin: 5%;
         background-color: rgba(54, 55, 95, 0);
         backdrop-filter: blur(10px);
+        z-index: 5;
     }
 }
