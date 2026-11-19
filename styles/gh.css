@@ -180,6 +180,9 @@ main p {
     margin-bottom: 8px;
 }
 
+.era-title {
+    color: var(--secondary-font-turquoise);
+}
 
 .pro-tips {
     position: relative;
@@ -449,6 +452,7 @@ main p {
     width: 100%;
     height: 88px;
     background-color: var(--overlay-color-overlayblack-two);
+    backdrop-filter: blur(10px);
 }
 
 
@@ -565,6 +569,7 @@ main p {
 .section-share-button {
     font-size: 20px;
 }
+
 }
 
 
@@ -605,6 +610,7 @@ main p {
         width: 100%;
         height: 88px;
         background-color: var(--overlay-color-overlayblack-two);
+        backdrop-filter: blur(10px);
     }
 
     .section-footer {
