@@ -48,6 +48,7 @@ main h2 {
 .pixel-font-two{
     font-family: 'VT323';
     font-size: 78px;
+    color: var( --secondary-font-alabaster);
 }
 
 .section-headline {
@@ -370,6 +371,10 @@ main h2 {
     .headline-info h1 {
         font-size: 56px;
     }
+
+    .pixel-font-two{
+        font-size: 70px;
+    }
 }
 
 
@@ -434,6 +439,13 @@ main h2 {
     .text-section-two li,
     .pro-tips li p {
         font-size: 20px;
+    }
+    .pixel-font{
+        font-size: 22px;
+    }
+
+    .pixel-font-two{
+        font-size: 60px;
     }
 }
 
@@ -598,6 +610,14 @@ main h2 {
 
     .section-share-button {
         font-size: 20px;
+    }
+
+    .pixel-font{
+        font-size: 20px;
+    }
+
+    .pixel-font-two{
+        font-size: 48px;
     }
 
 }
@@ -816,5 +836,13 @@ main h2 {
     .section-share-button img {
         width: 24px;
         height: 24px;
+    }
+
+       .pixel-font {
+        font-size: 16px;
+    }
+
+    .pixel-font-two {
+        font-size: 36px;
     }
 }
