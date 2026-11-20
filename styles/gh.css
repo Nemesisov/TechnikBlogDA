@@ -326,14 +326,37 @@ main h2 {
     margin-bottom: 16px;
 }
 
+.text-section-one p{
+    font-size: 24px;
+}
+
+.text-section-three p{
+    font-size: 24px;
+}
+
 .nav-responsive,
 .logo-responsive-nav {
     display: none;
 }
 
-.video-header p {
-    font-size: 16px;
+.nintendo {
+    background-image: linear-gradient(90deg, var(--nintendocolor));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    
 }
+
+
+.xbox{
+    background-image: linear-gradient(90deg, var(--xboxcolor));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
 
 @media screen and (min-width: 1440px) {
 
