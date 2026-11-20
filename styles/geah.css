@@ -6,6 +6,10 @@ main {
     gap: 140px;
 }
 
+p {
+    line-height: 1.6;
+}
+
 .slider-b {
     display: none;
 }
@@ -752,6 +756,10 @@ strong {
         padding: 40px 40px;
     }
 
+    .section-share-arrow {
+        gap: 40px;
+    }
+
     main {
         gap: 0px;
     }
@@ -977,6 +985,10 @@ strong {
     .section-list>p,
     .slider-b-header h2 {
         font-size: 1.2rem;
+    }
+
+    .section-share-arrow-two img{
+        width: 62px;
     }
 
 }
