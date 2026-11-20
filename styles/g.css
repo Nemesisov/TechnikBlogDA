@@ -529,4 +529,53 @@ main p {
     .section-share-button {
         z-index: 0;
     }
+
+    .section-footer {
+        padding: 0px 50px;
+        align-items: end;
+        height: 130px;
+        padding-bottom: 15px;
+    }
+
+    .footer-text {
+        gap: 5px;
+        flex-direction: column;
+        text-align: left;
+        align-items: normal;
+    }
+
+    .footer-text-copyright {
+        order: 2;
+    }
+
+    .logo-responsive {
+        display: none;
+    }
+
+    .footer-text p {
+        font-size: 1rem;
+    }
+
+    .footer-text-svg {
+        gap: 0px;
+    }
+
+    .footer-link {
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .section-footer {
+        padding: 0px 10px;
+        padding-bottom: 15px;
+    }
+    
+    .footer-link {
+        gap: 5px;
+    }
+
+    .text-responsive {
+        display: none;
+    }
 }
