@@ -1040,6 +1040,7 @@ strong {
     .slider-b input:checked {
         width: 24px;
         background-color: #f0c85a;
+        transition: all 250ms ease-in-out;
     }
 
     .slider-b-wrapper {
@@ -1200,6 +1201,7 @@ strong {
     .slider-b input:checked {
         width: 24px;
         background-color: #f0c85a;
+        transition: all 250ms ease-in-out;
     }
 
     .slider-b-wrapper {
@@ -1360,6 +1362,7 @@ strong {
     .slider-b input:checked {
         width: 24px;
         background-color: #f0c85a;
+        transition: all 250ms ease-in-out;
     }
 
     .slider-b-wrapper {
@@ -1520,6 +1523,7 @@ strong {
     .slider-b input:checked {
         width: 24px;
         background-color: #f0c85a;
+        transition: all 250ms ease-in-out;
     }
 
     .slider-b-wrapper {
