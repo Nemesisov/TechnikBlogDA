@@ -45,6 +45,11 @@ main h2 {
     justify-content: center;
 }
 
+.pixel-font-two{
+    font-family: 'VT323';
+    font-size: 78px;
+}
+
 .section-headline {
     display: flex;
     align-items: flex-start;
@@ -117,6 +122,12 @@ main h2 {
 .headline-info-quickinfo-share img {
     height: 18px;
     width: 16px;
+}
+
+.pixel-font {
+    font-family: 'VT323', monospace;
+    color: var(--secondary-font-turquoise);
+    font-size: 22px;
 }
 
 
@@ -582,7 +593,7 @@ main h2 {
     }
 
     .section-share-arrow {
-        gap: 32px;
+        gap: 40px;
     }
 
     .section-share-button {
@@ -786,6 +797,10 @@ main h2 {
 
     .section-share p {
         font-size: 14px;
+    }
+
+    .section-share-arrow {
+        gap: 0;
     }
 
     .section-share-arrow-two img {
