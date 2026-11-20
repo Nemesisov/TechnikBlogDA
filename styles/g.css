@@ -423,6 +423,10 @@ main p {
     color: #fde68a;
 }
 
+.nav-responsive {
+    display: none;
+}
+
 @media screen and (min-width: 1440px) {
     .landing-nav {
         padding: 0px max(160px, calc(50% - 720px));
@@ -465,5 +469,33 @@ main p {
     }
     .genre-grid, .quiz-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fixed-rail {
+        height: 130px;
+        background-color: var(--overlay-color-overlayblack-two);
+    }  
+    
+    .nav-responsive {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        width: 90%;
+        height: 80px;
+        bottom: 5px;
+        border-radius: 100px;
+        margin: 5%;
+        background-color: rgba(54, 55, 95, 0);
+        backdrop-filter: blur(10px);
+    }
+
+    .nav-responsive-decoration {
+        height: 60%;
+        width: 2px;
+        background-color: blueviolet;
+        border-radius: 100%;
     }
 }
