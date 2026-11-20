@@ -36,7 +36,11 @@ main p {
     line-height: 1.4;
 }
 
-main h2{
+.headline-info h2 {
+    justify-content: left;
+}
+
+main h2 {
     display: flex;
     justify-content: center;
 }
@@ -315,6 +319,9 @@ main h2{
     display: none;
 }
 
+.video-header p {
+    font-size: 16px;
+}
 
 @media screen and (min-width: 1440px) {
 
@@ -781,8 +788,8 @@ main h2{
         font-size: 14px;
     }
 
-    .section-share-arrow {
-        gap: 20px;
+    .section-share-arrow-two img {
+        width: 62px;
     }
 
     .section-share-button {
