@@ -45,10 +45,10 @@ main h2 {
     justify-content: center;
 }
 
-.pixel-font-two{
+.pixel-font-two {
     font-family: 'VT323';
     font-size: 78px;
-    color: var( --secondary-font-alabaster);
+    color: var(--secondary-font-alabaster);
 }
 
 .section-headline {
@@ -326,11 +326,11 @@ main h2 {
     margin-bottom: 16px;
 }
 
-.text-section-one p{
+.text-section-one p {
     font-size: 24px;
 }
 
-.text-section-three p{
+.text-section-three p {
     font-size: 24px;
 }
 
@@ -345,11 +345,11 @@ main h2 {
     background-clip: text;
     color: transparent;
 
-    
+
 }
 
 
-.xbox{
+.xbox {
     background-image: linear-gradient(90deg, var(--xboxcolor));
     -webkit-background-clip: text;
     background-clip: text;
@@ -395,7 +395,7 @@ main h2 {
         font-size: 56px;
     }
 
-    .pixel-font-two{
+    .pixel-font-two {
         font-size: 70px;
     }
 }
@@ -463,11 +463,12 @@ main h2 {
     .pro-tips li p {
         font-size: 20px;
     }
-    .pixel-font{
+
+    .pixel-font {
         font-size: 22px;
     }
 
-    .pixel-font-two{
+    .pixel-font-two {
         font-size: 60px;
     }
 }
@@ -518,6 +519,7 @@ main h2 {
         margin: 5%;
         background-color: rgba(54, 55, 95, 0);
         backdrop-filter: blur(10px);
+        -webkit-tap-highlight-color: transparent;
     }
 
 
@@ -635,11 +637,11 @@ main h2 {
         font-size: 20px;
     }
 
-    .pixel-font{
+    .pixel-font {
         font-size: 20px;
     }
 
-    .pixel-font-two{
+    .pixel-font-two {
         font-size: 48px;
     }
 
@@ -690,6 +692,7 @@ main h2 {
         margin: 5%;
         background-color: rgba(54, 55, 95, 0);
         backdrop-filter: blur(10px);
+        -webkit-tap-highlight-color: transparent;
     }
 
     .section-footer {
@@ -861,7 +864,7 @@ main h2 {
         height: 24px;
     }
 
-       .pixel-font {
+    .pixel-font {
         font-size: 16px;
     }
 

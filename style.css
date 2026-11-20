@@ -711,6 +711,7 @@ details:close {
         margin: 5%;
         background-color: rgba(54, 55, 95, 0);
         backdrop-filter: blur(10px);
+        -webkit-tap-highlight-color: transparent;
     }
 }
 
@@ -867,6 +868,7 @@ details:close {
         margin: 5%;
         background-color: rgba(54, 55, 95, 0);
         backdrop-filter: blur(10px);
+        -webkit-tap-highlight-color: transparent;
     }
 }
 
@@ -1082,5 +1084,7 @@ details:close {
         background-color: rgba(54, 55, 95, 0);
         backdrop-filter: blur(10px);
         z-index: 5;
+        -webkit-tap-highlight-color: transparent;
     }
+
 }
