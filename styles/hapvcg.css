@@ -633,6 +633,7 @@ main>.section-share {
         border-radius: 100px;
         margin: 5%;
         backdrop-filter: blur(10px);
+                -webkit-tap-highlight-color: transparent;
     }
 
     .fixed-rail {
@@ -828,5 +829,6 @@ main>.section-share {
         border-radius: 100px;
         margin: 5%;
         backdrop-filter: blur(10px);
+        -webkit-tap-highlight-color: transparent;
     }
 }
