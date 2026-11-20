@@ -263,8 +263,19 @@ main p {
 }
 
 .quiz-question input {
-    margin-right: 8px;
-    accent-color: var(--secondary-font-turquoise);
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    margin: 0 8px 0 0;
+    border: 2px solid rgb(6, 111, 182);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.quiz-question input:checked {
+    background-color: var(--secondary-font-turquoise);
+    transition: all 250ms ease-in-out;
 }
 
 .quiz-result {
