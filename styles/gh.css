@@ -475,6 +475,30 @@ main h2 {
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
+    main h2,
+    .headline-info h2,
+    .video-header h2,
+    .text-section-one h2,
+    .text-section-two h2,
+    .text-section-three h2 {
+        font-size: 1.2rem;
+    }
+
+    main p,
+    .headline-info > p,
+    .quickinfo p,
+    .headline-author p,
+    .video-header p,
+    .text-section-one p,
+    .text-section-two p,
+    .text-section-three p,
+    .pro-tips > div p,
+    .pro-tips li p,
+    .section-share p,
+    .footer-text p {
+        font-size: 1.1rem;
+    }
+
     .landing-nav {
         padding: 50px 60px;
         gap: 0px;
@@ -647,6 +671,30 @@ main h2 {
 
 
 @media screen and (max-width: 480px) {
+
+    main h2,
+    .headline-info h2,
+    .video-header h2,
+    .text-section-one h2,
+    .text-section-two h2,
+    .text-section-three h2 {
+        font-size: 1.2rem;
+    }
+
+    main p,
+    .headline-info > p,
+    .quickinfo p,
+    .headline-author p,
+    .video-header p,
+    .text-section-one p,
+    .text-section-two p,
+    .text-section-three p,
+    .pro-tips > div p,
+    .pro-tips li p,
+    .section-share p,
+    .footer-text p {
+        font-size: 1.1rem;
+    }
 
     .landing-nav {
         padding: 50px 60px;
@@ -868,4 +916,5 @@ main h2 {
     .pixel-font-two {
         font-size: 36px;
     }
+
 }
