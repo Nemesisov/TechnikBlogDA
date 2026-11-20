@@ -537,7 +537,18 @@ main p {
         z-index: 0;
     }
 
+    .section-share p {
+        font-size: 20px;
+    }
+
+    .section-share-arrow {
+        gap: 32px;
+    }
+
     .section-share-button {
+        height: 44px;
+        padding: 0 20px;
+        font-size: 20px;
         z-index: 0;
     }
 
@@ -588,5 +599,26 @@ main p {
 
     .text-responsive {
         display: none;
+    }
+
+    .section-share {
+        margin-top: 20px;
+    }
+
+    .section-share p {
+        font-size: 18px;
+    }
+
+    .section-share-arrow {
+        gap: 16px;
+    }
+
+    .section-share-arrow-two img {
+        width: 62px;
+    }
+
+    .section-share-button img {
+        width: 24px;
+        height: 24px;
     }
 }
