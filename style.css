@@ -1046,7 +1046,7 @@ details:close {
     }
 
     .contact-section p,
-    .section-slider-text p {
+    .section-slider-text p , .section-faq p {
         font-size: 1rem;
     }
 
