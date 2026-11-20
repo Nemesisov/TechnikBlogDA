@@ -508,7 +508,7 @@ main p {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .fixed-rail {
         height: 130px;
         background-color: var(--overlay-color-overlayblack-two);
