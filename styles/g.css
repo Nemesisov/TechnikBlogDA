@@ -520,4 +520,13 @@ main p {
         align-items: center;
         width: 100%;
     }
+
+    .genre-facts > div {
+        left: 20px;
+        z-index: 0;
+    }
+
+    .section-share-button {
+        z-index: 0;
+    }
 }
