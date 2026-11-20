@@ -209,8 +209,7 @@ main p {
 }
 
 .genre-facts ol {
-    margin: 0 40px;
-    padding: 48px 32px 32px 64px;
+    padding: 48px 32px 32px 56px;
     border-radius: 20px;
     background-color: var(--overlay-color-overlayblack);
 }
@@ -325,6 +324,9 @@ main p {
 
 .quiz-percent {
     display: none;
+    margin-top: 12px;
+    font-size: 16px;
+    color: var(--secondary-font-greywhite);
 }
 
 .genre-quiz:has(.quiz-submit-button input:checked)
@@ -421,6 +423,11 @@ main p {
     color: #fde68a;
 }
 
+.nav-responsive,
+.logo-responsive-nav {
+    display: none;
+}
+
 @media screen and (min-width: 1440px) {
     .landing-nav {
         padding: 0px max(160px, calc(50% - 720px));
@@ -463,5 +470,63 @@ main p {
     }
     .genre-grid, .quiz-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fixed-rail {
+        height: 130px;
+        background-color: var(--overlay-color-overlayblack-two);
+    }  
+    
+    .nav-responsive {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        width: 90%;
+        height: 80px;
+        bottom: 5px;
+        border-radius: 100px;
+        margin: 5%;
+        background-color: rgba(54, 55, 95, 0);
+        backdrop-filter: blur(10px);
+    }
+
+    .nav-responsive-decoration {
+        height: 60%;
+        width: 2px;
+        background-color: blueviolet;
+        border-radius: 100%;
+    }
+
+    .navigation a,
+    .nav_icon > a {
+        display: none;
+    }
+
+    .logo-responsive-nav {
+        display: block;
+    }
+
+    .landing-nav {
+        padding: 50px 60px;
+        gap: 0px;
+        width: 100%;
+    }
+
+    .nav_icon {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .genre-facts > div {
+        left: 20px;
+        z-index: 0;
+    }
+
+    .section-share-button {
+        z-index: 0;
     }
 }
