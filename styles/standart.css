@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    cursor: crosshair;
 }
 
 h1{font-size: 60px;}

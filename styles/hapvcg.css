@@ -632,7 +632,6 @@ main>.section-share {
         /* background-color: var(--overlay-color-overlayblack-two); */
         border-radius: 100px;
         margin: 5%;
-        background-color: rgba(54, 55, 95, 0);
         backdrop-filter: blur(10px);
     }
 
@@ -787,7 +786,7 @@ main>.section-share {
     }
 
     .section-share-arrow-two img {
-        width: 72px;
+        width: 62px;
     }
 
     .section-share-button {
@@ -828,7 +827,6 @@ main>.section-share {
         /* background-color: var(--overlay-color-overlayblack-two); */
         border-radius: 100px;
         margin: 5%;
-        background-color: rgba(54, 55, 95, 0);
         backdrop-filter: blur(10px);
     }
 }
