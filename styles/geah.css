@@ -1023,6 +1023,12 @@ strong {
         font-size: 1.1rem;
     }
 
+    .section-list>p,
+    .slider-b-header h2,
+    .headline-author-text h3 {
+        font-size: 1.2rem;
+    }
+
     .section-headline h1 {
         font-size: 2rem;
     }
@@ -1085,12 +1091,6 @@ strong {
 
     .slider-b-header {
         display: block;
-    }
-
-    .section-list>p,
-    .slider-b-header h2,
-    .headline-author-text h3 {
-        font-size: 1.2rem;
     }
 
     .section-share-arrow-two img {
