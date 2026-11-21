@@ -733,10 +733,6 @@ strong {
         gap: 15px;
     }
 
-    .slider-b-header h2 {
-        font-size: 2.5rem;
-    }
-
     .section-tips {
         padding: 40px 40px;
     }
@@ -785,12 +781,12 @@ strong {
         width: 100%;
     }
 
-    .slider-b-header h2 {
+    .slider-b-header h2 ,.section-list>p , .headline-info-maintext h2{
         font-size: 2rem;
     }
 
-    .section-list>p {
-        font-size: 2rem;
+    .headline-info-maintext h1 {
+        font-size: 2.5rem;
     }
 
     .slider-b-header {
