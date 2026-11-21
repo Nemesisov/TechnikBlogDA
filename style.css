@@ -129,13 +129,10 @@
 
     gap: 50px;
     width: 100%;
-    font-size: 48px;
     padding: 0px 120px;
 }
 
 .section-faq details {
-    font-size: 24px;
-
     width: 100%;
     border-radius: 10px;
     border: 1px solid var(--overlay-color-overlayblack);
@@ -212,7 +209,6 @@ details:close {
 }
 
 .section-faq-questions p {
-    font-size: 24px;
     padding: 4px 10px;
 }
 
@@ -220,14 +216,6 @@ details:close {
 
     text-align: center;
     padding: 0px 120px;
-}
-
-.contact-section h2 {
-    font-size: 48px;
-}
-
-.contact-section p {
-    font-size: 24px;
 }
 
 .contact-intro {
@@ -556,6 +544,28 @@ details:close {
     animation-play-state: paused;
 }
 
+.main-section-header-text p {
+    font-size: 2rem;
+}
+
+.contact-section p,
+.section-slider-text p,
+.section-faq p,
+.field label,
+.section-footer p {
+    font-size: 1.5rem;
+}
+
+.contact-section h2,
+.section-faq h2,
+.section-slider-text h2 {
+    font-size: 2.3rem;
+}
+
+.main-section-header-text h1 {
+    font-size: 4rem;
+}
+
 
 @media screen and (min-width: 1440px) {
     .landing-nav {
@@ -563,20 +573,20 @@ details:close {
     }
 
     .section-header {
-        padding: 90px max(160px, calc(50% - 720px));
+        padding: 70px max(160px, calc(50% - 720px));
     }
 
     .main-content {
-        padding: 90px max(160px, calc(50% - 720px));
+        padding: 70px max(160px, calc(50% - 720px));
 
     }
 
     .contact-section {
-        padding: 90px max(160px, calc(50% - 720px));
+        padding: 70px max(160px, calc(50% - 720px));
     }
 
     .section-faq {
-        padding: 90px max(160px, calc(50% - 720px));
+        padding: 70px max(160px, calc(50% - 720px));
     }
 
     .section-footer {
@@ -628,6 +638,26 @@ details:close {
     .main-section-vector-header::before {
         left: 500px;
     }
+
+    .contact-section p,
+    .section-slider-text p,
+    .section-faq p,
+    .field label,
+    .section-footer p,
+    .main-section-header-text p,
+    .navigation a {
+        font-size: 1.5rem;
+    }
+
+    .contact-section h2,
+    .section-faq h2,
+    .section-slider-text h2 {
+        font-size: 2.3rem;
+    }
+
+    .main-section-header-text h1 {
+        font-size: 2.8rem;
+    }
 }
 
 @media screen and (min-width:769px) and (max-width:900px) {
@@ -641,10 +671,6 @@ details:close {
 
         height: 130px;
         padding-bottom: 15px;
-    }
-
-    .footer-text p {
-        font-size: 1rem;
     }
 
     .footer-text {
@@ -744,6 +770,25 @@ details:close {
         backdrop-filter: blur(10px);
         -webkit-tap-highlight-color: transparent;
     }
+
+    .contact-section p,
+    .section-slider-text p,
+    .section-faq p,
+    .field label,
+    .section-footer p,
+    .main-section-header-text p {
+        font-size: 1.4rem;
+    }
+
+    .contact-section h2,
+    .section-faq h2,
+    .section-slider-text h2 {
+        font-size: 2.2rem;
+    }
+
+    .main-section-header-text h1 {
+        font-size: 2.7rem;
+    }
 }
 
 @media screen and (min-width:481px) and (max-width:768px) {
@@ -774,7 +819,7 @@ details:close {
     }
 
     .section-footer {
-        padding: 0px 50px;
+        padding: 0px 40px;
         align-items: end;
 
         height: 130px;
@@ -797,11 +842,19 @@ details:close {
     }
 
     .contact-section {
-        padding: 80px 0px;
+        padding: 40px 0px;
+    }
+
+    .contact-form {
+        padding: 0px 40px;
     }
 
     .section-slider {
-        padding: 80px 40px;
+        padding: 40px 40px;
+    }
+
+    .section-faq {
+        padding: 40px 40px;
     }
 
     .section-faq-questions {
@@ -839,10 +892,6 @@ details:close {
     .nav-responsive {
         display: flex;
         justify-content: space-evenly;
-    }
-
-    .footer-text p {
-        font-size: 1rem;
     }
 
     .footer-text {
@@ -904,6 +953,24 @@ details:close {
         backdrop-filter: blur(10px);
         -webkit-tap-highlight-color: transparent;
     }
+
+    .contact-section p,
+    .section-slider-text p,
+    .section-faq p,
+    .field label,
+    .section-footer p {
+        font-size: 1.2rem;
+    }
+
+    .contact-section h2,
+    .section-faq h2,
+    .section-slider-text h2 {
+        font-size: 2rem;
+    }
+
+    .text-responsive {
+        display: none;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -956,11 +1023,11 @@ details:close {
     }
 
     .contact-section {
-        padding: 80px 10px;
+        padding: 40px 10px;
     }
 
     .section-slider {
-        padding: 80px 20px;
+        padding: 40px 20px;
     }
 
     .section-faq-questions {
@@ -969,6 +1036,7 @@ details:close {
 
     .section-faq {
         padding: 0px 20px;
+        gap: 20px;
     }
 
     .section-footer {
@@ -1034,19 +1102,10 @@ details:close {
         .input-responsive {
             margin-right: 9px;
         }
-
-        .privacy p {
-            font-size: 1rem;
-        }
     }
 
     .logo-responsive {
         display: none;
-    }
-
-
-    .footer-text p {
-        font-size: 1rem;
     }
 
     .footer-text {
@@ -1081,14 +1140,19 @@ details:close {
 
     .contact-section p,
     .section-slider-text p,
-    .section-faq p {
-        font-size: 1.2rem;
+    .section-faq p,
+    .field label {
+        font-size: 1.1rem;
+    }
+
+    .section-footer p {
+        font-size: 1rem;
     }
 
     .contact-section h2,
     .section-faq h2,
     .section-slider-text h2 {
-        font-size: 2.5rem;
+        font-size: 1.2rem;
     }
 
     .logo-responsive-nav {
