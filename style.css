@@ -299,8 +299,31 @@ details:close {
     }
 
     input[type=submit]:hover {
-        background-color: white;
-        color: black;
+        color: rgb(126, 30, 30);
+    }
+
+    input[type=submit]:not(:disabled):hover {
+        background-color: var(--background-color-black);
+    }
+
+    .contact-form:invalid input[type=submit] {
+        opacity: 0.4;
+        pointer-events: none;
+    }
+
+    input:user-invalid,
+    textarea:user-invalid {
+        border-bottom: 2px solid #ff6b6b;
+    }
+
+    .error {
+        display: none;
+        color: #ff6b6b;
+        font-size: 0.8rem;
+    }
+
+    input:user-invalid+.error {
+        display: block;
     }
 
     padding: 0px 120px;
@@ -601,7 +624,8 @@ details:close {
     .section-faq {
         padding: 0px 60px;
     }
-    .main-section-vector-header::before{
+
+    .main-section-vector-header::before {
         left: 500px;
     }
 }

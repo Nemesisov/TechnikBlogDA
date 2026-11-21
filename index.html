@@ -157,40 +157,44 @@
 
             <div class="section-faq-questions">
                 <details>
-                    <summary><p>What is TechnikBlog_DA?</p>
-                        <img class="faq-arrowdown" src="./assets/svg/arrow_down.svg"
-                            alt="arrowdown">
+                    <summary>
+                        <p>What is TechnikBlog_DA?</p>
+                        <img class="faq-arrowdown" src="./assets/svg/arrow_down.svg" alt="arrowdown">
                         <img class="faq-arrowup" src="./assets/svg/arrow_up.svg" alt="arrowup">
                     </summary>
-                    <p class="section-faq-answer">TechnikBlog_DA is a project by Vanessa,Luca, Salih and Daniel. <br> We write about gaming, PC
+                    <p class="section-faq-answer">TechnikBlog_DA is a project by Vanessa,Luca, Salih and Daniel. <br> We
+                        write about gaming, PC
                         hardware, the history of video games <br>and the business behind the games industry.</p>
                 </details>
                 <details>
-                    <summary><p>Can I suggest a topic?</p>
-                        <img class="faq-arrowdown" src="./assets/svg/arrow_down.svg"
-                            alt="arrowdown">
+                    <summary>
+                        <p>Can I suggest a topic?</p>
+                        <img class="faq-arrowdown" src="./assets/svg/arrow_down.svg" alt="arrowdown">
                         <img class="faq-arrowup" src="./assets/svg/arrow_up.svg" alt="arrowup">
                     </summary>
-                    <p class="section-faq-answer">Absolutely! <br>Just use the contact form below and tell us what you’d like to read about. <br>
+                    <p class="section-faq-answer">Absolutely! <br>Just use the contact form below and tell us what you’d
+                        like to read about. <br>
                         We’re
                         always looking for new ideas.</p>
                 </details>
                 <details>
-                    <summary><p>Are your articles sponsored?</p>
-                        <img class="faq-arrowdown" src="./assets/svg/arrow_down.svg"
-                            alt="arrowdown">
+                    <summary>
+                        <p>Are your articles sponsored?</p>
+                        <img class="faq-arrowdown" src="./assets/svg/arrow_down.svg" alt="arrowdown">
                         <img class="faq-arrowup" src="./assets/svg/arrow_up.svg" alt="arrowup">
                     </summary>
-                    <p class="section-faq-answer">No. <br>TechnikBlog_DA is an independent project. <br>All opinions and recommendations are our
+                    <p class="section-faq-answer">No. <br>TechnikBlog_DA is an independent project. <br>All opinions and
+                        recommendations are our
                         own.</p>
                 </details>
                 <details>
-                    <summary><p>How often do you publish new articles?</p>
-                        <img class="faq-arrowdown"
-                            src="./assets/svg/arrow_down.svg" alt="arrowdown">
+                    <summary>
+                        <p>How often do you publish new articles?</p>
+                        <img class="faq-arrowdown" src="./assets/svg/arrow_down.svg" alt="arrowdown">
                         <img class="faq-arrowup" src="./assets/svg/arrow_up.svg" alt="arrowup">
                     </summary>
-                    <p class="section-faq-answer">We add new articles regularly. <br>Check the “New on Blog” section to see what’s new.</p>
+                    <p class="section-faq-answer">We add new articles regularly. <br>Check the “New on Blog” section to
+                        see what’s new.</p>
                 </details>
             </div>
         </section>
@@ -206,19 +210,20 @@
             <form class="contact-form" action="/action_page.php">
                 <div class="form-row">
                     <div class="field">
-                        <label for="fname">What´s your first and last Name </label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="name">What´s your first and last Name </label>
+                        <input type="text" id="name" name="name" placeholder="Your name.." required>
                     </div>
 
                     <div class="field">
-                        <label for="email-adress">What´s your email-adress</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your email-adress..">
+                        <label for="email">What's your email address?</label>
+                        <input type="email" id="email" name="email" placeholder="Your email address.." required
+                            pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
                     </div>
                 </div>
 
                 <div class="field">
-                    <label for="subject">How can I help?</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                    <label for="message">How can I help?</label>
+                    <textarea id="message" name="message" placeholder="Write something.." required></textarea>
                 </div>
 
                 <label class="privacy">
