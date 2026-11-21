@@ -178,6 +178,7 @@ strong {
     display: flex;
     flex-direction: row;
     gap: 12px;
+    width: 90%;
 }
 
 .slider-a-element {
