@@ -210,7 +210,7 @@
             <form class="contact-form" action="/action_page.php">
                 <div class="form-row">
                     <div class="field">
-                        <label for="name">What´s your first and last Name </label>
+                        <label for="name">What's your first and last name?</label>
                         <input type="text" id="name" name="name" placeholder="Your name.." required>
                     </div>
 
@@ -218,6 +218,7 @@
                         <label for="email">What's your email address?</label>
                         <input type="email" id="email" name="email" placeholder="Your email address.." required
                             pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+                        <small class="error">Please enter a valid email address.</small>
                     </div>
                 </div>
 
@@ -227,11 +228,11 @@
                 </div>
 
                 <label class="privacy">
-                    <input class="input-responsive" type="checkbox" required>
-                    <p>
+                    <input class="input-responsive" type="checkbox" id="privacy" name="privacy" required>
+                    <span>
                         I've read the <a href="./assets/datenschutzerklärung/Datenschutzerklärung.pdf"
                             target="_blank">privacy policy</a> and agree to the processing of my data.
-                    </p>
+                    </span>
                 </label>
 
                 <input type="submit" value="Send">

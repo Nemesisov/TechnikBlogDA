@@ -286,17 +286,20 @@ details:close {
         cursor: pointer;
     }
 
-    input[type=submit]:hover {
-        color: black;
+    &:valid input[type=submit]:hover {
         background-color: white;
+        color: black;
     }
 
-    input[type=submit]:not(:disabled):hover {
-        background-color: var(--background-color-black);
+    &:invalid input[type=submit] {
+        opacity: 0.4;
+        cursor: default;
+        pointer-events: none;
     }
 
     .contact-form:invalid input[type=submit] {
         opacity: 0.4;
+        cursor: default;
         pointer-events: none;
     }
 
