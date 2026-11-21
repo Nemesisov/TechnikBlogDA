@@ -392,7 +392,7 @@ main h2 {
     }
 
     .headline-info h1 {
-        font-size: 56px;
+        font-size: 2.9rem;
     }
 
     .pixel-font-two {
@@ -402,13 +402,38 @@ main h2 {
 
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
+
+    .headline-info h1 {
+        font-size: 2.7rem;
+    }
+
+    main h2,
+    .headline-info h2,
+    .video-header h2,
+    .text-section-one h2,
+    .text-section-two h2,
+    .text-section-three h2 {
+        font-size: 2.2rem;
+    }
+
+    main p,
+    .headline-info>p,
+    .quickinfo p,
+    .headline-author p,
+    .video-header p,
+    .text-section-one p,
+    .text-section-two p,
+    .text-section-three p,
+    .pro-tips>div p,
+    .pro-tips li p,
+    .section-share p,
+    .footer-text p {
+        font-size: 1.4rem;
+    }
+
     main {
         gap: 48px;
         padding: 64px 40px 100px;
-    }
-
-    main p {
-        font-size: 20px;
     }
 
     .landing-nav {
@@ -422,18 +447,6 @@ main h2 {
 
     .footer-text {
         justify-content: space-between;
-    }
-
-    .headline-info h2 {
-        font-size: 32px;
-    }
-
-    .headline-info h1 {
-        font-size: 48px;
-    }
-
-    .headline-info>p {
-        font-size: 22px;
     }
 
     .headline-author {
@@ -452,15 +465,7 @@ main h2 {
         border-radius: 30px;
     }
 
-    .video-header h2,
-    .text-section-one h2,
-    .text-section-two h2,
-    .text-section-three h2 {
-        font-size: 30px;
-    }
-
-    .text-section-two li,
-    .pro-tips li p {
+    .text-section-two li {
         font-size: 20px;
     }
 
@@ -476,28 +481,32 @@ main h2 {
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
+    .headline-info h1 {
+        font-size: 2.5rem;
+    }
+
     main h2,
     .headline-info h2,
     .video-header h2,
     .text-section-one h2,
     .text-section-two h2,
     .text-section-three h2 {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
 
     main p,
-    .headline-info > p,
+    .headline-info>p,
     .quickinfo p,
     .headline-author p,
     .video-header p,
     .text-section-one p,
     .text-section-two p,
     .text-section-three p,
-    .pro-tips > div p,
+    .pro-tips>div p,
     .pro-tips li p,
     .section-share p,
     .footer-text p {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .landing-nav {
@@ -561,10 +570,6 @@ main h2 {
         align-items: normal;
     }
 
-    .footer-text p {
-        font-size: 1rem;
-    }
-
     .footer-text-copyright {
         order: 2;
     }
@@ -582,10 +587,6 @@ main h2 {
         padding: 48px 24px 80px;
     }
 
-    main p {
-        font-size: 18px;
-    }
-
     .section-headline {
         flex-direction: column;
         gap: 32px;
@@ -593,18 +594,6 @@ main h2 {
 
     .headline-info {
         padding-right: 0;
-    }
-
-    .headline-info h2 {
-        font-size: 24px;
-    }
-
-    .headline-info h1 {
-        font-size: 40px;
-    }
-
-    .headline-info>p {
-        font-size: 20px;
     }
 
     .headline-info-quickinfo.quickinfo {
@@ -628,15 +617,7 @@ main h2 {
         border-radius: 24px;
     }
 
-    .video-header h2,
-    .text-section-one h2,
-    .text-section-two h2,
-    .text-section-three h2 {
-        font-size: 26px;
-    }
-
-    .text-section-two li,
-    .pro-tips li p {
+    .text-section-two li {
         font-size: 18px;
     }
 
@@ -647,10 +628,6 @@ main h2 {
     .pro-tips ol {
         margin-left: 24px;
         padding: 40px 24px 24px 48px;
-    }
-
-    .section-share p {
-        font-size: 18px;
     }
 
     .section-share-arrow {
@@ -684,17 +661,18 @@ main h2 {
     }
 
     main p,
-    .headline-info > p,
+    .headline-info>p,
     .quickinfo p,
     .headline-author p,
     .video-header p,
     .text-section-one p,
     .text-section-two p,
     .text-section-three p,
-    .pro-tips > div p,
+    .pro-tips>div p,
     .pro-tips li p,
     .section-share p,
     .footer-text p {
+
         font-size: 1.1rem;
     }
 
@@ -756,9 +734,6 @@ main h2 {
         align-items: normal;
     }
 
-    .footer-text p {
-        font-size: 1rem;
-    }
 
     .footer-text-copyright {
         order: 2;
@@ -781,10 +756,6 @@ main h2 {
         padding: 32px 20px 64px;
     }
 
-    main p {
-        font-size: 16px;
-    }
-
     .section-headline {
         flex-direction: column;
         gap: 24px;
@@ -795,26 +766,16 @@ main h2 {
         padding-right: 0;
     }
 
-    .headline-info h2 {
-        font-size: 18px;
-    }
 
     .headline-info h1 {
         font-size: 28px;
         line-height: 1.2;
     }
 
-    .headline-info>p {
-        font-size: 16px;
-    }
 
     .headline-info-quickinfo.quickinfo {
         gap: 12px 20px;
         margin-top: 16px;
-    }
-
-    .quickinfo p {
-        font-size: 12px;
     }
 
     .headline-author {
@@ -834,24 +795,12 @@ main h2 {
         font-size: 14px;
     }
 
-    .headline-author p {
-        font-size: 12px;
-    }
 
-    .video-header p {
-        font-size: 14px;
-    }
 
     .video video {
         border-radius: 16px;
     }
 
-    .video-header h2,
-    .text-section-one h2,
-    .text-section-two h2,
-    .text-section-three h2 {
-        font-size: 20px;
-    }
 
     .text-section-two ul {
         padding-left: 24px;
@@ -866,9 +815,6 @@ main h2 {
         padding: 6px 12px;
     }
 
-    .pro-tips>div p {
-        font-size: 16px;
-    }
 
     .pro-tips>div img {
         width: 20px;
@@ -881,16 +827,8 @@ main h2 {
         border-radius: 16px;
     }
 
-    .pro-tips li p {
-        font-size: 14px;
-    }
-
     .section-share {
         margin-top: 24px;
-    }
-
-    .section-share p {
-        font-size: 14px;
     }
 
     .section-share-arrow {

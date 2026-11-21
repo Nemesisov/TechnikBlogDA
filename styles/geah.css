@@ -88,10 +88,6 @@ strong {
     gap: 6px;
 }
 
-.quickinfo p {
-    font-size: 16px;
-}
-
 .headline-info-quickinfo-date img {
     height: 16px;
     width: 18px;
@@ -115,8 +111,6 @@ strong {
 .headline-author {
     width: 270px;
     height: 350px;
-
-    font-size: 18px;
 
     background-color: var(--overlay-color-overlayblack);
 
@@ -154,12 +148,10 @@ strong {
 }
 
 .headline-author-text p {
-    font-size: 16px;
     padding: 0px 10px;
 }
 
 .headline-author-text-headline p {
-    font-size: 18px;
     align-self: center;
 }
 
@@ -186,6 +178,7 @@ strong {
     display: flex;
     flex-direction: row;
     gap: 12px;
+    width: 90%;
 }
 
 .slider-a-element {
@@ -246,10 +239,6 @@ strong {
     background-color: var(--secondary-font-turquoise, #3fc6d6);
     color: #0b0f1a;
     transform: rotate(-13.67deg);
-}
-
-.section-tips>div p {
-    font-size: 20px;
 }
 
 .section-tips>div img {
@@ -354,6 +343,37 @@ strong {
 
 }
 
+.section-list>p,
+.slider-b-header h2,
+.headline-info-maintext h2 {
+    font-size: 2.5rem;
+}
+
+.headline-info-maintext h1 {
+    font-size: 4rem;
+}
+
+.section-main-text p,
+.section-tips li p,
+.section-list-ol p,
+.section-additional-text p,
+.section-share p,
+.section-footer p {
+    font-size: 1.6rem;
+}
+
+.headline-info-maintext p {
+    font-size: 2rem;
+}
+
+.quickinfo p , .headline-author-text p{
+    font-size: 1rem;
+}
+
+.headline-author-text-headline p , h3{
+    font-size: 1.1rem;
+}
+
 @media screen and (min-width: 1440px) {
     .landing-nav {
         padding: 0px max(160px, calc(50% - 720px));
@@ -389,6 +409,26 @@ strong {
     .section-additional-text p,
     .section-main-text p {
         max-width: 65ch;
+    }
+
+    .section-list>p,
+    .slider-b-header h2,
+    .headline-info-maintext h2 {
+        font-size: 2.3rem;
+    }
+
+    .headline-info-maintext h1 {
+        font-size: 2.8rem;
+    }
+
+    .headline-info-maintext p,
+    .section-main-text p,
+    .section-tips li p,
+    .section-list-ol p,
+    .section-additional-text p,
+    .section-share p,
+    .section-footer p {
+        font-size: 1.5rem;
     }
 
     .section-share {
@@ -434,6 +474,26 @@ strong {
     .section-main-text p,
     .section-list p {
         max-width: 65ch;
+    }
+
+    .section-list>p,
+    .slider-b-header h2,
+    .headline-info-maintext h2 {
+        font-size: 2.3rem;
+    }
+
+    .headline-info-maintext h1 {
+        font-size: 2.8rem;
+    }
+
+    .headline-info-maintext p,
+    .section-main-text p,
+    .section-tips li p,
+    .section-list-ol p,
+    .section-additional-text p,
+    .section-share p,
+    .section-footer p {
+        font-size: 1.5rem;
     }
 
     .section-share {
@@ -516,7 +576,7 @@ strong {
     }
 
     .footer-text {
-        gap: 5px;
+        gap: 2px;
         flex-direction: column;
 
         text-align: left;
@@ -597,6 +657,27 @@ strong {
     .section-main-text p,
     .section-list p {
         max-width: 65ch;
+    }
+
+    .section-list>p,
+    .slider-b-header h2,
+    .headline-author-text h3,
+    .headline-info-maintext h2 {
+        font-size: 2.2rem;
+    }
+
+    .headline-info-maintext h1 {
+        font-size: 2.7rem;
+    }
+
+    .headline-info-maintext p,
+    .section-main-text p,
+    .section-tips li p,
+    .section-list-ol p,
+    .section-additional-text p,
+    .section-share p,
+    .section-footer p {
+        font-size: 1.4rem;
     }
 
     .section-share {
@@ -781,12 +862,25 @@ strong {
         width: 100%;
     }
 
-    .slider-b-header h2 ,.section-list>p , .headline-info-maintext h2{
+    .section-list>p,
+    .slider-b-header h2,
+    .headline-author-text h3,
+    .headline-info-maintext h2 {
         font-size: 2rem;
     }
 
     .headline-info-maintext h1 {
         font-size: 2.5rem;
+    }
+
+    .headline-info-maintext p,
+    .section-main-text p,
+    .section-tips li p,
+    .section-list-ol p,
+    .section-additional-text p,
+    .section-share p,
+    .section-footer p {
+        font-size: 1.2rem;
     }
 
     .slider-b-header {
@@ -907,11 +1001,11 @@ strong {
         width: 100%;
     }
 
-    .section-headline p,
+    .headline-info-maintext p,
     .section-headline h2,
     .section-main-text p,
     .section-list p,
-    .section-tips p,
+    .section-tips li p,
     .section-additional-text p,
     .section-share p,
     .slider-b-header h2,
@@ -984,7 +1078,8 @@ strong {
     }
 
     .section-list>p,
-    .slider-b-header h2 {
+    .slider-b-header h2,
+    .headline-author-text h3 {
         font-size: 1.2rem;
     }
 

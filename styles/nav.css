@@ -29,6 +29,8 @@ nav a {
     border: 1px solid var(--main-font-white);
     border-radius: 10px;
     max-width: 100%;
+    font-size: 1.8rem;
+
     justify-content: center;
     color: #ffffff;
     position: relative;
@@ -63,4 +65,16 @@ nav a:hover::before {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+@media screen and (min-width:910px) and (max-width:1439px) {
+    nav a {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:909px) {
+    nav a {
+        font-size: 1.6rem;
+    }
 }
