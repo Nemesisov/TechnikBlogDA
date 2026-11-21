@@ -75,18 +75,15 @@ main a {
 }
 
 .headline-kicker {
-    font-size: 24px;
     color: var(--secondary-font-greywhite);
 }
 
 .headline-info h1 {
-    font-size: 64px;
     margin-top: 4px;
 }
 
 .headline-lead {
     margin-top: 16px;
-    font-size: 28px;
 }
 
 .headline-info-quickinfo {
@@ -102,8 +99,8 @@ main a {
 }
 
 .quickinfo p {
-    font-size: 14px;
     color: var(--secondary-font-greywhite);
+    font-size: 1rem;
 }
 
 .headline-info-quickinfo-date img {
@@ -147,13 +144,9 @@ main a {
     margin-bottom: 12px;
 }
 
-.headline-author h3 {
-    font-size: 16px;
-}
-
 .headline-author-role {
-    font-size: 14px;
     color: var(--secondary-font-greywhite);
+    font-size: 1.1rem;
 }
 
 .headline-author-bio {
@@ -161,13 +154,12 @@ main a {
     justify-content: center;
     align-self: stretch;
     margin-top: 8px;
-    font-size: 14px;
     text-align: left;
     color: var(--secondary-font-greywhite);
+    font-size: 1rem;
 }
 
 .article-section h2 {
-    font-size: 36px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,7 +172,6 @@ main a {
 }
 
 .article-section li {
-    font-size: 24px;
     margin-bottom: 8px;
     line-height: 1.6;
 }
@@ -208,7 +199,6 @@ main a {
     border-collapse: collapse;
     border-radius: 20px;
     background-color: var(--overlay-color-overlayblack);
-    font-size: 20px;
 }
 
 .compare-table th,
@@ -218,7 +208,6 @@ main a {
 }
 
 .compare-table th {
-    font-size: 24px;
     background-image: linear-gradient(to bottom, var(--secondary-font-turquoise));
     -webkit-background-clip: text;
     background-clip: text;
@@ -240,854 +229,6 @@ main a {
 
 .fit-cards {
     display: grid;
-
-    main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 56px;
-        padding: 80px 50px 120px;
-        color: var(--main-font-white);
-    }
-
-    main>section {
-        width: 100%;
-    }
-
-    main p {
-        line-height: 1.6;
-    }
-
-    main a {
-        color: var(--secondary-font-turquoise);
-    }
-
-    .--colorwaveblue {
-        background-image: linear-gradient(to bottom, var(--colorwaveblue));
-        background-clip: text;
-        color: transparent;
-    }
-
-    .--secondary-font-turquoise {
-        background-image: linear-gradient(to bottom, var(--secondary-font-turquoise));
-        background-clip: text;
-        color: transparent;
-    }
-
-    .--playstationcolor {
-        background-image: linear-gradient(to right, var(--playstationcolor));
-        background-clip: text;
-        color: transparent;
-    }
-
-    .--xboxcolor {
-        background-image: linear-gradient(to right, var(--xboxcolor));
-        background-clip: text;
-        color: transparent;
-    }
-
-    .--amdcolor {
-        background-image: linear-gradient(to right, var(--amdcolor));
-        background-clip: text;
-        color: transparent;
-    }
-
-    .--nintendocolor {
-        background-image: linear-gradient(to right, var(--nintendocolor));
-        background-clip: text;
-        color: transparent;
-    }
-
-    .--nvidiacolor {
-        background-image: linear-gradient(to right, var(--nvidiacolor));
-        background-clip: text;
-        color: transparent;
-    }
-
-    .section-headline {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 30px;
-    }
-
-    .headline-info {
-        display: flex;
-        flex-direction: column;
-        max-width: 1000px;
-    }
-
-    .headline-kicker {
-        font-size: 24px;
-        color: var(--secondary-font-greywhite);
-    }
-
-    .headline-info h1 {
-        font-size: 64px;
-        margin-top: 4px;
-    }
-
-    .headline-lead {
-        margin-top: 16px;
-        font-size: 28px;
-    }
-
-    .headline-info-quickinfo {
-        display: flex;
-        gap: 32px;
-        margin-top: 24px;
-    }
-
-    .quickinfo {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-    }
-
-    .quickinfo p {
-        font-size: 14px;
-        color: var(--secondary-font-greywhite);
-    }
-
-    .headline-info-quickinfo-date img {
-        height: 16px;
-        width: 18px;
-    }
-
-    .headline-info-quickinfo-readingtime img {
-        height: 7px;
-        width: 20px;
-    }
-
-    .headline-info-quickinfo-read img {
-        height: 14px;
-        width: 20px;
-    }
-
-    .headline-info-quickinfo-share img {
-        height: 18px;
-        width: 16px;
-    }
-
-    .headline-author {
-        flex-shrink: 0;
-        width: 256px;
-        padding: 24px 16px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 4px;
-        text-align: center;
-        background-color: var(--overlay-color-overlayblack);
-        border-radius: 24px;
-    }
-
-    .headline-author img {
-        width: 128px;
-        height: 128px;
-        border-radius: 50%;
-        object-fit: cover;
-        margin-bottom: 12px;
-    }
-
-    .headline-author h3 {
-        font-size: 16px;
-    }
-
-    .headline-author-role {
-        font-size: 14px;
-        color: var(--secondary-font-greywhite);
-    }
-
-    .headline-author-bio {
-        display: flex;
-        justify-content: center;
-        align-self: stretch;
-        margin-top: 8px;
-        font-size: 14px;
-        text-align: left;
-        color: var(--secondary-font-greywhite);
-    }
-
-    .article-section h2 {
-        font-size: 36px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 24px;
-    }
-
-    .article-section ul {
-        margin-top: 16px;
-        padding-left: 40px;
-    }
-
-    .article-section li {
-        font-size: 24px;
-        margin-bottom: 8px;
-        line-height: 1.6;
-    }
-
-    .middletext {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .section-image {
-        display: flex;
-        justify-content: center;
-    }
-
-    .section-image img {
-        width: 931px;
-        max-width: 100%;
-        height: auto;
-        border-radius: 40px;
-    }
-
-    .compare-table {
-        width: 100%;
-        border-collapse: collapse;
-        border-radius: 20px;
-        background-color: var(--overlay-color-overlayblack);
-        font-size: 20px;
-    }
-
-    .compare-table th,
-    .compare-table td {
-        padding: 16px 24px;
-        text-align: left;
-    }
-
-    .compare-table th {
-        font-size: 24px;
-        background-image: linear-gradient(to bottom, var(--secondary-font-turquoise));
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-    }
-
-    .compare-table tbody tr {
-        border-top: 1px solid var(--hyperlink-black-transparent);
-
-    }
-
-    .compare-table td:first-child {
-        color: var(--secondary-font-greywhite);
-    }
-
-    .fit-cards {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .fit-card {
-        padding: 32px;
-        border-radius: 20px;
-        background-color: var(--overlay-color-overlayblack);
-        width: 100%;
-    }
-
-    .fit-card-one,
-    .fit-card-two span,
-    h3 {
-        font-size: 32px;
-        padding-bottom: 15px;
-    }
-
-    .fit-card h3 {
-        font-size: 24px;
-        margin-bottom: 16px;
-        color: var(--colorwaveblue);
-    }
-
-    .fit-card ul {
-        margin: 0;
-        padding-left: 24px
-    }
-
-    .fit-card li {
-        font-size: 20px;
-        line-height: 1.6;
-    }
-
-    .pro-tips {
-        position: relative;
-        padding-top: 28px;
-    }
-
-    .pro-tips>div {
-        position: absolute;
-        top: 0;
-        left: 40px;
-        z-index: 2;
-
-        display: flex;
-        align-items: center;
-        gap: 8px;
-
-        padding: 8px 16px;
-        border-radius: 12px;
-        background-color: var(--secondary-font-turquoise);
-        transform: rotate(-13.67deg);
-    }
-
-    .pro-tips>div img {
-        width: 24px;
-        height: 24px;
-    }
-
-    .pro-tips ol {
-        margin: 0 40px 0 40px;
-        padding: 40px 32px 28px 64px;
-        border-radius: 20px;
-        background-color: var(--overlay-color-overlayblack);
-    }
-
-    .pro-tips ol>p {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        padding-top: 20px;
-        line-height: 1.4;
-    }
-
-    .pro-tips li {
-        margin-bottom: 8px;
-    }
-
-    .pro-tips li p {
-        font-size: 20px;
-    }
-
-    .section-share {
-        margin-top: 40px;
-    }
-
-    main>.section-share {
-        width: auto;
-    }
-
-    .section-share p {
-        font-size: 22px;
-        text-align: center;
-    }
-
-    .section-share-arrow {
-        display: flex;
-        justify-content: start;
-        align-items: end;
-        gap: 60px;
-    }
-
-    .section-share-arrow-two {
-        display: flex;
-    }
-
-    .section-share-button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 8px;
-
-        height: 48px;
-        padding: 0 24px;
-        border-radius: 40px;
-
-        background-color: var(--overlay-color-overlayblack);
-        color: var(--main-font-white);
-        font-size: 24px;
-        text-decoration: none;
-        z-index: 2;
-    }
-
-    .section-share-button:hover {
-        background-color: var(--hyperlink-black-transparent);
-        color: var(--secondary-font-turquoise);
-    }
-
-    .section-share-button img {
-        width: 32px;
-        height: 32px;
-    }
-
-    @media screen and (min-width: 1440px) {
-        .landing-nav {
-            padding: 0px max(160px, calc(50% - 720px));
-        }
-
-        .section-footer {
-            padding: 0px max(160px, calc(50% - 720px));
-        }
-
-        main {
-            padding: 80px max(160px, calc(50% - 720px)) 120px;
-        }
-    }
-
-    @media screen and (min-width:1280px) and (max-width:1439px) {
-        main {
-            padding: 80px 60px 120px;
-        }
-
-        .headline-info h1 {
-            font-size: 56px;
-        }
-
-        .headline-lead {
-            font-size: 26px;
-        }
-    }
-
-    @media screen and (min-width:769px) and (max-width:1279px) {
-        main {
-            gap: 48px;
-            padding: 64px 60px 100px;
-        }
-
-        .section-headline {
-            gap: 24px;
-        }
-
-        .headline-author {
-            width: 220px;
-        }
-
-        .headline-author img {
-            width: 112px;
-            height: 112px;
-        }
-
-        .headline-kicker {
-            font-size: 20px;
-        }
-
-        .headline-info h1 {
-            font-size: 48px;
-        }
-
-        .headline-lead {
-            font-size: 24px;
-        }
-
-        .headline-info-quickinfo {
-            flex-wrap: wrap;
-            gap: 16px 24px;
-        }
-
-        .article-section h2 {
-            font-size: 32px;
-            text-align: center;
-        }
-
-        .section-intro p,
-        .article-section p,
-        .article-section li {
-            font-size: 22px;
-        }
-
-        .section-image img {
-            border-radius: 32px;
-        }
-
-        .compare-table {
-            font-size: 18px;
-        }
-
-        .compare-table th,
-        .compare-table td {
-            padding: 14px 20px;
-        }
-
-        .compare-table th {
-            font-size: 22px;
-        }
-
-        .fit-card {
-            padding: 24px;
-            min-height: 250px;
-        }
-
-        .fit-card h3 {
-            font-size: 22px;
-        }
-
-        .fit-card li {
-            font-size: 18px;
-        }
-
-        .pro-tips li p {
-            font-size: 18px;
-        }
-
-        .pro-tips ol>p {
-            gap: 0 6px;
-            font-size: 20px;
-        }
-
-        .pro-tips .usefulvideo {
-            display: flex;
-            justify-content: start;
-        }
-
-        .section-share p {
-            font-size: 20px;
-        }
-
-        .fit-card-one,
-        .fit-card-two span,
-        h3 {
-            flex-direction: column;
-        }
-    }
-
-    @media screen and (min-width:481px) and (max-width:768px) {
-        main {
-            gap: 40px;
-            padding: 48px 40px 80px;
-        }
-
-        .section-headline {
-            flex-direction: column;
-            align-items: stretch;
-            gap: 24px;
-        }
-
-        .headline-author {
-            width: 100%;
-        }
-
-        .headline-kicker {
-            font-size: 20px;
-        }
-
-        .headline-info h1 {
-            font-size: 40px;
-        }
-
-        .headline-lead {
-            font-size: 20px;
-        }
-
-        .headline-info-quickinfo {
-            flex-wrap: wrap;
-            gap: 16px 24px;
-        }
-
-        .article-section h2 {
-            font-size: 28px;
-            text-align: center;
-        }
-
-        .article-section ul {
-            padding-left: 28px;
-        }
-
-        .section-intro p,
-        .article-section p,
-        .article-section li {
-            font-size: 20px;
-        }
-
-        .section-image img {
-            border-radius: 24px;
-        }
-
-        .compare-table {
-            font-size: 16px;
-        }
-
-        .compare-table th,
-        .compare-table td {
-            padding: 12px;
-        }
-
-        .compare-table th {
-            font-size: 20px;
-        }
-
-        .fit-cards {
-            grid-template-columns: 1fr;
-            gap: 24px;
-        }
-
-        .fit-card {
-            padding: 24px;
-        }
-
-        .fit-card h3 {
-            font-size: 22px;
-        }
-
-        .fit-card li {
-            font-size: 18px;
-        }
-
-        .pro-tips>div {
-            left: 20px;
-            z-index: 0;
-        }
-
-        .pro-tips>div p {
-            font-size: 20px;
-        }
-
-        .pro-tips ol {
-            margin: 0;
-            padding: 48px 24px 24px 48px;
-        }
-
-        .pro-tips li p {
-            font-size: 18px;
-        }
-
-        .pro-tips .usefulvideo {
-            display: flex;
-            justify-content: start;
-        }
-
-        .pro-tips ol>p {
-            flex-wrap: wrap;
-            gap: 0 6px;
-            font-size: 18px;
-            text-align: center;
-        }
-
-        .section-share p {
-            font-size: 20px;
-        }
-
-        .section-share-arrow {
-            gap: 32px;
-        }
-
-
-        .section-share-button {
-            height: 44px;
-            padding: 0 20px;
-            font-size: 20px;
-            z-index: 0;
-        }
-
-        .nav-responsive {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            position: fixed;
-
-            width: 90%;
-            height: 80px;
-
-
-            bottom: 5px;
-            /* background-color: var(--overlay-color-overlayblack-two); */
-            border-radius: 100px;
-            margin: 5%;
-            backdrop-filter: blur(10px);
-            -webkit-tap-highlight-color: transparent;
-        }
-
-        .fixed-rail {
-            height: 150px;
-            background-color: var(--overlay-color-overlayblack-two);
-        }
-
-        .nav-responsive-decoration {
-            height: 60%;
-            width: 2px;
-            background-color: blueviolet;
-            border-radius: 100%;
-        }
-    }
-
-    @media screen and (max-width:480px) {
-        main {
-            gap: 40px;
-            padding: 32px 20px 60px;
-        }
-
-        main h2 {
-            padding-bottom: 24px;
-        }
-
-        .section-headline {
-            flex-direction: column;
-            align-items: stretch;
-            gap: 24px;
-        }
-
-        .headline-author {
-            width: 100%;
-            padding: 20px 16px;
-            border-radius: 20px;
-        }
-
-        .headline-author img {
-            width: 96px;
-            height: 96px;
-        }
-
-        .headline-kicker {
-            font-size: 18px;
-        }
-
-        .headline-info h1 {
-            font-size: 32px;
-        }
-
-        .headline-lead {
-            font-size: 18px;
-        }
-
-        .headline-info-quickinfo {
-            flex-wrap: wrap;
-            gap: 12px 20px;
-        }
-
-        .article-section h2 {
-            font-size: 24px;
-            text-align: center;
-            margin-bottom: 16px;
-        }
-
-        .article-section ul {
-            padding-left: 20px;
-        }
-
-        .section-intro p,
-        .article-section p,
-        .article-section li {
-            font-size: 18px;
-        }
-
-        .section-image img {
-            border-radius: 20px;
-        }
-
-        .compare-table {
-            font-size: 14px;
-        }
-
-        .compare-table th,
-        .compare-table td {
-            padding: 10px 8px;
-        }
-
-        .compare-table th {
-            font-size: 16px;
-        }
-
-        .fit-cards {
-            grid-template-columns: 1fr;
-            gap: 20px;
-        }
-
-        .fit-card {
-            padding: 20px;
-        }
-
-        .fit-card h3 {
-            font-size: 20px;
-        }
-
-        .fit-card li {
-            font-size: 16px;
-        }
-
-        .pro-tips>div {
-            left: 12px;
-            padding: 6px 12px;
-            z-index: 0;
-        }
-
-        .pro-tips>div p {
-            font-size: 18px;
-        }
-
-        .pro-tips ol {
-            margin: 0;
-            padding: 44px 16px 20px 36px;
-        }
-
-        .pro-tips li p {
-            font-size: 16px;
-        }
-
-        .pro-tips .usefulvideo {
-            display: flex;
-            justify-content: start;
-        }
-
-        .pro-tips ol>p {
-            flex-wrap: wrap;
-            gap: 0 6px;
-            font-size: 16px;
-            text-align: center;
-        }
-
-        .section-share {
-            margin-top: 20px;
-        }
-
-        .section-share p {
-            font-size: 18px;
-        }
-
-        .section-share-arrow {
-            gap: 16px;
-        }
-
-        .section-share-arrow-two img {
-            width: 62px;
-        }
-
-        .section-share-button {
-            height: 44px;
-            padding: 0 20px;
-            font-size: 20px;
-            z-index: 0;
-        }
-
-        .section-share-button img {
-            width: 24px;
-            height: 24px;
-        }
-
-        .fixed-rail {
-            height: 130px;
-            background-color: var(--overlay-color-overlayblack-two);
-        }
-
-        .nav-responsive-decoration {
-            height: 60%;
-            width: 2px;
-            background-color: blueviolet;
-            border-radius: 100%;
-        }
-
-        .nav-responsive {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            position: fixed;
-
-            width: 90%;
-            height: 80px;
-
-
-            bottom: 5px;
-            /* background-color: var(--overlay-color-overlayblack-two); */
-            border-radius: 100px;
-            margin: 5%;
-            backdrop-filter: blur(10px);
-            -webkit-tap-highlight-color: transparent;
-        }
-    }
-
     grid-template-columns: 1fr 1fr;
     gap: 32px;
 }
@@ -1099,7 +240,6 @@ main a {
 }
 
 .fit-card h3 {
-    font-size: 24px;
     margin-bottom: 16px;
     color: var(--secondary-font-turquoise);
 }
@@ -1110,7 +250,6 @@ main a {
 }
 
 .fit-card li {
-    font-size: 20px;
     line-height: 1.6;
 }
 
@@ -1160,10 +299,6 @@ main a {
     margin-bottom: 8px;
 }
 
-.pro-tips li p {
-    font-size: 20px;
-}
-
 .section-share {
     margin-top: 40px;
 }
@@ -1173,7 +308,6 @@ main>.section-share {
 }
 
 .section-share p {
-    font-size: 22px;
     text-align: center;
 }
 
@@ -1200,9 +334,9 @@ main>.section-share {
 
     background-color: var(--overlay-color-overlayblack);
     color: var(--main-font-white);
-    font-size: 24px;
     text-decoration: none;
     z-index: 2;
+    font-size: 24px;
 }
 
 .section-share-button:hover {
@@ -1234,16 +368,35 @@ main>.section-share {
         padding: 80px 60px 120px;
     }
 
-    .headline-info h1 {
-        font-size: 56px;
+    .headline-lead,
+    .section-intro p,
+    .article-section p,
+    .fit-card li,
+    .section-share p,
+    .section-footer p {
+        font-size: 1.5rem;
     }
 
-    .headline-lead {
-        font-size: 26px;
+    .headline-author h3,
+    .headline-kicker,
+    .article-section h2,
+    .fit-card-one h3,
+    .fit-card-two h3 {
+        font-size: 2.3rem;
     }
+
+    .headline-info h1 {
+        font-size: 2.8rem;
+    }
+
+    .section-footer {
+        padding: 0px 40px;
+        padding-bottom: 15px;
+    }
+
 }
 
-@media screen and (min-width:769px) and (max-width:1279px) {
+@media screen and (min-width:901px) and (max-width:1279px) {
     main {
         gap: 48px;
         padding: 64px 60px 100px;
@@ -1253,25 +406,9 @@ main>.section-share {
         gap: 24px;
     }
 
-    .headline-author {
-        width: 220px;
-    }
-
     .headline-author img {
         width: 112px;
         height: 112px;
-    }
-
-    .headline-kicker {
-        font-size: 20px;
-    }
-
-    .headline-info h1 {
-        font-size: 48px;
-    }
-
-    .headline-lead {
-        font-size: 24px;
     }
 
     .headline-info-quickinfo {
@@ -1280,31 +417,16 @@ main>.section-share {
     }
 
     .article-section h2 {
-        font-size: 32px;
         text-align: center;
-    }
-
-    .section-intro p,
-    .article-section p,
-    .article-section li {
-        font-size: 22px;
     }
 
     .section-image img {
         border-radius: 32px;
     }
 
-    .compare-table {
-        font-size: 18px;
-    }
-
     .compare-table th,
     .compare-table td {
         padding: 14px 20px;
-    }
-
-    .compare-table th {
-        font-size: 22px;
     }
 
     .fit-cards {
@@ -1315,21 +437,8 @@ main>.section-share {
         padding: 24px;
     }
 
-    .fit-card h3 {
-        font-size: 22px;
-    }
-
-    .fit-card li {
-        font-size: 18px;
-    }
-
-    .pro-tips li p {
-        font-size: 18px;
-    }
-
     .pro-tips ol>p {
         gap: 0 6px;
-        font-size: 20px;
     }
 
     .pro-tips .usefulvideo {
@@ -1337,8 +446,120 @@ main>.section-share {
         justify-content: start;
     }
 
-    .section-share p {
-        font-size: 20px;
+    .headline-lead,
+    .section-intro p,
+    .article-section p,
+    .fit-card li,
+    .section-share p,
+    .section-footer p {
+        font-size: 1.5rem;
+    }
+
+    .headline-author h3,
+    .headline-kicker,
+    .article-section h2,
+    .fit-card-one h3,
+    .fit-card-two h3 {
+        font-size: 2.3rem;
+    }
+
+    .headline-info h1 {
+        font-size: 2.8rem;
+    }
+
+    .section-footer {
+        padding: 0px 40px;
+        padding-bottom: 15px;
+    }
+
+    .text-responsive {
+        display: none;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:900px) {
+    main {
+        gap: 48px;
+        padding: 64px 60px 100px;
+    }
+
+    .section-headline {
+        gap: 24px;
+        flex-direction: column;
+    }
+
+    .headline-author {
+        width: 100%;
+    }
+
+    .headline-author img {
+        width: 112px;
+        height: 112px;
+    }
+
+    .headline-info-quickinfo {
+        flex-wrap: wrap;
+        gap: 16px 24px;
+    }
+
+    .article-section h2 {
+        text-align: center;
+    }
+
+    .section-image img {
+        border-radius: 32px;
+    }
+
+    .compare-table th,
+    .compare-table td {
+        padding: 14px 20px;
+    }
+
+    .fit-cards {
+        gap: 24px;
+    }
+
+    .fit-card {
+        padding: 24px;
+    }
+
+    .pro-tips ol>p {
+        gap: 0 6px;
+    }
+
+    .pro-tips .usefulvideo {
+        display: flex;
+        justify-content: start;
+    }
+
+    .headline-lead,
+    .section-intro p,
+    .article-section p,
+    .fit-card li,
+    .section-share p,
+    .section-footer p {
+        font-size: 1.4rem;
+    }
+
+    .headline-author h3,
+    .headline-kicker,
+    .article-section h2,
+    .fit-card-one h3,
+    .fit-card-two h3 {
+        font-size: 2.2rem;
+    }
+
+    .headline-info h1 {
+        font-size: 2.7rem;
+    }
+
+    .section-footer {
+        padding: 0px 40px;
+        padding-bottom: 15px;
+    }
+
+    .text-responsive {
+        display: none;
     }
 }
 
@@ -1358,25 +579,12 @@ main>.section-share {
         width: 100%;
     }
 
-    .headline-kicker {
-        font-size: 20px;
-    }
-
-    .headline-info h1 {
-        font-size: 40px;
-    }
-
-    .headline-lead {
-        font-size: 20px;
-    }
-
     .headline-info-quickinfo {
         flex-wrap: wrap;
         gap: 16px 24px;
     }
 
     .article-section h2 {
-        font-size: 28px;
         text-align: center;
     }
 
@@ -1384,27 +592,13 @@ main>.section-share {
         padding-left: 28px;
     }
 
-    .section-intro p,
-    .article-section p,
-    .article-section li {
-        font-size: 20px;
-    }
-
     .section-image img {
         border-radius: 24px;
-    }
-
-    .compare-table {
-        font-size: 16px;
     }
 
     .compare-table th,
     .compare-table td {
         padding: 12px;
-    }
-
-    .compare-table th {
-        font-size: 20px;
     }
 
     .fit-cards {
@@ -1416,21 +610,9 @@ main>.section-share {
         padding: 24px;
     }
 
-    .fit-card h3 {
-        font-size: 22px;
-    }
-
-    .fit-card li {
-        font-size: 18px;
-    }
-
     .pro-tips>div {
         left: 20px;
         z-index: 0;
-    }
-
-    .pro-tips>div p {
-        font-size: 20px;
     }
 
     .pro-tips ol {
@@ -1438,9 +620,6 @@ main>.section-share {
         padding: 48px 24px 24px 48px;
     }
 
-    .pro-tips li p {
-        font-size: 18px;
-    }
 
     .pro-tips .usefulvideo {
         display: flex;
@@ -1450,12 +629,7 @@ main>.section-share {
     .pro-tips ol>p {
         flex-wrap: wrap;
         gap: 0 6px;
-        font-size: 18px;
         text-align: center;
-    }
-
-    .section-share p {
-        font-size: 20px;
     }
 
     .section-share-arrow {
@@ -1466,7 +640,6 @@ main>.section-share {
     .section-share-button {
         height: 44px;
         padding: 0 20px;
-        font-size: 20px;
         z-index: 0;
     }
 
@@ -1499,6 +672,37 @@ main>.section-share {
         background-color: blueviolet;
         border-radius: 100%;
     }
+
+    .headline-lead,
+    .headline-author-bio,
+    .section-intro p,
+    .article-section p,
+    .fit-card li,
+    .section-share p,
+    .section-footer p {
+        font-size: 1.2rem;
+    }
+
+    .headline-author h3,
+    .headline-kicker,
+    .article-section h2,
+    .fit-card-one h3,
+    .fit-card-two h3 {
+        font-size: 2rem;
+    }
+
+    .headline-info h1 {
+        font-size: 2.5rem;
+    }
+
+    .text-responsive {
+        display: none;
+    }
+
+    .section-footer {
+        padding: 0px 40px;
+        padding-bottom: 15px;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -1509,6 +713,28 @@ main>.section-share {
 
     main h2 {
         padding-bottom: 24px;
+    }
+
+    .headline-lead,
+    .headline-author-bio,
+    .section-intro p,
+    .article-section p,
+    .fit-card li,
+    .section-share p {
+        font-size: 1.1rem;
+    }
+
+    .headline-author-role,
+    .headline-author h3,
+    .headline-kicker,
+    .article-section h2,
+    .fit-card-one h3,
+    .fit-card-two h3 {
+        font-size: 1.2rem;
+    }
+
+    .headline-info h1 {
+        font-size: 2rem;
     }
 
     .section-headline {
@@ -1528,25 +754,12 @@ main>.section-share {
         height: 96px;
     }
 
-    .headline-kicker {
-        font-size: 18px;
-    }
-
-    .headline-info h1 {
-        font-size: 32px;
-    }
-
-    .headline-lead {
-        font-size: 18px;
-    }
-
     .headline-info-quickinfo {
         flex-wrap: wrap;
         gap: 12px 20px;
     }
 
     .article-section h2 {
-        font-size: 24px;
         text-align: center;
         margin-bottom: 16px;
     }
@@ -1555,27 +768,14 @@ main>.section-share {
         padding-left: 20px;
     }
 
-    .section-intro p,
-    .article-section p,
-    .article-section li {
-        font-size: 18px;
-    }
 
     .section-image img {
         border-radius: 20px;
     }
 
-    .compare-table {
-        font-size: 14px;
-    }
-
     .compare-table th,
     .compare-table td {
         padding: 10px 8px;
-    }
-
-    .compare-table th {
-        font-size: 16px;
     }
 
     .fit-cards {
@@ -1587,13 +787,6 @@ main>.section-share {
         padding: 20px;
     }
 
-    .fit-card h3 {
-        font-size: 20px;
-    }
-
-    .fit-card li {
-        font-size: 16px;
-    }
 
     .pro-tips>div {
         left: 12px;
@@ -1601,17 +794,9 @@ main>.section-share {
         z-index: 0;
     }
 
-    .pro-tips>div p {
-        font-size: 18px;
-    }
-
     .pro-tips ol {
         margin: 0;
         padding: 44px 16px 20px 36px;
-    }
-
-    .pro-tips li p {
-        font-size: 16px;
     }
 
     .pro-tips .usefulvideo {
@@ -1622,16 +807,11 @@ main>.section-share {
     .pro-tips ol>p {
         flex-wrap: wrap;
         gap: 0 6px;
-        font-size: 16px;
         text-align: center;
     }
 
     .section-share {
         margin-top: 20px;
-    }
-
-    .section-share p {
-        font-size: 18px;
     }
 
     .section-share-arrow {
@@ -1645,7 +825,6 @@ main>.section-share {
     .section-share-button {
         height: 44px;
         padding: 0 20px;
-        font-size: 20px;
         z-index: 0;
     }
 
@@ -1682,6 +861,10 @@ main>.section-share {
         margin: 5%;
         backdrop-filter: blur(10px);
         -webkit-tap-highlight-color: transparent;
+    }
+
+    .section-footer {
+        padding: 0px 10px;
     }
 }
 
