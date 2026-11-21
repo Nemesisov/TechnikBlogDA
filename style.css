@@ -287,7 +287,8 @@ details:close {
     }
 
     input[type=submit]:hover {
-        color: rgb(126, 30, 30);
+        color: rgb(255, 255, 255);
+        background-color: var(--background-color-black);
     }
 
     input[type=submit]:not(:disabled):hover {
