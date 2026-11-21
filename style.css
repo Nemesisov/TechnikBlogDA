@@ -28,6 +28,7 @@
     background-image: url(./assets/pictures/header_bubbles.png);
     background-size: cover;
     background-position: center;
+    border-bottom-right-radius: 10px;
 }
 
 .main-section-vector-header img {
@@ -597,6 +598,12 @@ details:close {
         display: none;
     }
 
+    .section-faq {
+        padding: 0px 60px;
+    }
+    .main-section-vector-header::before{
+        left: 500px;
+    }
 }
 
 @media screen and (min-width:769px) and (max-width:900px) {
@@ -777,6 +784,9 @@ details:close {
         padding: 0px;
     }
 
+    .contact-intro {
+        padding: 0px 40px;
+    }
 
     .main-section-header-content {
         display: none;
@@ -1046,8 +1056,9 @@ details:close {
     }
 
     .contact-section p,
-    .section-slider-text p , .section-faq p {
-        font-size: 1rem;
+    .section-slider-text p,
+    .section-faq p {
+        font-size: 1.2rem;
     }
 
     .contact-section h2,
