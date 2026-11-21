@@ -288,7 +288,7 @@ details:close {
 
     input[type=submit]:hover {
         color: black;
-        background-color: var(--main-font-white);
+        background-color: white;
     }
 
     input[type=submit]:not(:disabled):hover {
