@@ -441,6 +441,11 @@ strong {
 
     .slider-a {
         height: 500px;
+        width: 90%;
+    }
+
+    .slider-a-element {
+        height: 100%;
     }
 
     .section-footer {
@@ -507,6 +512,11 @@ strong {
     .slider-a {
         height: 250px;
         margin-bottom: 100px;
+        width: 90%;
+    }
+
+    .slider-a-element {
+        height: 100%;
     }
 
     .section-footer {
