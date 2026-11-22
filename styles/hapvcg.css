@@ -872,3 +872,21 @@ main>.section-share {
         padding: 0px 10px;
     }
 }
+
+@media screen and (min-width:400px) and (max-width:480px) {
+    .section-share-arrow {
+        gap: 36px;
+    }
+}
+
+@media screen and (min-width:361px) and (max-width:399px) {
+    .section-share-arrow {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .section-share-arrow {
+        gap: 15px;
+    }
+}
