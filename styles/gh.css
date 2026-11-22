@@ -103,6 +103,7 @@ main h2 {
 .quickinfo p {
     font-size: 16px;
     white-space: nowrap;
+    color: var(--secondary-font-greywhite);
 }
 
 .headline-info-quickinfo-date img {
@@ -361,7 +362,10 @@ main h2 {
 @media screen and (min-width: 1440px) {
 
     .landing-nav,
-    .section-footer,
+    .section-footer {
+        padding: 0px max(160px, calc(50% - 720px));
+    }
+
     .section-headline {
         padding: 0px max(160px, calc(50% - 720px));
     }
@@ -411,10 +415,7 @@ main h2 {
         font-size: 2.2rem;
     }
 
-    main p,
     .headline-info>p,
-    .quickinfo p,
-    .headline-author p,
     .video-header p,
     .text-section-one p,
     .text-section-two p,
