@@ -483,7 +483,7 @@ main p {
     .genre-examples,
     .pick-description,
     .author-bio {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
 @media screen and (min-width: 1440px) {
@@ -739,7 +739,6 @@ main p {
     main p,
     .genre-mix li,
     .section-share p,
-    .author-bio,
     .genre-card p:first-child,
     .quiz-question label,
     .section-footer p {
@@ -900,7 +899,6 @@ main p {
     main p,
     .genre-mix li,
     .section-share p,
-    .author-bio,
     .genre-card p:first-child,
     .quiz-question label,
     .section-footer p {
@@ -1090,7 +1088,6 @@ main p {
     main p,
     .genre-mix li,
     .section-share p,
-    .author-bio,
     .genre-card p:first-child,
     .quiz-question label {
         font-size: 1.1rem;
