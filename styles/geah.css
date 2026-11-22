@@ -27,7 +27,7 @@ p {
 }
 
 
-.colorwave-standart {
+.colorwave {
     background-image: linear-gradient(to bottom, var(--colorwave));
     background-clip: text;
     color: transparent;
@@ -86,6 +86,10 @@ strong {
     align-items: center;
 
     gap: 6px;
+}
+
+.quickinfo p{
+    color: var(--secondary-font-greywhite);
 }
 
 .headline-info-quickinfo-date img {
@@ -153,6 +157,8 @@ strong {
 
 .headline-author-text-headline p {
     align-self: center;
+
+    color: var(--secondary-font-greywhite);
 }
 
 
@@ -358,7 +364,8 @@ strong {
 .section-list-ol p,
 .section-additional-text p,
 .section-share p,
-.section-footer p {
+.section-footer p,
+.section-tips p {
     font-size: 1.6rem;
 }
 
@@ -427,7 +434,8 @@ strong {
     .section-list-ol p,
     .section-additional-text p,
     .section-share p,
-    .section-footer p {
+    .section-footer p,
+    .section-tips p {
         font-size: 1.5rem;
     }
 
@@ -497,7 +505,8 @@ strong {
     .section-list-ol p,
     .section-additional-text p,
     .section-share p,
-    .section-footer p {
+    .section-footer p,
+    .section-tips p {
         font-size: 1.5rem;
     }
 
@@ -548,7 +557,7 @@ strong {
 
 @media screen and (min-width:769px) and (max-width:900px) {
     .section-footer {
-        padding: 0px 60px;
+        padding: 0px 50px;
         align-items: end;
 
         height: 130px;
@@ -556,7 +565,7 @@ strong {
     }
 
     .landing-nav {
-        padding: 50px 60px;
+        padding: 50px 50px;
         gap: 0px;
 
         width: 100%;
@@ -643,7 +652,7 @@ strong {
     }
 
     .section-headline {
-        padding: 40px 60px;
+        padding: 40px 50px;
 
         flex-direction: column;
         align-items: center;
@@ -651,7 +660,7 @@ strong {
     }
 
     .section-tips {
-        padding: 40px 60px;
+        padding: 40px 50px;
     }
 
     .section-tips ol {
@@ -660,7 +669,7 @@ strong {
     }
 
     .section-additional-text {
-        padding: 40px 60px;
+        padding: 40px 50px;
     }
 
     .section-additional-text p,
@@ -686,12 +695,13 @@ strong {
     .section-list-ol p,
     .section-additional-text p,
     .section-share p,
-    .section-footer p {
+    .section-footer p,
+    .section-tips p {
         font-size: 1.4rem;
     }
 
     .section-share {
-        padding: 40px 60px;
+        padding: 40px 50px;
     }
 
     main {
@@ -699,12 +709,12 @@ strong {
     }
 
     .section-list {
-        padding: 40px 60px;
+        padding: 40px 50px;
         align-items: center;
     }
 
     .section-main-text {
-        padding: 0px 60px;
+        padding: 0px 50px;
     }
 
     .headline-info {
@@ -727,13 +737,6 @@ strong {
 
         height: 130px;
         padding-bottom: 15px;
-    }
-
-    .landing-nav {
-        padding: 50px 60px;
-        gap: 0px;
-
-        width: 100%;
     }
 
     .navigation a {
@@ -889,12 +892,18 @@ strong {
     .section-list-ol p,
     .section-additional-text p,
     .section-share p,
-    .section-footer p {
+    .section-footer p,
+    .section-tips p {
         font-size: 1.2rem;
     }
 
     .slider-b-header {
         display: block;
+    }
+
+    .landing-nav {
+        width:  100%;
+        gap: 0px;
     }
 
 }
@@ -906,13 +915,6 @@ strong {
 
         height: 130px;
         padding-bottom: 15px;
-    }
-
-    .landing-nav {
-        padding: 50px 60px;
-        gap: 0px;
-
-        width: 100%;
     }
 
     .navigation a {
@@ -1019,7 +1021,8 @@ strong {
     .section-additional-text p,
     .section-share p,
     .slider-b-header h2,
-    .section-list>p {
+    .section-list>p,
+    .section-tips p {
         font-size: 1.1rem;
     }
 
@@ -1047,7 +1050,7 @@ strong {
     }
 
     .section-additional-text {
-        padding: 40px 20px;
+        padding: 40px 10px;
     }
 
     .section-additional-text p,
@@ -1095,6 +1098,11 @@ strong {
 
     .section-share-arrow-two img {
         width: 62px;
+    }
+
+    .landing-nav {
+        width:  100%;
+        gap: 0px;
     }
 
 }
