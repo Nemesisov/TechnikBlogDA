@@ -93,7 +93,6 @@ main section {
 
 .author-role,
 .author-bio {
-    font-size: 1rem;
     color: var(--secondary-font-greywhite);
 }
 
@@ -443,7 +442,6 @@ main p {
     display: none;
 }
 
-    .headline-text,
     main p,
     .genre-mix li,
     .section-share p,
@@ -566,6 +564,10 @@ main p {
         border-radius: 32px;
     }
 
+    .genre-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
     .headline-text,
     main p,
     .genre-mix li,
@@ -607,7 +609,7 @@ main p {
 
 @media screen and (min-width: 769px) and (max-width: 900px) {
     main {
-        padding: 48px 20px 80px;
+        padding: 48px 60px 80px;
     }
 
     .section-headline {
@@ -772,7 +774,7 @@ main p {
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
     main {
-        padding: 48px 20px 80px;
+        padding: 48px 40px 80px;
     }
 
     .section-headline {
