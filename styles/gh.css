@@ -12,7 +12,7 @@ main {
     align-items: center;
     gap: 56px;
 
-    padding: 80px 40px 120px;
+    /* padding: 80px 40px 120px; */
 
     font-weight: 500;
     color: var(--main-font-white, #fff);
@@ -370,22 +370,10 @@ main h2 {
         padding: 0px max(160px, calc(50% - 720px));
     }
 
-    .section-headline {
-        padding: 0px max(160px, calc(50% - 720px));
+    main {
+        padding: 90px max(160px, calc(50% - 720px));
     }
 }
-
-
-
-@media screen and (min-width: 1440px) {
-
-    .landing-nav,
-    .section-footer,
-    .section-headline {
-        padding: 0px max(160px, calc(50% - 720px));
-    }
-}
-
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
     main {
@@ -407,6 +395,14 @@ main h2 {
     .pixel-font-two {
         font-size: 70px;
     }
+
+    .section-headline {
+        padding: 40px 60px;
+    }
+
+    .section-share {
+        padding: 40px 60px;
+    }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1279px) {
@@ -423,10 +419,7 @@ main h2 {
         font-size: 2.2rem;
     }
 
-    main p,
     .headline-info>p,
-    .quickinfo p,
-    .headline-author p,
     .video-header p,
     .text-section-one p,
     .text-section-two p,
@@ -483,6 +476,14 @@ main h2 {
     .pixel-font-two {
         font-size: 60px;
     }
+
+    .section-headline {
+        padding: 40px 0px;
+    }
+
+    .section-share {
+        padding: 40px 60px;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 900px) {
@@ -514,7 +515,7 @@ main h2 {
 
     main {
         gap: 48px;
-        padding: 64px 40px 100px;
+        padding: 64px 50px 100px;
     }
 
     .landing-nav {
@@ -673,7 +674,7 @@ main h2 {
 
     main {
         gap: 40px;
-        padding: 48px 24px 80px;
+        padding: 40px 40px 40px;
     }
 
     .section-headline {
@@ -721,10 +722,6 @@ main h2 {
 
     .section-share-arrow {
         gap: 40px;
-    }
-
-    .section-share-button {
-        font-size: 20px;
     }
 
     .pixel-font {
@@ -928,12 +925,6 @@ main h2 {
         width: 62px;
     }
 
-    .section-share-button {
-        height: 40px;
-        padding: 0 20px;
-        font-size: 16px;
-    }
-
     .section-share-button img {
         width: 24px;
         height: 24px;
@@ -947,4 +938,22 @@ main h2 {
         font-size: 36px;
     }
 
+}
+
+@media screen and (min-width:400px) and (max-width:480px) {
+    .section-share-arrow {
+        gap: 30px;
+    }
+}
+
+@media screen and (min-width:361px) and (max-width:399px) {
+    .section-share-arrow {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .section-share-arrow {
+        gap: 15px;
+    }
 }
