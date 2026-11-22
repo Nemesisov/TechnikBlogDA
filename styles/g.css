@@ -1111,3 +1111,21 @@ main p {
         font-size: 2rem;
     }
 }
+
+@media screen and (min-width:400px) and (max-width:480px) {
+    .section-share-arrow {
+        gap: 30px;
+    }
+}
+
+@media screen and (min-width:361px) and (max-width:399px) {
+    .section-share-arrow {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .section-share-arrow {
+        gap: 15px;
+    }
+}
