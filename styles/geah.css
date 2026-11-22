@@ -851,7 +851,7 @@ strong {
     }
 
     .section-share-arrow {
-        gap: 40px;
+        gap: 25px;
     }
 
     main {
@@ -1063,10 +1063,6 @@ strong {
         padding: 40px 10px;
     }
 
-    .section-share-arrow {
-        gap: 0px;
-    }
-
     main {
         gap: 0px;
     }
@@ -1106,6 +1102,25 @@ strong {
     }
 
 }
+
+@media screen and (min-width:400px) and (max-width:480px) {
+    .section-share-arrow {
+        gap: 30px;
+    }
+}
+
+@media screen and (min-width:361px) and (max-width:399px) {
+    .section-share-arrow {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .section-share-arrow {
+        gap: 15px;
+    }
+}
+
 
 @media screen and (min-width:769px) and (max-width:900px) {
     .slider-a {
