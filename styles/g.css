@@ -3,7 +3,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 56px;
-    padding: 80px 50px 120px;
+    padding: 80px 60px 120px;
 }
 
 main section {
@@ -36,17 +36,14 @@ main section {
     gap: 12px;
 }
 
-.headline-info h2 {
-    font-size: 24px;
+.headline-kicker {
+
     color: var(--secondary-font-greywhite);
 }
 
-.headline-info h1 {
-    font-size: 64px;
-}
+
 
 .headline-text {
-    font-size: 26px;
     line-height: 1.4;
 }
 
@@ -92,9 +89,7 @@ main section {
     object-fit: cover;
 }
 
-.headline-author h3 {
-    font-size: 18px;
-}
+
 
 .author-role,
 .author-bio {
@@ -113,7 +108,7 @@ main section {
 .genre-picks h2,
 .genre-quiz h2,
 .genre-outro h2 {
-    font-size: 48px;
+
     margin-bottom: 16px;
     padding-bottom: 24px;
     text-align: center;
@@ -129,7 +124,7 @@ main p {
 }
 
 .genre-mix li {
-    font-size: 22px;
+
     margin-bottom: 12px;
     line-height: 1.6;
     padding: 12px 20px;
@@ -155,19 +150,17 @@ main p {
 }
 
 .genre-card h3 {
-    font-size: 24px;
     margin-bottom: 16px;
     color: var(--secondary-font-turquoise);
 }
 
 .genre-card p {
-    font-size: 18px;
     line-height: 1.4;
 }
 
 .genre-card .genre-examples {
     margin-top: 16px;
-    font-size: 15px;
+
     color: var(--secondary-font-greywhite);
 }
 
@@ -175,7 +168,7 @@ main p {
     margin-top: 16px;
     padding-top: 16px;
     border-top: 1px solid var(--overlay-color-overlayblack-two);
-    font-size: 16px;
+
     line-height: 1.6;
     color: var(--secondary-font-greywhite);
 }
@@ -223,9 +216,7 @@ main p {
     font-weight: bold;
 }
 
-.genre-facts li p {
-    font-size: 22px;
-}
+
 
 .quiz-question {
     padding: 32px;
@@ -241,7 +232,6 @@ main p {
 
 .quiz-question p {
     margin-bottom: 20px;
-    font-size: 22px;
     color: var(--secondary-font-turquoise);
 }
 
@@ -251,7 +241,6 @@ main p {
     padding: 12px 16px;
     border: 1px solid var(--hyperlink-black-transparent);
     border-radius: 12px;
-    font-size: 18px;
     cursor: pointer;
     transition: border-color 0.3s, background-color 0.3s;
 }
@@ -287,7 +276,6 @@ main p {
     background-image: linear-gradient(to right, var(--colorwave));
     color: var(--main-font-white);
     font-weight: bold;
-    font-size: 16px;
 }
 
 .quiz-question label:has(input:checked) .quiz-result {
@@ -309,7 +297,6 @@ main p {
     padding: 12px 32px;
     border: 1px solid var(--hyperlink-black-transparent);
     border-radius: 12px;
-    font-size: 20px;
     cursor: pointer;
     opacity: 0.5;
     pointer-events: none;
@@ -336,7 +323,6 @@ main p {
 .quiz-percent {
     display: none;
     margin-top: 12px;
-    font-size: 16px;
     color: var(--secondary-font-greywhite);
 }
 
@@ -392,7 +378,6 @@ main p {
 
 
 .section-share p {
-    font-size: 22px;
     text-align: center;
 }
 
@@ -417,7 +402,6 @@ main p {
     border-radius: 40px;
     background-color: var(--overlay-color-overlayblack);
     color: var(--main-font-white);
-    font-size: 24px;
     text-decoration: none;
     z-index: 2;
 }
@@ -430,6 +414,10 @@ main p {
 .section-share-button img {
     width: 32px;
     height: 32px;
+}
+
+.section-share-button {
+    font-size: 24px;
 }
 
 .--colorwave {
@@ -455,6 +443,48 @@ main p {
     display: none;
 }
 
+    .headline-text,
+    main p,
+    .genre-mix li,
+    .section-share p,
+    .genre-card p:first-child,
+    .quiz-question label,
+    .section-footer p {
+        font-size: 1.6rem;
+    }
+
+  
+    .headline-kicker,
+    .headline-author h3,
+    .genre-what h2,
+    .genre-cards h2,
+    .genre-mix h2,
+    .genre-picks h2,
+    .genre-quiz h2,
+    .genre-outro h2, 
+    .genre-card h3,
+    .quiz-question > p {
+        font-size: 2.5rem;
+    }
+
+    .headline-info h1 {
+        font-size: 4rem;
+    }
+
+    .author-role {
+        font-size: 1.1rem;
+    }
+
+    .headline-text {
+        font-size: 2rem;
+    }
+
+    .genre-examples,
+    .pick-description,
+    .author-bio {
+        font-size: 1.2rem;
+    }
+
 @media screen and (min-width: 1440px) {
     .landing-nav {
         padding: 0px max(160px, calc(50% - 720px));
@@ -468,28 +498,7 @@ main p {
         padding: 80px max(160px, calc(50% - 720px)) 120px;
     }
 
-    .headline-text {
-        font-size: 2rem;
-    }
 
-    main p,
-    .genre-mix li,
-    .section-share p,
-    .section-footer p {
-        font-size: 1.6rem;
-    }
-
-    .headline-info h2 {
-        font-size: 2.5rem;
-    }
-
-    .headline-info h1 {
-        font-size: 4rem;
-    }
-
-    .headline-author h3 {
-        font-size: 1.1rem;
-    }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
@@ -501,27 +510,46 @@ main p {
         padding: 0px 60px;
     }
 
+    .section-share-arrow {
+        gap: 32px;
+    }
+
     .headline-text,
     main p,
     .genre-mix li,
     .section-share p,
+    .genre-card p:first-child,
+    .quiz-question label,
     .section-footer p {
         font-size: 1.5rem;
     }
 
-    .headline-info h2,
+  
+    .headline-kicker,
     .headline-author h3,
     .genre-what h2,
     .genre-cards h2,
     .genre-mix h2,
     .genre-picks h2,
     .genre-quiz h2,
-    .genre-outro h2 {
+    .genre-outro h2, 
+    .genre-card h3,
+    .quiz-question > p {
         font-size: 2.3rem;
     }
 
     .headline-info h1 {
         font-size: 2.8rem;
+    }
+
+    .author-role {
+        font-size: 1.1rem;
+    }
+
+    .genre-examples,
+    .pick-description,
+    .author-bio {
+        font-size: 1rem;
     }
 }
 
@@ -542,23 +570,38 @@ main p {
     main p,
     .genre-mix li,
     .section-share p,
+    .genre-card p:first-child,
+    .quiz-question label,
     .section-footer p {
         font-size: 1.5rem;
     }
 
-    .headline-info h2,
+  
+    .headline-kicker,
     .headline-author h3,
     .genre-what h2,
     .genre-cards h2,
     .genre-mix h2,
     .genre-picks h2,
     .genre-quiz h2,
-    .genre-outro h2 {
+    .genre-outro h2, 
+    .genre-card h3,
+    .quiz-question > p {
         font-size: 2.3rem;
     }
 
     .headline-info h1 {
         font-size: 2.8rem;
+    }
+
+    .author-role {
+        font-size: 1.1rem;
+    }
+
+    .genre-examples,
+    .pick-description,
+    .author-bio {
+        font-size: 1rem;
     }
 }
 
@@ -650,7 +693,6 @@ main p {
     .section-share-button {
         height: 44px;
         padding: 0 20px;
-        font-size: 20px;
         z-index: 0;
     }
 
@@ -692,24 +734,40 @@ main p {
     main p,
     .genre-mix li,
     .section-share p,
+    .author-bio,
+    .genre-card p:first-child,
+    .quiz-question label,
     .section-footer p {
         font-size: 1.4rem;
     }
 
-    .headline-info h2,
+  
+    .headline-kicker,
     .headline-author h3,
     .genre-what h2,
     .genre-cards h2,
     .genre-mix h2,
     .genre-picks h2,
     .genre-quiz h2,
-    .genre-outro h2 {
+    .genre-outro h2, 
+    .genre-card h3,
+    .quiz-question > p {
         font-size: 2.2rem;
     }
 
     .headline-info h1 {
         font-size: 2.7rem;
     }
+
+    .author-role {
+        font-size: 1.1rem;
+    }
+
+    .genre-examples,
+    .pick-description {
+        font-size: 1rem;
+    }
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -800,7 +858,6 @@ main p {
     .section-share-button {
         height: 44px;
         padding: 0 20px;
-        font-size: 20px;
         z-index: 0;
     }
 
@@ -826,10 +883,6 @@ main p {
         display: none;
     }
 
-    .footer-text p {
-        font-size: 1rem;
-    }
-
     .footer-text-svg {
         gap: 0px;
     }
@@ -842,25 +895,44 @@ main p {
     main p,
     .genre-mix li,
     .section-share p,
-    .section-footer p,
-    .author-bio {
+    .author-bio,
+    .genre-card p:first-child,
+    .quiz-question label,
+    .section-footer p {
         font-size: 1.2rem;
     }
 
-    .headline-info h2,
+  
+    .headline-kicker,
     .headline-author h3,
     .genre-what h2,
     .genre-cards h2,
     .genre-mix h2,
     .genre-picks h2,
     .genre-quiz h2,
-    .genre-outro h2 {
+    .genre-outro h2, 
+    .genre-card h3,
+    .quiz-question > p {
         font-size: 2rem;
     }
 
     .headline-info h1 {
         font-size: 2.5rem;
     }
+
+    .author-role {
+        font-size: 1.1rem;
+    }
+
+    .genre-examples,
+    .pick-description {
+        font-size: 1rem;
+    }
+
+    .text-responsive {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -885,6 +957,10 @@ main p {
     .genre-grid,
     .quiz-grid {
         grid-template-columns: 1fr;
+    }
+
+    .quiz-submit {
+        flex-direction: column;
     }
 
     .fixed-rail {
@@ -951,7 +1027,6 @@ main p {
     .section-share-button {
         height: 44px;
         padding: 0 20px;
-        font-size: 20px;
         z-index: 0;
     }
 
@@ -1010,19 +1085,23 @@ main p {
     main p,
     .genre-mix li,
     .section-share p,
-    .author-bio {
+    .author-bio,
+    .genre-card p:first-child,
+    .quiz-question label {
         font-size: 1.1rem;
     }
 
     .author-role,
-    .headline-info h2,
+    .headline-kicker,
     .headline-author h3,
     .genre-what h2,
     .genre-cards h2,
     .genre-mix h2,
     .genre-picks h2,
     .genre-quiz h2,
-    .genre-outro h2 {
+    .genre-outro h2, 
+    .genre-card h3,
+    .quiz-question > p {
         font-size: 1.2rem;
     }
 
