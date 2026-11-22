@@ -609,7 +609,7 @@ main p {
 
 @media screen and (min-width: 769px) and (max-width: 900px) {
     main {
-        padding: 48px 60px 80px;
+        padding: 48px 50px 80px;
     }
 
     .section-headline {
@@ -864,7 +864,7 @@ main p {
     }
 
     .section-footer {
-        padding: 0px 50px;
+        padding: 0px 40px;
         align-items: end;
         height: 130px;
         padding-bottom: 15px;
@@ -939,7 +939,7 @@ main p {
 
 @media screen and (max-width: 480px) {
     main {
-        padding: 48px 20px 80px;
+        padding: 48px 10px 80px;
     }
 
     .section-headline {
