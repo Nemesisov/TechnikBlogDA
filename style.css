@@ -663,6 +663,10 @@ details:close {
     .main-section-header-text h1 {
         font-size: 2.8rem;
     }
+
+    .field label {
+        height: 62px;
+    }
 }
 
 @media screen and (min-width:769px) and (max-width:900px) {
@@ -975,6 +979,10 @@ details:close {
 
     .text-responsive {
         display: none;
+    }
+
+    .field label {
+        height: 62px;
     }
 }
 
