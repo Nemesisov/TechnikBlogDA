@@ -25,7 +25,7 @@
     left: 550px;
     right: 0;
     height: 95%;
-    background-image: url(./assets/pictures/header_bubbles.png);
+    background-image: url(./assets/pictures/header_bubbles.jpg);
     background-size: cover;
     background-position: center;
     border-bottom-right-radius: 10px;
@@ -326,6 +326,7 @@ details:close {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     border-top-right-radius: 100px;
