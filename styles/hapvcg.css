@@ -223,14 +223,19 @@ main a {
     color: var(--secondary-font-greywhite);
 }
 
-.break {
-    display: none;
-}
-
 .fit-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
     gap: 32px;
+}
+
+.fit-card-one,
+.fit-card-two {
+    display: grid;
+    grid-row: span 2;
+    grid-template-rows: subgrid;
+    row-gap: 0;
 }
 
 .fit-card {
@@ -865,11 +870,5 @@ main>.section-share {
 
     .section-footer {
         padding: 0px 10px;
-    }
-}
-
-@media screen and (min-width:767px) and (max-width:940px) {
-    .break {
-        display: initial;
     }
 }
