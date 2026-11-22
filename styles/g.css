@@ -91,8 +91,11 @@ main section {
 
 
 
-.author-role,
 .author-bio {
+    color: var(--main-font-white);
+}
+
+.author-role {
     color: var(--secondary-font-greywhite);
 }
 
@@ -1109,5 +1112,23 @@ main p {
 
     .headline-info h1 {
         font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:480px) {
+    .section-share-arrow {
+        gap: 30px;
+    }
+}
+
+@media screen and (min-width:361px) and (max-width:399px) {
+    .section-share-arrow {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .section-share-arrow {
+        gap: 15px;
     }
 }
