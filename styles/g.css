@@ -562,7 +562,7 @@ main p {
     }
 }
 
-@media (max-width: 900px) {
+@media screen and (min-width: 769px) and (max-width: 900px) {
     main {
         padding: 48px 20px 80px;
     }
@@ -576,37 +576,16 @@ main p {
         width: 100%;
     }
 
-    .headline-info h1 {
-        font-size: 40px;
-    }
-
     .headline-info-quickinfo {
         gap: 16px;
         width: 100%;
-    }
-
-    .genre-what h2,
-    .genre-cards h2,
-    .genre-mix h2,
-    .genre-picks h2,
-    .genre-quiz h2,
-    .genre-outro h2 {
-        font-size: 28px;
-    }
-
-    main p,
-    .headline-text,
-    .genre-mix li {
-        font-size: 18px;
     }
 
     .genre-grid,
     .quiz-grid {
         grid-template-columns: 1fr;
     }
-}
 
-@media screen and (max-width: 900px) {
     .fixed-rail {
         height: 130px;
         background-color: var(--overlay-color-overlayblack-two);
@@ -664,10 +643,6 @@ main p {
         border-radius: 24px;
     }
 
-    .section-share p {
-        font-size: 20px;
-    }
-
     .section-share-arrow {
         gap: 32px;
     }
@@ -711,6 +686,29 @@ main p {
 
     .footer-link {
         gap: 15px;
+    }
+
+    .headline-text,
+    main p,
+    .genre-mix li,
+    .section-share p,
+    .section-footer p {
+        font-size: 1.4rem;
+    }
+
+    .headline-info h2,
+    .headline-author h3,
+    .genre-what h2,
+    .genre-cards h2,
+    .genre-mix h2,
+    .genre-picks h2,
+    .genre-quiz h2,
+    .genre-outro h2 {
+        font-size: 2.2rem;
+    }
+
+    .headline-info h1 {
+        font-size: 2.7rem;
     }
 }
 
