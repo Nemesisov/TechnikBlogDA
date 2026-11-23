@@ -63,7 +63,7 @@
     max-width: 430px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 7;
+    -webkit-line-clamp: 6;
     line-clamp: 6;
     overflow: hidden;
 }
@@ -1226,11 +1226,7 @@ details:close {
     }
 
     .main-section-header-content p {
-        font-size: 1.1rem;
-        max-width: 260px;
-        display: block;
-        -webkit-line-clamp: unset;
-        overflow: visible;
+        max-width: 160px;
     }
 
     .logo-responsive-nav {
@@ -1295,13 +1291,4 @@ details:close {
         width: 90px;
         height: 90px;
     }
-}
-@media screen and (max-width: 480px) {
-  .main-section-vector-header > img {
-    right: auto;
-    bottom: auto;
-    justify-self: stretch;
-    object-fit: cover;
-    object-position: right center;
-  }
 }
