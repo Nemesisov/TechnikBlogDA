@@ -443,6 +443,8 @@ main h2 {
 
     .section-footer {
         padding: 0px 60px;
+
+        gap: 20px;
     }
 
     .footer-text {

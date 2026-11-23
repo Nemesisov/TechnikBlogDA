@@ -573,6 +573,8 @@ main p {
 
     .section-footer {
         padding: 0px 60px;
+
+        gap: 20px;
     }
 
     .section-image img {

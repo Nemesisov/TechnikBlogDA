@@ -498,6 +498,8 @@ main>.section-share {
     .section-footer {
         padding: 0px 60px;
         padding-bottom: 15px;
+
+        gap: 20px;
     }
 
     .text-responsive {
