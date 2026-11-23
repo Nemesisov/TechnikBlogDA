@@ -63,8 +63,6 @@
     max-width: 430px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 6;
-    line-clamp: 6;
     overflow: hidden;
 }
 
@@ -616,6 +614,8 @@ details:close {
 
     .section-footer {
         padding: 0px 60px;
+
+        gap: 20px;
     }
 
     .landing-nav {
@@ -1058,9 +1058,6 @@ details:close {
         height: 515px;
     }
 
-    .main-section-header-text p {
-        -webkit-line-clamp: none;
-    }
 
     .main-section-header-content {
         gap: 10px;
