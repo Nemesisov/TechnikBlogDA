@@ -571,6 +571,10 @@ details:close {
     font-size: 4rem;
 }
 
+.privacy span {
+    font-size: 1rem;
+}
+
 
 @media screen and (min-width: 1440px) {
     .landing-nav {
