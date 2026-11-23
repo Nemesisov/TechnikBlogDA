@@ -798,6 +798,19 @@ details:close {
     .main-section-header-text h1 {
         font-size: 2.7rem;
     }
+
+    .main-section-header-logo {
+        top: 440px;
+        left: 480px;
+
+        width: 120px;
+        height: 120px;
+    }
+
+    .main-section-header-logo img {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 @media screen and (min-width:481px) and (max-width:768px) {
@@ -813,7 +826,7 @@ details:close {
         justify-self: flex-start;
         flex-wrap: unset;
 
-        width: 420px;
+        width: 500px;
         right: 10%;
         bottom: 1px;
     }
@@ -823,8 +836,16 @@ details:close {
     }
 
     .main-section-header-logo {
-        top: 130px;
-        left: 180px;
+        top: 280px;
+        left: 210px;
+
+        width: 120px;
+        height: 120px;
+    }
+
+    .main-section-header-logo img {
+        width: 100px;
+        height: 100px;
     }
 
     .section-footer {
@@ -874,8 +895,10 @@ details:close {
         padding: 0px 40px;
     }
 
-    .main-section-header-content {
-        display: none;
+    .main-section-header-text {
+        justify-content: flex-start;
+        top: 50px;
+        padding-left: 40px;
     }
 
     .navigation a {
@@ -967,7 +990,8 @@ details:close {
     .section-slider-text p,
     .section-faq p,
     .field label,
-    .section-footer p {
+    .section-footer p,
+    .main-section-header-content p {
         font-size: 1.2rem;
     }
 
@@ -975,6 +999,14 @@ details:close {
     .section-faq h2,
     .section-slider-text h2 {
         font-size: 2rem;
+    }
+
+    .main-section-header-content h1 {
+        font-size: 2.1rem;
+    }
+
+    .main-section-header-content p {
+        max-width: 290px;
     }
 
     .text-responsive {
@@ -1009,11 +1041,16 @@ details:close {
     }
 
     .main-section-header-logo {
-        top: 190px;
-        left: 100px;
+        top: 270px;
+        left: 110px;
 
-        width: 120px;
-        height: 120px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .main-section-header-logo img {
+        width: 70px;
+        height: 70px;
     }
 
     .section-footer {
@@ -1060,8 +1097,10 @@ details:close {
         padding-bottom: 15px;
     }
 
-    .main-section-header-content {
-        display: none;
+    .main-section-header-text {
+        justify-content: flex-start;
+        top: 50px;
+        padding-left: 20px;
     }
 
     .navigation a {
@@ -1077,11 +1116,6 @@ details:close {
         align-items: center;
 
         width: 100%;
-    }
-
-    .main-section-header-logo img {
-        width: 100px;
-        height: 100px;
     }
 
     .mini_slider img {
@@ -1154,7 +1188,8 @@ details:close {
     .contact-section p,
     .section-slider-text p,
     .section-faq p,
-    .field label {
+    .field label,
+    .main-section-header-content p {
         font-size: 1.1rem;
     }
 
@@ -1166,6 +1201,14 @@ details:close {
     .section-faq h2,
     .section-slider-text h2 {
         font-size: 1.2rem;
+    }
+
+    .main-section-header-content h1 {
+        font-size: 1.3rem;
+    }
+
+    .main-section-header-content p {
+        max-width: 160px;
     }
 
     .logo-responsive-nav {
@@ -1224,10 +1267,10 @@ details:close {
     }
 
     .main-section-header-logo {
-        top: 170px;
-        left: 90px;
+        top: 270px;
+        left: 120px;
 
-        width: 120px;
-        height: 120px;
+        width: 90px;
+        height: 90px;
     }
 }
