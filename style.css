@@ -236,6 +236,8 @@ details:close {
         display: flex;
         flex-direction: column;
         margin-bottom: 30px;
+
+        height: 101px;
     }
 
     input[type=text],
@@ -671,6 +673,12 @@ details:close {
     .field label {
         height: 62px;
     }
+
+    .contact-form {
+        .field {
+            height: 132px;
+        }
+    }
 }
 
 @media screen and (min-width:769px) and (max-width:900px) {
@@ -1019,6 +1027,12 @@ details:close {
 
     .field label {
         height: 62px;
+    }
+
+    .contact-form {
+        .field {
+            height: 132px;
+        }
     }
 }
 
