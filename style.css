@@ -1058,8 +1058,16 @@ details:close {
         height: 515px;
     }
 
+    .main-section-header-text p {
+        -webkit-line-clamp: none;
+    }
+
+    .main-section-header-content {
+        gap: 10px;
+    }
+
     .main-section-header-logo {
-        top: 270px;
+        top: 300px;
         left: 110px;
 
         width: 90px;
@@ -1117,7 +1125,7 @@ details:close {
 
     .main-section-header-text {
         justify-content: flex-start;
-        top: 50px;
+        top: 10px;
         padding-left: 20px;
     }
 
@@ -1285,7 +1293,7 @@ details:close {
     }
 
     .main-section-header-logo {
-        top: 270px;
+        top: 300px;
         left: 120px;
 
         width: 90px;
